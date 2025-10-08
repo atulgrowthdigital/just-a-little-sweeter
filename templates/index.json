@@ -2061,6 +2061,9 @@
                 "last_name_label": "",
                 "last_name_placeholder": "Last name",
                 "last_name_required": true,
+                "phone_label": "",
+                "phone_placeholder": "Enter your phone number",
+                "phone_required": false,
                 "email_label": "",
                 "email_placeholder": "Email",
                 "show_message_field": false,
@@ -2105,32 +2108,12 @@
                 "button_hover_text_color": "#ffffff"
               },
               "blocks": {}
-            },
-            "newsletter_P8KxBP": {
-              "type": "_newsletter",
-              "disabled": true,
-              "settings": {
-                "color_scheme": "",
-                "des_newsletter": "3",
-                "alignment": "left",
-                "button_lb": "Subscribe",
-                "size": "m",
-                "btn_fw": "normal",
-                "agree_form": false,
-                "content": "I agree with the terms and conditions",
-                "icon": "none",
-                "icon_position": "after",
-                "icon_height": 14,
-                "icon_spacing": 5
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "heading_d6GcBB",
             "spacer_kcEEpx",
-            "contact_form_new_QWXNAe",
-            "newsletter_P8KxBP"
+            "contact_form_new_QWXNAe"
           ]
         }
       },

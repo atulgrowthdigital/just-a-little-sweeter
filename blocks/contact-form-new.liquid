@@ -7,6 +7,7 @@
 {% style %}
   .ai-contact-form-{{ ai_gen_id }} {
     max-width: {{ block.settings.form_width }}px;
+    width: 100%;
     margin: 0 auto;
     padding: {{ block.settings.form_padding }}px;
     background-color: {{ block.settings.background_color }};
@@ -41,6 +42,7 @@
   .ai-contact-form__field-row-{{ ai_gen_id }} {
     display: flex;
     gap: {{ block.settings.field_spacing }}px;
+    align-items: flex-end;
   }
 
   .ai-contact-form__field-{{ ai_gen_id }} {
@@ -54,6 +56,7 @@
     font-size: {{ block.settings.label_size }}px;
     font-weight: 500;
     margin-bottom: 8px;
+    text-align: {{ block.settings.text_alignment }};
   }
 
   .ai-contact-form__input-{{ ai_gen_id }} {
@@ -130,6 +133,7 @@
   @media screen and (max-width: 749px) {
     .ai-contact-form__field-row-{{ ai_gen_id }} {
       flex-direction: column;
+      align-items:stretch;
     }
 
     .ai-contact-form-{{ ai_gen_id }} {
@@ -206,7 +210,31 @@
           >
         </div>
       </div>
-
+      <div class="ai-contact-form__field-{{ ai_gen_id }}">
+        {% if block.settings.phone_label != blank %}
+          <label for="contact-phone-{{ ai_gen_id }}" class="ai-contact-form__label-{{ ai_gen_id }}">
+            {{ block.settings.phone_label }}
+            {% if block.settings.phone_required %}
+              <span class="ai-contact-form__required-{{ ai_gen_id }}">*</span>
+            {% endif %}
+          </label>
+        {% endif %}
+        <input
+          type="tel"
+          id="contact-phone-{{ ai_gen_id }}"
+          name="contact[phone]"
+          class="ai-contact-form__input-{{ ai_gen_id }}"
+          value="{{ form.phone }}"
+          placeholder="{{ block.settings.phone_placeholder }}"
+          {% if block.settings.phone_required %}
+            required
+          {% endif %}
+          {% if form.errors %}
+            aria-invalid="true"
+            aria-describedby="ai-contact-form-error-{{ ai_gen_id }}"
+          {% endif %}
+        >
+      </div>
       <div class="ai-contact-form__field-{{ ai_gen_id }}">
         {% if block.settings.email_label != blank %}
           <label for="contact-email-{{ ai_gen_id }}" class="ai-contact-form__label-{{ ai_gen_id }}">
@@ -353,6 +381,28 @@
     },
     {
       "type": "header",
+      "content": "Phone number field"
+    },
+    {
+      "type": "text",
+      "id": "phone_label",
+      "label": "Label",
+      "default": "Phone number"
+    },
+    {
+      "type": "text",
+      "id": "phone_placeholder",
+      "label": "Placeholder",
+      "default": "Enter your phone number"
+    },
+    {
+      "type": "checkbox",
+      "id": "phone_required",
+      "label": "Required field",
+      "default": false
+    },
+    {
+      "type": "header",
       "content": "Email field"
     },
     {
@@ -413,8 +463,8 @@
       "type": "range",
       "id": "form_width",
       "min": 300,
-      "max": 800,
-      "step": 20,
+      "max": 1400,
+      "step": 100,
       "unit": "px",
       "label": "Form width",
       "default": 600
