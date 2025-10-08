@@ -2514,6 +2514,82 @@
         "padding_bottom": 30,
         "padding_rate": 50
       }
+    },
+    "custom_section_J3Pzqe": {
+      "type": "custom-section",
+      "blocks": {
+        "multi_column_niDnEi": {
+          "type": "_multi_column",
+          "settings": {
+            "column_dk": "6",
+            "column_tb": "6",
+            "column_mb": "12",
+            "column_dk_10": "10",
+            "column_tb_10": "10",
+            "column_mb_10": "10",
+            "spacing_h_dk": 0,
+            "spacing_v_dk": 0,
+            "spacing_h_tb": 0,
+            "spacing_v_tb": 0,
+            "spacing_h_mb": 0,
+            "spacing_v_mb": 0,
+            "content_width": "auto",
+            "content_position": "start",
+            "content_position_mb": "start",
+            "alignment": "left",
+            "alignment_mb": "left",
+            "background_color": "rgba(0,0,0,0)",
+            "rounded": "none"
+          },
+          "blocks": {
+            "heading_QrgUBA": {
+              "type": "heading",
+              "settings": {
+                "heading": "<p><strong>CARAMEL DELIGHT</strong></p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "line_height": "",
+                "font_weight": "normal",
+                "heading_size": "h3",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 50,
+                "font_size_heading": 24,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            },
+            "divider_Hh6XXj": {
+              "type": "divider",
+              "name": "Divider",
+              "settings": {
+                "color_scheme": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_QrgUBA",
+            "divider_Hh6XXj"
+          ]
+        }
+      },
+      "block_order": [
+        "multi_column_niDnEi"
+      ],
+      "name": "t:sections.custom_section.name",
+      "settings": {
+        "layout": "10",
+        "item_spacing": 30,
+        "item_spacing_tb": 15,
+        "item_spacing_mb": 15,
+        "colors_by_section": false,
+        "color_scheme": "",
+        "background_opacity": 0,
+        "section_layout": "container",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "padding_rate": 50
+      }
     }
   },
   "order": [
@@ -2528,6 +2604,7 @@
     "custom_section_CGYBLg",
     "custom_section_99hRfH",
     "custom_section_GWRkaW",
-    "custom_section_jNqWBM"
+    "custom_section_jNqWBM",
+    "custom_section_J3Pzqe"
   ]
 }
