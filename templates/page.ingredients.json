@@ -1618,26 +1618,7 @@
             "text_4dU6Nj": {
               "type": "text",
               "settings": {
-                "text": "<p><strong>Contains:</strong> Wheat, Gluten.</p>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "ffamily": "",
-                "text_size": "base",
-                "line_height": "",
-                "font_weight": "normal",
-                "text_color": "hdt-s-text",
-                "countdown": "2025-12-30 15:00:00",
-                "txt_day": "days",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
-            },
-            "text_yjyyyU": {
-              "type": "text",
-              "settings": {
-                "text": "<p><strong>May contain:</strong> Milk.</p>",
+                "text": "<p><strong>Contains:</strong> Wheat.</p>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "ffamily": "",
@@ -1658,8 +1639,7 @@
             "heading_9RmpkB",
             "spacer_Ci378z",
             "text_BKF34k",
-            "text_4dU6Nj",
-            "text_yjyyyU"
+            "text_4dU6Nj"
           ]
         }
       },
