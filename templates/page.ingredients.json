@@ -1284,7 +1284,7 @@
             "text_qCKfti": {
               "type": "text",
               "settings": {
-                "text": "<p><strong>Contains:</strong> Milk, Soy, Sulphites, Peanuts, Wheat, Gluten. May contain Tree Nuts.</p>",
+                "text": "<p><strong>Contains:</strong> Milk, Soy, Sulphites, Peanuts, Wheat, Gluten.</p>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "ffamily": "",
