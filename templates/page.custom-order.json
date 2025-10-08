@@ -189,7 +189,7 @@
             "content_position_mb": "center",
             "alignment": "center",
             "alignment_mb": "center",
-            "background_color": "#d2a2a2",
+            "background_color": "rgba(0,0,0,0)",
             "rounded": "none"
           },
           "blocks": {
