@@ -1545,10 +1545,127 @@
             "text_iVEzmD",
             "text_n8XtPV"
           ]
+        },
+        "multi_column_if4QzQ": {
+          "type": "_multi_column",
+          "settings": {
+            "column_dk": "6",
+            "column_tb": "6",
+            "column_mb": "12",
+            "column_dk_10": "5",
+            "column_tb_10": "5",
+            "column_mb_10": "10",
+            "spacing_h_dk": 0,
+            "spacing_v_dk": 0,
+            "spacing_h_tb": 0,
+            "spacing_v_tb": 0,
+            "spacing_h_mb": 0,
+            "spacing_v_mb": 0,
+            "content_width": "auto",
+            "content_position": "start",
+            "content_position_mb": "start",
+            "alignment": "left",
+            "alignment_mb": "left",
+            "background_color": "rgba(0,0,0,0)",
+            "rounded": "none"
+          },
+          "blocks": {
+            "heading_9RmpkB": {
+              "type": "heading",
+              "settings": {
+                "heading": "<p><strong>Cadbury Laughs (Teeth)</strong></p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "line_height": "",
+                "font_weight": "normal",
+                "heading_size": "h5",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 50,
+                "font_size_heading": 24,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            },
+            "spacer_Ci378z": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 10,
+                "space_md": 10,
+                "space": 10
+              },
+              "blocks": {}
+            },
+            "text_BKF34k": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Glucose Syrup (Wheat), Sugar, Starch (Wheat), Acid Regulator (Sodium Citrate), Food Acid (Citric Acid), Water Gelatine, Humectant (Glycerine), Flavours, Colours (110.122.124).</p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            },
+            "text_4dU6Nj": {
+              "type": "text",
+              "settings": {
+                "text": "<p><strong>Contains:</strong> Wheat, Gluten.</p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            },
+            "text_yjyyyU": {
+              "type": "text",
+              "settings": {
+                "text": "<p><strong>May contain:</strong> Milk.</p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_9RmpkB",
+            "spacer_Ci378z",
+            "text_BKF34k",
+            "text_4dU6Nj",
+            "text_yjyyyU"
+          ]
         }
       },
       "block_order": [
-        "multi_column_8k4FDz"
+        "multi_column_8k4FDz",
+        "multi_column_if4QzQ"
       ],
       "name": "t:sections.custom_section.name",
       "settings": {
