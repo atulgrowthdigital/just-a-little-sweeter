@@ -15,18 +15,22 @@
         "heading_liquid_p4fPaC": {
           "type": "_heading_liquid",
           "settings": {
-            "text": "{{ page.title }}",
+            "text": "CORPORATE AND CUSTOM ORDERS",
             "line_height": "hdt-lh-1",
             "font_family": "hdt-font-1",
             "text_size": "2xl",
             "text_color": "hdt-s-text",
             "italic": false,
-            "uppercase": false
+            "uppercase": false,
+            "font_size_text_lg": 16,
+            "font_size_text": 14,
+            "letter_spacing_text": 0
           },
           "blocks": {}
         },
         "heading_liquid_q9LNqL": {
           "type": "_heading_liquid",
+          "disabled": true,
           "settings": {
             "text": "Follow your passion, and success will follow you",
             "line_height": "",
@@ -34,7 +38,10 @@
             "text_size": "base",
             "text_color": "hdt-s-text",
             "italic": false,
-            "uppercase": false
+            "uppercase": false,
+            "font_size_text_lg": 16,
+            "font_size_text": 14,
+            "letter_spacing_text": 0
           },
           "blocks": {}
         }
@@ -45,7 +52,7 @@
       ],
       "settings": {
         "use_dynamic_source": true,
-        "image": "shopify://shop_images/shop-banner.jpg",
+        "image": "shopify://shop_images/qFASAAR.jpg",
         "color_scheme": "scheme-77e4ef58-56a9-4631-876a-12098ba7d57d",
         "bg_overlay": 54,
         "space_item": 10,
@@ -63,12 +70,16 @@
             "column_dk": "6",
             "column_tb": "6",
             "column_mb": "12",
+            "column_dk_10": "5",
+            "column_tb_10": "5",
+            "column_mb_10": "10",
             "spacing_h_dk": 0,
             "spacing_v_dk": 0,
             "spacing_h_tb": 0,
             "spacing_v_tb": 0,
             "spacing_h_mb": 0,
             "spacing_v_mb": 0,
+            "content_width": "auto",
             "content_position": "start",
             "content_position_mb": "center-start",
             "alignment": "left",
@@ -85,7 +96,11 @@
                 "hidden_on_mobile": false,
                 "ffamily": "",
                 "text_size": "2xl",
+                "line_height": "",
+                "font_weight": "normal",
                 "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
                 "font_size_text_lg": 16,
                 "font_size_text": 14,
                 "letter_spacing_text": 0
@@ -108,8 +123,13 @@
                 "text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam.</p>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
+                "ffamily": "",
                 "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
                 "text_color": "hdt-text-secondary",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
                 "font_size_text_lg": 16,
                 "font_size_text": 14,
                 "letter_spacing_text": 0
@@ -129,12 +149,16 @@
             "column_dk": "6",
             "column_tb": "6",
             "column_mb": "12",
+            "column_dk_10": "5",
+            "column_tb_10": "5",
+            "column_mb_10": "10",
             "spacing_h_dk": 0,
             "spacing_v_dk": 0,
             "spacing_h_tb": 0,
             "spacing_v_tb": 0,
             "spacing_h_mb": 0,
             "spacing_v_mb": 20,
+            "content_width": "auto",
             "content_position": "start",
             "content_position_mb": "center-start",
             "alignment": "left",
@@ -151,7 +175,11 @@
                 "hidden_on_mobile": false,
                 "ffamily": "",
                 "text_size": "2xl",
+                "line_height": "",
+                "font_weight": "normal",
                 "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
                 "font_size_text_lg": 16,
                 "font_size_text": 14,
                 "letter_spacing_text": 0
@@ -176,7 +204,11 @@
                 "hidden_on_mobile": false,
                 "ffamily": "",
                 "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
                 "text_color": "hdt-text-secondary",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
                 "font_size_text_lg": 16,
                 "font_size_text": 14,
                 "letter_spacing_text": 0
@@ -196,12 +228,16 @@
             "column_dk": "6",
             "column_tb": "6",
             "column_mb": "12",
+            "column_dk_10": "5",
+            "column_tb_10": "5",
+            "column_mb_10": "10",
             "spacing_h_dk": 0,
             "spacing_v_dk": 10,
             "spacing_h_tb": 0,
             "spacing_v_tb": 0,
             "spacing_h_mb": 0,
             "spacing_v_mb": 0,
+            "content_width": "auto",
             "content_position": "start",
             "content_position_mb": "center-start",
             "alignment": "left",
@@ -218,7 +254,11 @@
                 "hidden_on_mobile": false,
                 "ffamily": "",
                 "text_size": "2xl",
+                "line_height": "",
+                "font_weight": "normal",
                 "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
                 "font_size_text_lg": 16,
                 "font_size_text": 14,
                 "letter_spacing_text": 0
@@ -241,8 +281,13 @@
                 "text": "<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
+                "ffamily": "",
                 "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
                 "text_color": "hdt-text-secondary",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
                 "font_size_text_lg": 16,
                 "font_size_text": 14,
                 "letter_spacing_text": 0
@@ -274,12 +319,16 @@
             "column_dk": "6",
             "column_tb": "6",
             "column_mb": "12",
+            "column_dk_10": "5",
+            "column_tb_10": "5",
+            "column_mb_10": "10",
             "spacing_h_dk": 0,
             "spacing_v_dk": 10,
             "spacing_h_tb": 0,
             "spacing_v_tb": 0,
             "spacing_h_mb": 0,
             "spacing_v_mb": 20,
+            "content_width": "auto",
             "content_position": "start",
             "content_position_mb": "center-start",
             "alignment": "left",
@@ -296,7 +345,11 @@
                 "hidden_on_mobile": false,
                 "ffamily": "",
                 "text_size": "2xl",
+                "line_height": "",
+                "font_weight": "normal",
                 "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
                 "font_size_text_lg": 16,
                 "font_size_text": 14,
                 "letter_spacing_text": 0
@@ -321,7 +374,11 @@
                 "hidden_on_mobile": false,
                 "ffamily": "",
                 "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
                 "text_color": "hdt-text-secondary",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
                 "font_size_text_lg": 16,
                 "font_size_text": 14,
                 "letter_spacing_text": 0
@@ -341,12 +398,16 @@
             "column_dk": "12",
             "column_tb": "12",
             "column_mb": "12",
+            "column_dk_10": "5",
+            "column_tb_10": "5",
+            "column_mb_10": "10",
             "spacing_h_dk": 0,
             "spacing_v_dk": 0,
             "spacing_h_tb": 0,
             "spacing_v_tb": 0,
             "spacing_h_mb": 0,
             "spacing_v_mb": 0,
+            "content_width": "auto",
             "content_position": "center",
             "content_position_mb": "center",
             "alignment": "left",
@@ -358,7 +419,8 @@
             "blockquote_enU7Da": {
               "type": "blockquote",
               "settings": {
-                "quote": "<p><em>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Quis nostrum exercitationem ullam.</em></p>"
+                "quote": "<p><em>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Quis nostrum exercitationem ullam.</em></p>",
+                "text_color": "hdt-s-text"
               },
               "blocks": {}
             }
@@ -376,15 +438,18 @@
         "multi_column_L3VjgX"
       ],
       "custom_css": [
-        "blockquote {font-family: var(--f_family_3); color: rgb(var(--color-foreground2));background-color: #f5f5f5;}",
-        "hdt-font-3{font-style: italic;}"
+        "blockquote {font-family: var(--f_family_3); color: rgb(var(--color-foreground2)); background-color: #f5f5f5;}",
+        "hdt-font-3 {font-style: italic;}"
       ],
       "settings": {
         "layout": "12",
         "item_spacing": 30,
         "item_spacing_tb": 15,
         "item_spacing_mb": 15,
+        "colors_by_section": false,
         "color_scheme": "",
+        "background_opacity": 0,
+        "section_layout": "container",
         "padding_top": 60,
         "padding_bottom": 50,
         "padding_rate": 80
@@ -411,17 +476,19 @@
             "pag_rounded": false,
             "pag_space": 10,
             "pag_mgt": 10,
+            "only_show_mobile": false,
             "pag_hide_mobile": false
           },
           "blocks": {
             "ourteam_item_G4UN6c": {
               "type": "_ourteam_item",
               "settings": {
-                "image": "shopify://shop_images/mem-01.jpg",
                 "name": "Lisa John",
                 "position": "Fashion Design",
                 "facebook": "https://facebook.com/",
+                "x": "",
                 "instagram": "https://instagram.com",
+                "dribbble": "",
                 "behance": "https://behance.net/",
                 "tiktok": ""
               },
@@ -430,11 +497,12 @@
             "ourteam_item_FNc7q9": {
               "type": "_ourteam_item",
               "settings": {
-                "image": "shopify://shop_images/mem-02.jpg",
                 "name": "Jane Doe",
                 "position": "Director",
                 "facebook": "https://facebook.com/",
+                "x": "",
                 "instagram": "https://instagram.com/",
+                "dribbble": "",
                 "behance": "",
                 "tiktok": ""
               },
@@ -443,11 +511,12 @@
             "ourteam_item_MMyXqF": {
               "type": "_ourteam_item",
               "settings": {
-                "image": "shopify://shop_images/mem-03.jpg",
                 "name": "Cartherin Forres",
                 "position": "Marketing Director",
                 "facebook": "https://facebook.com/",
+                "x": "",
                 "instagram": "https://instagram.com/",
+                "dribbble": "",
                 "behance": "",
                 "tiktok": "https://tiktok.com/"
               },
