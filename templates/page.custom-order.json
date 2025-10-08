@@ -179,7 +179,7 @@
             "column_tb_10": "10",
             "column_mb_10": "10",
             "spacing_h_dk": 30,
-            "spacing_v_dk": 30,
+            "spacing_v_dk": 0,
             "spacing_h_tb": 30,
             "spacing_v_tb": 30,
             "spacing_h_mb": 15,
@@ -263,7 +263,7 @@
       "name": "t:sections.custom_section.name",
       "settings": {
         "layout": "10",
-        "item_spacing": 30,
+        "item_spacing": 0,
         "item_spacing_tb": 15,
         "item_spacing_mb": 15,
         "colors_by_section": false,
