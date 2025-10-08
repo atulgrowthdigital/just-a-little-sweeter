@@ -51,7 +51,7 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 30,
     "spacing_grid_vertical": 40,
-    "button_radius": 30,
+    "button_radius": 8,
     "input_radius": 30,
     "block_radius": 0,
     "pr_card_radius": 0,
