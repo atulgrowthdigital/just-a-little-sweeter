@@ -1168,7 +1168,7 @@
             "text_Rg4Ty7": {
               "type": "text",
               "settings": {
-                "text": "<p><strong>Contains:</strong> Milk, Soy, Wheat, Gluten.</p>",
+                "text": "<p><strong>Contains:</strong> Milk, Soy.</p>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "ffamily": "",
