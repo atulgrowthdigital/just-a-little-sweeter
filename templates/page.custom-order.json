@@ -50,6 +50,7 @@
         "heading_liquid_p4fPaC",
         "heading_liquid_q9LNqL"
       ],
+      "disabled": true,
       "settings": {
         "use_dynamic_source": true,
         "image": "shopify://shop_images/qFASAAR.jpg",
@@ -64,336 +65,9 @@
     "custom_section_mnTphP": {
       "type": "custom-section",
       "blocks": {
-        "multi_column_DCDGjR": {
+        "multi_column_CC7yE3": {
           "type": "_multi_column",
-          "settings": {
-            "column_dk": "6",
-            "column_tb": "6",
-            "column_mb": "12",
-            "column_dk_10": "5",
-            "column_tb_10": "5",
-            "column_mb_10": "10",
-            "spacing_h_dk": 0,
-            "spacing_v_dk": 0,
-            "spacing_h_tb": 0,
-            "spacing_v_tb": 0,
-            "spacing_h_mb": 0,
-            "spacing_v_mb": 0,
-            "content_width": "auto",
-            "content_position": "start",
-            "content_position_mb": "center-start",
-            "alignment": "left",
-            "alignment_mb": "left",
-            "background_color": "rgba(0,0,0,0)",
-            "rounded": "none"
-          },
-          "blocks": {
-            "text_JNRV4X": {
-              "type": "text",
-              "settings": {
-                "text": "<h6>OUR MISSION</h6>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "ffamily": "",
-                "text_size": "2xl",
-                "line_height": "",
-                "font_weight": "normal",
-                "text_color": "hdt-s-text",
-                "countdown": "2025-12-30 15:00:00",
-                "txt_day": "days",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
-            },
-            "spacer_kRAtyr": {
-              "type": "spacer",
-              "settings": {
-                "direction": false,
-                "space_lg": 10,
-                "space_md": 10,
-                "space": 10
-              },
-              "blocks": {}
-            },
-            "text_rgJ8Fd": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam.</p>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "ffamily": "",
-                "text_size": "base",
-                "line_height": "",
-                "font_weight": "normal",
-                "text_color": "hdt-text-secondary",
-                "countdown": "2025-12-30 15:00:00",
-                "txt_day": "days",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_JNRV4X",
-            "spacer_kRAtyr",
-            "text_rgJ8Fd"
-          ]
-        },
-        "multi_column_mJ4tbf": {
-          "type": "_multi_column",
-          "settings": {
-            "column_dk": "6",
-            "column_tb": "6",
-            "column_mb": "12",
-            "column_dk_10": "5",
-            "column_tb_10": "5",
-            "column_mb_10": "10",
-            "spacing_h_dk": 0,
-            "spacing_v_dk": 0,
-            "spacing_h_tb": 0,
-            "spacing_v_tb": 0,
-            "spacing_h_mb": 0,
-            "spacing_v_mb": 20,
-            "content_width": "auto",
-            "content_position": "start",
-            "content_position_mb": "center-start",
-            "alignment": "left",
-            "alignment_mb": "left",
-            "background_color": "rgba(0,0,0,0)",
-            "rounded": "none"
-          },
-          "blocks": {
-            "text_YnAUrb": {
-              "type": "text",
-              "settings": {
-                "text": "<h6>OUR<strong> </strong>STORIES</h6>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "ffamily": "",
-                "text_size": "2xl",
-                "line_height": "",
-                "font_weight": "normal",
-                "text_color": "hdt-s-text",
-                "countdown": "2025-12-30 15:00:00",
-                "txt_day": "days",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
-            },
-            "spacer_JK7pAQ": {
-              "type": "spacer",
-              "settings": {
-                "direction": false,
-                "space_lg": 10,
-                "space_md": 10,
-                "space": 10
-              },
-              "blocks": {}
-            },
-            "text_kHUw3G": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "ffamily": "",
-                "text_size": "base",
-                "line_height": "",
-                "font_weight": "normal",
-                "text_color": "hdt-text-secondary",
-                "countdown": "2025-12-30 15:00:00",
-                "txt_day": "days",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_YnAUrb",
-            "spacer_JK7pAQ",
-            "text_kHUw3G"
-          ]
-        },
-        "multi_column_N8zgbM": {
-          "type": "_multi_column",
-          "settings": {
-            "column_dk": "6",
-            "column_tb": "6",
-            "column_mb": "12",
-            "column_dk_10": "5",
-            "column_tb_10": "5",
-            "column_mb_10": "10",
-            "spacing_h_dk": 0,
-            "spacing_v_dk": 10,
-            "spacing_h_tb": 0,
-            "spacing_v_tb": 0,
-            "spacing_h_mb": 0,
-            "spacing_v_mb": 0,
-            "content_width": "auto",
-            "content_position": "start",
-            "content_position_mb": "center-start",
-            "alignment": "left",
-            "alignment_mb": "left",
-            "background_color": "rgba(0,0,0,0)",
-            "rounded": "none"
-          },
-          "blocks": {
-            "text_3qbFR6": {
-              "type": "text",
-              "settings": {
-                "text": "<h6>OUR APPROACH</h6>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "ffamily": "",
-                "text_size": "2xl",
-                "line_height": "",
-                "font_weight": "normal",
-                "text_color": "hdt-s-text",
-                "countdown": "2025-12-30 15:00:00",
-                "txt_day": "days",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
-            },
-            "spacer_TFppb4": {
-              "type": "spacer",
-              "settings": {
-                "direction": false,
-                "space_lg": 10,
-                "space_md": 10,
-                "space": 10
-              },
-              "blocks": {}
-            },
-            "text_YjyfWf": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "ffamily": "",
-                "text_size": "base",
-                "line_height": "",
-                "font_weight": "normal",
-                "text_color": "hdt-text-secondary",
-                "countdown": "2025-12-30 15:00:00",
-                "txt_day": "days",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
-            },
-            "spacer_cDrtpW": {
-              "type": "spacer",
-              "name": "Spacer",
-              "settings": {
-                "direction": false,
-                "space_lg": 0,
-                "space_md": 14,
-                "space": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_3qbFR6",
-            "spacer_TFppb4",
-            "text_YjyfWf",
-            "spacer_cDrtpW"
-          ]
-        },
-        "multi_column_q8pbfr": {
-          "type": "_multi_column",
-          "settings": {
-            "column_dk": "6",
-            "column_tb": "6",
-            "column_mb": "12",
-            "column_dk_10": "5",
-            "column_tb_10": "5",
-            "column_mb_10": "10",
-            "spacing_h_dk": 0,
-            "spacing_v_dk": 10,
-            "spacing_h_tb": 0,
-            "spacing_v_tb": 0,
-            "spacing_h_mb": 0,
-            "spacing_v_mb": 20,
-            "content_width": "auto",
-            "content_position": "start",
-            "content_position_mb": "center-start",
-            "alignment": "left",
-            "alignment_mb": "left",
-            "background_color": "rgba(0,0,0,0)",
-            "rounded": "none"
-          },
-          "blocks": {
-            "text_nddCYE": {
-              "type": "text",
-              "settings": {
-                "text": "<h6>OUR PHILOSOPHY</h6>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "ffamily": "",
-                "text_size": "2xl",
-                "line_height": "",
-                "font_weight": "normal",
-                "text_color": "hdt-s-text",
-                "countdown": "2025-12-30 15:00:00",
-                "txt_day": "days",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
-            },
-            "spacer_MBmq6H": {
-              "type": "spacer",
-              "settings": {
-                "direction": false,
-                "space_lg": 10,
-                "space_md": 10,
-                "space": 10
-              },
-              "blocks": {}
-            },
-            "text_VETPai": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Quis nostrum exercitationem ullam.</p>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "ffamily": "",
-                "text_size": "base",
-                "line_height": "",
-                "font_weight": "normal",
-                "text_color": "hdt-text-secondary",
-                "countdown": "2025-12-30 15:00:00",
-                "txt_day": "days",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_nddCYE",
-            "spacer_MBmq6H",
-            "text_VETPai"
-          ]
-        },
-        "multi_column_L3VjgX": {
-          "type": "_multi_column",
+          "name": "t:blocks.column.name",
           "settings": {
             "column_dk": "12",
             "column_tb": "12",
@@ -402,40 +76,77 @@
             "column_tb_10": "5",
             "column_mb_10": "10",
             "spacing_h_dk": 0,
-            "spacing_v_dk": 0,
-            "spacing_h_tb": 0,
-            "spacing_v_tb": 0,
-            "spacing_h_mb": 0,
-            "spacing_v_mb": 0,
+            "spacing_v_dk": 30,
+            "spacing_h_tb": 30,
+            "spacing_v_tb": 30,
+            "spacing_h_mb": 15,
+            "spacing_v_mb": 15,
             "content_width": "auto",
             "content_position": "center",
             "content_position_mb": "center",
-            "alignment": "left",
-            "alignment_mb": "left",
-            "background_color": "#ffffff",
+            "alignment": "center",
+            "alignment_mb": "center",
+            "background_color": "#fff",
             "rounded": "none"
           },
           "blocks": {
-            "blockquote_enU7Da": {
-              "type": "blockquote",
+            "heading_rLyFLA": {
+              "type": "heading",
               "settings": {
-                "quote": "<p><em>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Quis nostrum exercitationem ullam.</em></p>",
-                "text_color": "hdt-s-text"
+                "heading": "<p><strong>CORPORATE AND CUSTOM ORDERS</strong></p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "line_height": "",
+                "font_weight": "normal",
+                "heading_size": "h2",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 50,
+                "font_size_heading": 24,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            },
+            "spacer_7mMQDK": {
+              "type": "spacer",
+              "name": "t:blocks.spacer.name",
+              "settings": {
+                "direction": false,
+                "space_lg": 50,
+                "space_md": 50,
+                "space": 50
+              },
+              "blocks": {}
+            },
+            "text_DFAAVj": {
+              "type": "text",
+              "name": "t:blocks.text.name",
+              "settings": {
+                "text": "<p>Whether you're celebrating a milestone, thanking a client, looking for unique appreciation gifts, or adding a sweet touch to your brand, our custom and corporate gift boxes are designed to impress. </p><p>From beautifully curated gift boxes and jars to keepsake cubes and charming test tubes, each item is fully customisable to suit your brand, message or event. Choose your signature mix, personalise it with your colours, message and branding, and let us craft a sweet experience that people will remember.</p><p>We’re happy to assist with orders of all sizes and also have an option to ship gift boxes Australia wide to multiple addresses.</p><p>Contact us via email to discuss a unique custom mix for you.</p><p>The final result will be an unforgettable gift that is both elegant and fun.<br/><br/></p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
               },
               "blocks": {}
             }
           },
           "block_order": [
-            "blockquote_enU7Da"
+            "heading_rLyFLA",
+            "spacer_7mMQDK",
+            "text_DFAAVj"
           ]
         }
       },
       "block_order": [
-        "multi_column_DCDGjR",
-        "multi_column_mJ4tbf",
-        "multi_column_N8zgbM",
-        "multi_column_q8pbfr",
-        "multi_column_L3VjgX"
+        "multi_column_CC7yE3"
       ],
       "custom_css": [
         "blockquote {font-family: var(--f_family_3); color: rgb(var(--color-foreground2)); background-color: #f5f5f5;}",
@@ -453,6 +164,115 @@
         "padding_top": 60,
         "padding_bottom": 50,
         "padding_rate": 80
+      }
+    },
+    "custom_section_rjrXCm": {
+      "type": "custom-section",
+      "blocks": {
+        "multi_column_zA43zq": {
+          "type": "_multi_column",
+          "settings": {
+            "column_dk": "6",
+            "column_tb": "6",
+            "column_mb": "12",
+            "column_dk_10": "10",
+            "column_tb_10": "10",
+            "column_mb_10": "10",
+            "spacing_h_dk": 30,
+            "spacing_v_dk": 30,
+            "spacing_h_tb": 30,
+            "spacing_v_tb": 30,
+            "spacing_h_mb": 15,
+            "spacing_v_mb": 15,
+            "content_width": "auto",
+            "content_position": "center",
+            "content_position_mb": "center",
+            "alignment": "center",
+            "alignment_mb": "center",
+            "background_color": "#d2a2a2",
+            "rounded": "none"
+          },
+          "blocks": {
+            "contact_form_new_LHfGdh": {
+              "type": "contact-form-new",
+              "name": "Contact form new",
+              "settings": {
+                "heading": "",
+                "description": "",
+                "success_message": "Thank you for contacting us! We'll get back to you soon.",
+                "first_name_label": "First name",
+                "first_name_placeholder": "Enter your first name",
+                "first_name_required": true,
+                "last_name_label": "Last name",
+                "last_name_placeholder": "Enter your last name",
+                "last_name_required": true,
+                "email_label": "Email",
+                "email_placeholder": "Enter your email address",
+                "show_message_field": true,
+                "message_label": "Message",
+                "message_placeholder": "Enter your message",
+                "message_required": false,
+                "submit_button_text": "Send message",
+                "form_width": 600,
+                "form_padding": 40,
+                "border_radius": 8,
+                "text_alignment": "left",
+                "spacing_between_elements": 24,
+                "field_spacing": 16,
+                "background_color": "#ffffff",
+                "heading_color": "#222222",
+                "text_color": "#666666",
+                "label_color": "#222222",
+                "success_color": "#008060",
+                "success_background_color": "#d4edda",
+                "error_color": "#D82C0D",
+                "error_background_color": "#f8d7da",
+                "heading_size": 28,
+                "text_size": 16,
+                "label_size": 14,
+                "input_padding": 12,
+                "input_border_width": 1,
+                "input_border_radius": 4,
+                "input_text_size": 14,
+                "input_background_color": "#ffffff",
+                "input_text_color": "#222222",
+                "input_border_color": "#dddddd",
+                "input_focus_border_color": "#56cfe1",
+                "placeholder_color": "#999999",
+                "button_padding": 16,
+                "button_border_width": 0,
+                "button_border_radius": 8,
+                "button_text_size": 16,
+                "button_background_color": "#222222",
+                "button_text_color": "#ffffff",
+                "button_border_color": "#222222",
+                "button_hover_background_color": "#000000",
+                "button_hover_text_color": "#ffffff"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "contact_form_new_LHfGdh"
+          ]
+        }
+      },
+      "block_order": [
+        "multi_column_zA43zq"
+      ],
+      "name": "t:sections.custom_section.name",
+      "settings": {
+        "layout": "10",
+        "item_spacing": 30,
+        "item_spacing_tb": 15,
+        "item_spacing_mb": 15,
+        "colors_by_section": false,
+        "color_scheme": "",
+        "background_opacity": 0,
+        "section_layout": "container",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_rate": 50
       }
     },
     "our_team_VpLJtG": {
@@ -578,6 +398,7 @@
   "order": [
     "main_heading_fgVmaw",
     "custom_section_mnTphP",
+    "custom_section_rjrXCm",
     "our_team_VpLJtG"
   ]
 }
