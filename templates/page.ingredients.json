@@ -1641,11 +1641,108 @@
             "text_BKF34k",
             "text_4dU6Nj"
           ]
+        },
+        "multi_column_ANwy8k": {
+          "type": "_multi_column",
+          "settings": {
+            "column_dk": "6",
+            "column_tb": "6",
+            "column_mb": "12",
+            "column_dk_10": "5",
+            "column_tb_10": "5",
+            "column_mb_10": "10",
+            "spacing_h_dk": 0,
+            "spacing_v_dk": 0,
+            "spacing_h_tb": 0,
+            "spacing_v_tb": 0,
+            "spacing_h_mb": 0,
+            "spacing_v_mb": 0,
+            "content_width": "auto",
+            "content_position": "start",
+            "content_position_mb": "start",
+            "alignment": "left",
+            "alignment_mb": "left",
+            "background_color": "rgba(0,0,0,0)",
+            "rounded": "none"
+          },
+          "blocks": {
+            "heading_gmxNEE": {
+              "type": "heading",
+              "settings": {
+                "heading": "<p><strong>Allens Jaffas</strong></p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "line_height": "",
+                "font_weight": "normal",
+                "heading_size": "h5",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 50,
+                "font_size_heading": 24,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            },
+            "spacer_xA7w7q": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 10,
+                "space_md": 10,
+                "space": 10
+              },
+              "blocks": {}
+            },
+            "text_nBrW47": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Sugar, Vegetable, Fat [Emulsifiers (Sorbitan Tristearate, Soy Lecithin], Cocoa Wheat Flour, Rice Starch, Milk Solids, Emulsifier (Soy Lecithin), Flavours, Colours (Carminic Acid, Beta Carotene), Glazing Agents (Carnauba Wax, Beeswax), Salt.</p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            },
+            "text_JekeHj": {
+              "type": "text",
+              "settings": {
+                "text": "<p><strong>Contains:</strong> Wheat.</p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_gmxNEE",
+            "spacer_xA7w7q",
+            "text_nBrW47",
+            "text_JekeHj"
+          ]
         }
       },
       "block_order": [
         "multi_column_8k4FDz",
-        "multi_column_if4QzQ"
+        "multi_column_if4QzQ",
+        "multi_column_ANwy8k"
       ],
       "name": "t:sections.custom_section.name",
       "settings": {
