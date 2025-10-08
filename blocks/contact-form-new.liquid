@@ -151,7 +151,7 @@
     <div class="ai-contact-form__description-{{ ai_gen_id }}">{{ block.settings.description }}</div>
   {% endif %}
 
-  {% form 'contact' %}
+  {% form 'contact', id: form_id, class: 'contact-form__form' %}
     <div class="ai-contact-form__fields-{{ ai_gen_id }}">
       <div class="ai-contact-form__field-row-{{ ai_gen_id }}">
         <div class="ai-contact-form__field-{{ ai_gen_id }}">
