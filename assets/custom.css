@@ -1,0 +1,28 @@
+.hdt-main-header .hdt-nav__ul .hdt-line-clamp {
+    font-weight:bold;
+}
+
+.jdgm-review-widget .jdgm-rev-widg__header .jdgm-rev-widg__title {
+    font-size: var(--h4-size);
+}
+.payment_icons_topbar {
+    display: inline-flex;
+    column-gap: 10px;
+    row-gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.hdt-top-bar__socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top:5px;
+}
+
+@media (min-width:1150px) {
+    .hdt-top-bar__socials {
+        justify-content:flex-end;
+        margin-top:0px;
+    }
+}

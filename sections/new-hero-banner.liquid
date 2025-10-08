@@ -1,0 +1,71 @@
+<section class="new_banner_section">
+  <div class="main__banner_row">
+    <div class="banner_img">
+      <img src="{{ section.settings.image |  image_url  }}" alt="{{ section.settings.image.alt }}">
+    </div>
+
+    <div
+      class="Banner__content__section"
+      style="background: url('{{ section.settings.image_right |  image_url  }}'); center cover no-repeat"
+    >
+      <div class="banner_content_inr">
+        {% if section.settings.title != blank %}
+          <h1>{{ section.settings.title }}</h1>
+        {% endif %}
+        {% if section.settings.description_content != blank %}
+        <div class="banner_content_new">
+          {{ section.settings.description_content }}
+        </div>
+      {% endif %}
+      <div class="hero_banner_blocks">
+        {% content_for 'blocks' %}
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "New Hero banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_right",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Real people. Real stories."
+    },
+    {
+      "type": "richtext",
+      "id": "description_content",
+      "label": "Description"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@theme",
+    },
+    {
+      "type": "@app",
+    },
+    {
+      "type": "group",
+    }
+  ],
+  "presets": [
+    {
+      "name": "New Hero banner"
+    }
+  ]
+}
+{% endschema %}

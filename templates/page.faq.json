@@ -1,0 +1,340 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "heading": {
+      "type": "main-heading",
+      "blocks": {
+        "heading_liquid_kCwqhp": {
+          "type": "_heading_liquid",
+          "settings": {
+            "text": "{{ page_title }}",
+            "line_height": "hdt-lh-1",
+            "font_family": "hdt-font-1",
+            "text_size": "2xl",
+            "text_color": "hdt-s-text",
+            "italic": false,
+            "uppercase": false,
+            "font_size_text_lg": 16,
+            "font_size_text": 14,
+            "letter_spacing_text": 0
+          },
+          "blocks": {}
+        },
+        "heading_brc_aVn9AW": {
+          "type": "_heading_brc",
+          "name": "Breadcrumb",
+          "settings": {
+            "heading_title": "{{ page_title }}"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading_liquid_kCwqhp",
+        "heading_brc_aVn9AW"
+      ],
+      "settings": {
+        "use_dynamic_source": false,
+        "color_scheme": "scheme-77e4ef58-56a9-4631-876a-12098ba7d57d",
+        "bg_overlay": 54,
+        "space_item": 12,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_rate": 100
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "padding_rate": 75
+      }
+    },
+    "accordion_Tg8fN8": {
+      "type": "accordion",
+      "blocks": {
+        "accordion_item_A96ika": {
+          "type": "_accordion-item",
+          "settings": {
+            "open": true,
+            "icon": "none",
+            "title": "What makes Just a Little Sweeter different from other lolly hamper businesses?",
+            "content": "<p>At Just a Little Sweeter, we make gifting <em>fun, fast, and full of joy</em>.  Every hamper, jar, pouch and snack box is hand-packed with care and colour — not mass-produced. We’re all about helping busy people send unique, ready-to-gift treats without the stress of shopping or wrapping. With next-day delivery across Australia and a proudly Aussie touch, our hampers combine nostalgia, excitement, and sweetness in every box/hamper — making your gift as special as the person receiving it.</p><p>Every order from Just a Little Sweeter includes a beautiful custom card, vibrant packaging and a handwritten note.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_tRDr7w": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "Can I include a personalised note?",
+            "content": "<p>Absolutely, this is the part we love! All gifts can be personalised by either adding a complimentary gift card at the checkout or just leaving a message in the comments section at the checkout. All notes will be lovingly handwritten by us, to give your gift that added personal touch. You can pick from one of our many complimentary gift cards- Thank You, Happy Birthday, Congratulations, Just a Little Sweeter & Happy Anniversary.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_6aYPgD": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "How much does delivery cost?",
+            "content": "<p>At Just a Little Sweeter, we offer from $7.95 flat rate Australia shipping. Express Post is available from $12.95.</p><p>The total amount of delivery will be calculated at check out.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_8i63kF": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "What are your business hours?",
+            "content": "<p>Our business hours are Monday – Friday, 9am – 4pm.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_mGHtJJ": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "What is the difference between Standard vs Express delivery?",
+            "content": "<p>Choosing Express Delivery guarantees that your order will leave our warehouse the same day when placed on a business day, before 10am or the next business day if placed after 10am Monday - Friday. Our Standard Delivery will leave our warehouse in 1-2 business days. If your order is placed by 10am, it will be dispatched the same day.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_aerycq": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "Can l select a delivery date?",
+            "content": "<p>Delivery dates are requests only! We aim to have your order arrive before or on the requested date. Orders placed after 2pm on Friday will be dispatched on Monday for next business day.</p><p>Please be aware that, as we use third party couriers, we cannot guarantee next day delivery on any order. While we aim to get your parcel delivered on your preferred date, we dispatch on the advise of our freight provider. </p><p>Were the address is located in a rural area, delivery of your gift may take an extra day or two.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_acV8Gt": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "Is delivery tracked?",
+            "content": "<p>It sure is! All orders receive tracking data as soon as they leave our warehouse. You can use this to follow the full journey of your order all the way from our hands to your house.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_tm4NNY": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "Can l make changes to my order after l have placed it?",
+            "content": "<p>Our warehouse team pack your order at lighting speed to ensure it is dispatched as soon as possible. If you have placed an order and made a mistake, please contact us within 1 hour to make the changes. If your order is dispatched before you contact us, we are unable to make changes. </p><p>We are unable to amend your order if it’s out of our business hours.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_9QtrwN": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "Can l return my order?",
+            "content": "<p>As your order has been created especially for you, we are unable to resell it and so you are not able to return it.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_dDkUUR": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "Can l cancel my order?",
+            "content": "<p>If you need to cancel your order, please contact us via email within 1 hour of placing it.</p><p>Any order requesting a cancellation before despatch will incur a $5.00 cancellation fee to offset the transaction fees associated with the platform.</p><p>If your order has been packed and is ready to be shipped, a $19.95 processing fee will apply and the remainder of the cost will be refunded.</p><p>If a request to cancel your order is made after your order has been dispatched, we are unable to cancel it. </p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_YeBUYX": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "What if the wrong address is supplied for delivery?",
+            "content": "<p>It is the responsibility of the sender to have the correct street address, including any business names. If your parcel is delivered to the wrong address due to incorrect or insufficient details being supplied, an additional delivery charge will apply to redirect/redeliver the gift and may also cause delay in delivery. </p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_g8WW7L": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "Can l organise hampers/gift boxes, alcohol hampers, lolly pouches, snack boxes for my clients and team?",
+            "content": "<p>We LOVE corporate & event orders.  </p><p>Email us <a href=\"mailto:shop@justalittlesweeter.com.au\"><span style=\"text-decoration:underline\">shop@justalittlesweeter.com.au</span></a> and we will contact you to discuss your custom order.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_HVnjTg": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "Do you offer customised gifts?",
+            "content": "<p>Absolutely! We’ll gladly work with you to tailor each gift according to your requirements. We’ll help you to stand out and impress—whether your special gift is for boosting staff morale, or improving client relationships. </p><p>Email us <a href=\"mailto:shop@justalittlesweeter.com.au\"><span style=\"text-decoration:underline\">shop@justalittlesweeter.com.au</span></a> and we will contact you to discuss your custom order.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_mHTWMj": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "What happens if the recipient isn’t home when the parcel is delivered?",
+            "content": "<p>Parcels may be returned to us if the courier is not able to deliver your order, or the order isn't retrieved from the Post Office. If your parcel is returned to us we will contact you, the sender to organise alternate delivery options. </p><p>Please note that redelivery costs apply. If we are unable to make contact with you, and receive no instruction from you within 10 days, your order will be cancelled, and no refund applies.</p><p>Please ensure you have entered the correct postal address as you will be liable for any extra costs incurred as a result of incorrect postal address.</p><p>Postage cost to return the product shall be covered by the sender.</p><p>Please include your contact information, the order number to which your return relates.</p><p>If the customer is not home to receive their parcel, we recommend you use a business address. If no one is home on the day of delivery, the parcel will be left outside the customers house, thus it is important the customer provides clear and accurate delivery instructions when placing an order.</p><p>Just a little Sweeter is exempt from any liability or responsibility for loss/damage arising as a result of parcels being left safely and securely at unattended premises. Or due to an incident arising from returned/melted/damaged/undelivered products.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_HfbPAH": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "Can l ship to multiple addresses?",
+            "content": "<p>Each cart checkout can be sent to one address only. To send multiple orders to different addresses, please complete one checkout per order.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_jNinCr": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "What comes in my gift?",
+            "content": "<p>We have descriptions on all of our products that outline what comes in each hamper. Please note that if we temporarily run out of stock of an item we will swap it without notice for something similar of equal or greater value.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_dw9zAa": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "Do you sell gluten free lollies?",
+            "content": "<p>Yes we do!</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_6BwidT": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "Are your products & lollies safe for people with allergies?",
+            "content": "<p>All our lollies are packed in our warehouse that also handles nuts, dairy and gluten. If you have severe allergies, please contact us via email before ordering.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_rAmfYf": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "Do you list the ingredients and allergy information for your lollies?",
+            "content": "<p>Yes! All of our lolly hampers, jars, and snack boxes include a full list of ingredients and allergy information right on our website. We clearly note any common allergens such as gluten, nuts, dairy, and soy, so you can shop with confidence. If you or your gift recipient have specific dietary needs, it’s easy to check each product before adding it to your cart.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion_item_Xngk7e": {
+          "type": "_accordion-item",
+          "name": "t:sections.accordion.blocks.accordion_item.label",
+          "settings": {
+            "open": false,
+            "icon": "none",
+            "title": "How can l contact you?",
+            "content": "<p>You can email us at <a href=\"mailto:shop@justalittlesweeter.com.au\"><span style=\"text-decoration:underline\">shop@justalittlesweeter.com.au</span></a> or DM us via our social pages.</p>"
+          },
+          "blocks": {}
+        },
+        "accordion-heading": {
+          "type": "section-heading",
+          "static": true,
+          "settings": {
+            "design_heading": "1",
+            "horizontal": false,
+            "alignment": "left",
+            "heading_gap": 15,
+            "margin_bottom": 30
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "accordion_item_A96ika",
+        "accordion_item_tRDr7w",
+        "accordion_item_6aYPgD",
+        "accordion_item_8i63kF",
+        "accordion_item_mGHtJJ",
+        "accordion_item_aerycq",
+        "accordion_item_acV8Gt",
+        "accordion_item_tm4NNY",
+        "accordion_item_9QtrwN",
+        "accordion_item_dDkUUR",
+        "accordion_item_YeBUYX",
+        "accordion_item_g8WW7L",
+        "accordion_item_HVnjTg",
+        "accordion_item_mHTWMj",
+        "accordion_item_HfbPAH",
+        "accordion_item_jNinCr",
+        "accordion_item_dw9zAa",
+        "accordion_item_6BwidT",
+        "accordion_item_rAmfYf",
+        "accordion_item_Xngk7e"
+      ],
+      "name": "t:sections.accordion.name",
+      "settings": {
+        "accordion_des": "1",
+        "full_width": false,
+        "colors_by_section": false,
+        "color_scheme": "scheme-1",
+        "background_opacity": 0,
+        "padding_top": 70,
+        "padding_bottom": 80,
+        "padding_rate": 50
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "accordion_Tg8fN8"
+  ]
+}

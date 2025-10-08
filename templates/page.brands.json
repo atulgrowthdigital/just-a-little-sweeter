@@ -1,0 +1,275 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main_heading_Gg63eE": {
+      "type": "main-heading",
+      "blocks": {
+        "heading_liquid_gEADwf": {
+          "type": "_heading_liquid",
+          "settings": {
+            "text": "{{ page.title }}",
+            "line_height": "hdt-lh-1",
+            "font_family": "hdt-font-1",
+            "text_size": "2xl",
+            "text_color": "hdt-s-text",
+            "italic": false,
+            "uppercase": true,
+            "font_size_text_lg": 16,
+            "font_size_text": 14,
+            "letter_spacing_text": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading_liquid_gEADwf"
+      ],
+      "settings": {
+        "use_dynamic_source": true,
+        "color_scheme": "scheme-77e4ef58-56a9-4631-876a-12098ba7d57d",
+        "bg_overlay": 54,
+        "space_item": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_rate": 100
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "padding_rate": 75
+      }
+    },
+    "brands_7FimgP": {
+      "type": "brands",
+      "settings": {
+        "source": "menu",
+        "menu": "",
+        "colors_by_section": false,
+        "color_scheme": "",
+        "background_opacity": 0,
+        "padding_top": 50,
+        "padding_bottom": 80,
+        "padding_rate": 75
+      }
+    },
+    "main_heading_Htzi44": {
+      "type": "main-heading",
+      "blocks": {
+        "heading_liquid_UERpUX": {
+          "type": "_heading_liquid",
+          "settings": {
+            "text": "{{ collection.title }}",
+            "line_height": "",
+            "font_family": "hdt-font-1",
+            "text_size": "2xl",
+            "text_color": "hdt-s-text",
+            "italic": false,
+            "uppercase": false,
+            "font_size_text_lg": 16,
+            "font_size_text": 14,
+            "letter_spacing_text": 0
+          },
+          "blocks": {}
+        },
+        "heading_brc_WpYnmx": {
+          "type": "_heading_brc",
+          "settings": {
+            "heading_title": "{{ collection.title }}"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading_liquid_UERpUX",
+        "heading_brc_WpYnmx"
+      ],
+      "name": "t:sections.heading-page.collection",
+      "settings": {
+        "use_dynamic_source": true,
+        "color_scheme": "scheme-77e4ef58-56a9-4631-876a-12098ba7d57d",
+        "bg_overlay": 54,
+        "space_item": 0,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "padding_rate": 62
+      }
+    },
+    "main_page_A7QHXH": {
+      "type": "main-page",
+      "name": "t:sections.main-page.name",
+      "settings": {
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "padding_rate": 75
+      }
+    },
+    "banners_pkPG79": {
+      "type": "banners",
+      "blocks": {
+        "banner_item_A7FKzC": {
+          "type": "_banner-item",
+          "settings": {
+            "banner_url": "",
+            "banner_target": false,
+            "img_effect": "none",
+            "b_effect": "none",
+            "colors_by_block": false,
+            "color_scheme": "",
+            "gap_r": 20,
+            "gap_c": 20,
+            "content_position": "center",
+            "alignment": "center",
+            "gap_r_mb": 20,
+            "gap_c_mb": 20,
+            "content_position_mb": "center",
+            "alignment_mb": "center"
+          },
+          "blocks": {
+            "heading_yLGany": {
+              "type": "heading",
+              "settings": {
+                "heading": "<p>SALE OFF UP TO 70%<\/p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "line_height": "",
+                "font_weight": "normal",
+                "heading_size": "h5",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 50,
+                "font_size_heading": 24,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            },
+            "text_GVK6jT": {
+              "type": "text",
+              "settings": {
+                "text": "<p>SS 2025 New Arrival<\/p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "4xl",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            },
+            "spacer_rGN8Af": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 50,
+                "space_md": 50,
+                "space": 50
+              },
+              "blocks": {}
+            },
+            "button_DrpPYj": {
+              "type": "button",
+              "settings": {
+                "label": "Shop now",
+                "link": "",
+                "open_in_new_tab": false,
+                "full_width": false,
+                "btn_style": "",
+                "size": "m",
+                "font_weight": "normal",
+                "font_size_btn": 14,
+                "padding_btn": 30,
+                "min_width_btn": 100,
+                "min_width_dt_btn": 100,
+                "min_height_btn": 40,
+                "icon": "none",
+                "icon_position": "after",
+                "icon_height": 16,
+                "icon_spacing": 5
+              },
+              "blocks": {}
+            },
+            "banner-media": {
+              "type": "_media",
+              "static": true,
+              "settings": {
+                "source": "video",
+                "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_yLGany",
+            "text_GVK6jT",
+            "spacer_rGN8Af",
+            "button_DrpPYj"
+          ]
+        },
+        "banner-heading": {
+          "type": "section-heading",
+          "static": true,
+          "settings": {
+            "design_heading": "1",
+            "horizontal": false,
+            "alignment": "left",
+            "heading_gap": 15,
+            "margin_bottom": 30
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "banner_item_A7FKzC"
+      ],
+      "name": "t:sections.banner.name_video",
+      "settings": {
+        "image_height": "fixed",
+        "fixed_height": 500,
+        "image_height_mb": "fixed",
+        "fixed_height_mb": 500,
+        "space_items": "30px",
+        "space_items_tb": "15px",
+        "space_items_mb": "15px",
+        "col_dk": "1",
+        "col_tb": "1",
+        "col_mb": "1",
+        "scrollsnap": false,
+        "colors_by_section": false,
+        "color_scheme": "",
+        "background_opacity": 0,
+        "section_layout": "container",
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "padding_rate": 49
+      }
+    }
+  },
+  "order": [
+    "main_heading_Gg63eE",
+    "main",
+    "brands_7FimgP",
+    "main_heading_Htzi44",
+    "main_page_A7QHXH",
+    "banners_pkPG79"
+  ]
+}

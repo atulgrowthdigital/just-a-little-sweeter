@@ -1,0 +1,10 @@
+{% comment %} Contact Form Section {% endcomment %}
+<section>
+  <h2>Contact Us</h2>
+  {% form 'contact' %}
+    <input type="text" name="contact[name]" placeholder="Your Name" required>
+    <input type="email" name="contact[email]" placeholder="Your Email" required>
+    <textarea name="contact[body]" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  {% endform %}
+</section>

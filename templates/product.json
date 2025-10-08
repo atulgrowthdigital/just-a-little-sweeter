@@ -1,0 +1,507 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "brc-nav-product",
+      "settings": {
+        "back_next_pr": true,
+        "colors_by_section": true,
+        "color_scheme": "scheme-23cf8966-8e57-4acd-9bb3-bb85f222fbb9",
+        "background_opacity": 1,
+        "section_layout": "wrapper_container",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_rate": 70
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "group_product_9RYttB": {
+          "type": "_group-product",
+          "settings": {
+            "colors_by_block": true,
+            "color_scheme": "scheme-ccabb22c-659b-4b6e-8692-5683b2607d13"
+          },
+          "blocks": {
+            "product_title_ehRqkq": {
+              "type": "_product-title",
+              "settings": {
+                "txt_tr_pr": "none",
+                "tag": "h2",
+                "heading_size": "h4",
+                "font_size_heading_lg": 50,
+                "font_size_heading": 24,
+                "font_weight": "normal",
+                "letter_spacing_heading": 0,
+                "create_link": false
+              },
+              "blocks": {}
+            },
+            "judge_me_reviews_preview_badge_z8RjhF": {
+              "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+              "settings": {}
+            },
+            "product_price_9JizTC": {
+              "type": "_product-price",
+              "settings": {},
+              "blocks": {}
+            },
+            "product_description_AJaqwJ": {
+              "type": "_product-description",
+              "settings": {
+                "des_mode": "2",
+                "short_des": "{{ closest.product.description }}",
+                "readm": true,
+                "length": 30,
+                "readm_txt": "Read more",
+                "readl_txt": "Read less"
+              },
+              "blocks": {}
+            },
+            "product_variant_picker_WMmDTM": {
+              "type": "_product-variant-picker",
+              "settings": {
+                "color_picker_type": "block",
+                "color_size": "medium",
+                "picker_type": "block",
+                "size_chart_source": "page",
+                "size_chart_page": "size-chart"
+              },
+              "blocks": {}
+            },
+            "quantity_selector_tarLcL": {
+              "type": "_quantity-selector",
+              "disabled": true,
+              "settings": {},
+              "blocks": {}
+            },
+            "product_buy_button_aPmAbD": {
+              "type": "_product-buy-button",
+              "settings": {
+                "show_quantity_selector": true,
+                "show_dynamic_checkout": false,
+                "show_gift_card_recipient": true,
+                "show_wishlist": true,
+                "show_compare": false,
+                "ani": "none",
+                "time": 6,
+                "btn_transform": "hdt-uppercase",
+                "btn_style": "",
+                "btn_fullwidth": true
+              },
+              "blocks": {}
+            },
+            "group_product_accordion_PLpG6Q": {
+              "type": "_group_product_accordion",
+              "name": "t:sections.accordion.name",
+              "settings": {
+                "open": false,
+                "accordion_des": "3",
+                "spacing": 15
+              },
+              "blocks": {
+                "accordion_des_item_qpUqAN": {
+                  "type": "_accordion_des_item",
+                  "settings": {
+                    "icon": "none",
+                    "title": "Description"
+                  },
+                  "blocks": {}
+                },
+                "accordion_item_3eiCMY": {
+                  "type": "_accordion-item",
+                  "name": "t:sections.accordion.blocks.accordion_item.label",
+                  "settings": {
+                    "open": false,
+                    "icon": "none",
+                    "title": "Delivery Information",
+                    "content": "<h3>Delivery & Responsibility – What You Need to Know</h3><p>At <strong>Little Shop of Happiness</strong>, we lovingly pack and dispatch your hampers with great care and positive vibes! Once your order leaves our hands and is on its way via <strong>StarTrack</strong>, it’s officially out of our control and in the capable (and speedy!) hands of the courier team.</p><p><strong>Important to know:</strong></p><ul><li>If no one is home at the time of delivery and there’s no safe place to leave the hamper, <strong>StarTrack will take it to the nearest Post Office</strong> for collection.</li><li>Even if someone is home, the driver may still choose not to leave the parcel. We completely understand how <strong>frustrating</strong> this can be—it’s disappointing, and we get it!</li><li>Ultimately, <strong>it’s up to the driver’s discretion</strong> whether it's safe to leave the hamper.</li><li>We unfortunately <strong>cannot influence or redirect</strong> this process once the parcel has been dispatched.</li><li>We rely on the <strong>shipping address provided</strong> to ensure a smooth delivery—please double-check it’s correct, and that someone will be available or a clear safe drop location is noted.</li></ul><p>We know you’re excited to spread happiness, and we do everything we can to make that happen without hiccups. Thanks so much for understanding that once a hamper leaves our premises, some delivery variables are simply beyond our control.</p>"
+                  },
+                  "blocks": {}
+                },
+                "accordion_item_VEJkWw": {
+                  "type": "_accordion-item",
+                  "name": "t:sections.accordion.blocks.accordion_item.label",
+                  "disabled": true,
+                  "settings": {
+                    "open": false,
+                    "icon": "none",
+                    "title": "Gift Hamper Delivery FAQs",
+                    "content": "<h3>I've placed an order and need to make changes. Is it possible?</h3><p>Our warehouse team pack your orders at lightening speed to ensure they are dispatched as soon as possible. If you have placed an order and made a mistake, please contact us within 10mins to make changes; if your hamper is dispatched before you contact us we are unable to make changes. Our office is open from 9am-4pm so if you don't hear back from us outside of those hours, we will respond as soon as we can to confirm the changes have been made.</p>"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "accordion_des_item_qpUqAN",
+                "accordion_item_3eiCMY",
+                "accordion_item_VEJkWw"
+              ]
+            },
+            "product_trust_badge_QALnxQ": {
+              "type": "_product-trust-badge",
+              "disabled": true,
+              "settings": {
+                "mess": "",
+                "size": 16,
+                "source": "1",
+                "wimg": 240,
+                "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
+                "height": 31
+              },
+              "blocks": {}
+            },
+            "product_extra_link_HfDmDV": {
+              "type": "_product-extra-link",
+              "disabled": true,
+              "settings": {},
+              "blocks": {
+                "product_delivery_return_CqMf76": {
+                  "type": "_product-delivery-return",
+                  "settings": {
+                    "page_delivery": "delivery-return"
+                  },
+                  "blocks": {}
+                },
+                "product_ask_question_nWC4pL": {
+                  "type": "_product-ask-question",
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "product_delivery_return_CqMf76",
+                "product_ask_question_nWC4pL"
+              ]
+            },
+            "product_meta_hnDEjn": {
+              "type": "_product-meta",
+              "settings": {},
+              "blocks": {
+                "product_meta_sku_kXHJPJ": {
+                  "type": "_product-meta-sku",
+                  "disabled": true,
+                  "settings": {},
+                  "blocks": {}
+                },
+                "product_meta_category_4Gq4HK": {
+                  "type": "_product-meta-category",
+                  "settings": {},
+                  "blocks": {}
+                },
+                "product_meta_tags_bePDzg": {
+                  "type": "_product-meta-tags",
+                  "disabled": true,
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "product_meta_sku_kXHJPJ",
+                "product_meta_category_4Gq4HK",
+                "product_meta_tags_bePDzg"
+              ]
+            },
+            "socials_XYJPwj": {
+              "type": "socials",
+              "disabled": true,
+              "settings": {
+                "type": "follow",
+                "share_facebook": false,
+                "share_x": false,
+                "share_pinterest": false,
+                "share_tumblr": false,
+                "share_telegram": false,
+                "share_email": false,
+                "share_whatsapp": false,
+                "socials_style": "simple",
+                "socials_size": "medium",
+                "bd_radius": 30,
+                "space_item": 30
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_title_ehRqkq",
+            "judge_me_reviews_preview_badge_z8RjhF",
+            "product_price_9JizTC",
+            "product_description_AJaqwJ",
+            "product_variant_picker_WMmDTM",
+            "quantity_selector_tarLcL",
+            "product_buy_button_aPmAbD",
+            "group_product_accordion_PLpG6Q",
+            "product_trust_badge_QALnxQ",
+            "product_extra_link_HfDmDV",
+            "product_meta_hnDEjn",
+            "socials_XYJPwj"
+          ]
+        },
+        "main-product-medias": {
+          "type": "_product-medias",
+          "static": true,
+          "settings": {
+            "desktop_media_layout": "thumbnail_left",
+            "media_size": "small",
+            "mobile_media_layout": "thumbnails",
+            "show_first_media": false,
+            "use_select_varaint_change_media": true,
+            "enable_media_autoplay": false,
+            "enable_video_looping": false,
+            "enable_thumb_efect": true,
+            "image_ratio": "adapt_image",
+            "image_size": false,
+            "image_zoom": "zoom",
+            "image_zoom_type": "external",
+            "zoom_level": 2,
+            "max_zoom_lightbox": 3,
+            "navUI": true,
+            "nav_style": "default",
+            "nav_shape": "default",
+            "nav_size": "small",
+            "nav_hide_mobile": true
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "group_product_9RYttB"
+      ],
+      "settings": {
+        "product_list_fbt": [],
+        "sticky_atc": true,
+        "ani": "none",
+        "time": 6,
+        "btn_transform": "hdt-uppercase",
+        "btn_style": "",
+        "colors_by_section": false,
+        "color_scheme": "",
+        "background_opacity": 1,
+        "fullwidth": false,
+        "padding_top": 10,
+        "padding_bottom": 60,
+        "padding_rate": 75
+      }
+    },
+    "tabs": {
+      "type": "main-product-tabs",
+      "blocks": {
+        "tab_des_tKqkJj": {
+          "type": "tab_des",
+          "settings": {
+            "title": "Description"
+          }
+        },
+        "tab_add_HXf3yk": {
+          "type": "tab_add",
+          "settings": {
+            "title": "Additional Information"
+          }
+        },
+        "tab_html_7dKb7L": {
+          "type": "tab_html",
+          "settings": {
+            "title": "Custom tab",
+            "content": "",
+            "page": "wash-care"
+          }
+        }
+      },
+      "block_order": [
+        "tab_des_tKqkJj",
+        "tab_add_HXf3yk",
+        "tab_html_7dKb7L"
+      ],
+      "disabled": true,
+      "settings": {
+        "tabs_design": "tab",
+        "enable_first_tab": false,
+        "full_width": false,
+        "colors_by_section": true,
+        "color_scheme": "scheme-23cf8966-8e57-4acd-9bb3-bb85f222fbb9",
+        "background_opacity": 1,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_rate": 50
+      }
+    },
+    "sidebar": {
+      "type": "sidebar-product",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "space": 50
+      }
+    },
+    "1758704761eedd61d7": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_NfXCJB": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "real_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_NfXCJB"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "blocks": {
+        "pr-heading": {
+          "type": "section-heading",
+          "static": true,
+          "settings": {
+            "design_heading": "1",
+            "horizontal": false,
+            "alignment": "center",
+            "heading_gap": 18,
+            "margin_bottom": 30
+          },
+          "blocks": {
+            "heading_section_nLFWkr": {
+              "type": "_heading_section",
+              "settings": {
+                "heading": "You may also like",
+                "line_height": "",
+                "heading_size": "h4",
+                "text_color": "hdt-s-text"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_section_nLFWkr"
+          ]
+        }
+      },
+      "settings": {
+        "product_des": "1",
+        "image_ratio": "portrait",
+        "image_size": true,
+        "show_vendor": false,
+        "pr_border": "none",
+        "limit": 50,
+        "col_dk": "4",
+        "col_tb": "3",
+        "col_mb": "2",
+        "space_items": "x",
+        "loop": false,
+        "autoplay": 0,
+        "pauseOnHover": false,
+        "navUI": true,
+        "nav_position": "default",
+        "nav_visible": "hover",
+        "nav_style": "default",
+        "nav_shape": "rounded",
+        "nav_size": "small",
+        "nav_hide_mobile": false,
+        "dotUI": false,
+        "pag_style": "default",
+        "pag_rounded": false,
+        "pag_space": 10,
+        "pag_mgt": 10,
+        "only_show_mobile": false,
+        "pag_hide_mobile": false,
+        "colors_by_section": false,
+        "color_scheme": "",
+        "background_opacity": 0,
+        "section_layout": "container",
+        "padding_top": 75,
+        "padding_bottom": 75,
+        "padding_rate": 50
+      }
+    },
+    "recently-products": {
+      "type": "recently-products",
+      "blocks": {
+        "pr-heading": {
+          "type": "section-heading",
+          "static": true,
+          "settings": {
+            "design_heading": "1",
+            "horizontal": false,
+            "alignment": "center",
+            "heading_gap": 18,
+            "margin_bottom": 30
+          },
+          "blocks": {
+            "heading_section_JdADpx": {
+              "type": "_heading_section",
+              "settings": {
+                "heading": "Recently viewed products",
+                "line_height": "",
+                "heading_size": "h4",
+                "text_color": "hdt-s-text"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_section_JdADpx"
+          ]
+        }
+      },
+      "settings": {
+        "product_des": "1",
+        "image_ratio": "portrait",
+        "image_size": true,
+        "show_vendor": false,
+        "pr_border": "none",
+        "limit": 50,
+        "col_dk": "4",
+        "col_tb": "3",
+        "col_mb": "2",
+        "space_items": "x",
+        "loop": false,
+        "autoplay": 0,
+        "pauseOnHover": false,
+        "navUI": true,
+        "nav_position": "default",
+        "nav_visible": "hover",
+        "nav_style": "default",
+        "nav_shape": "rounded",
+        "nav_size": "small",
+        "nav_hide_mobile": false,
+        "dotUI": false,
+        "pag_style": "default",
+        "pag_rounded": false,
+        "pag_space": 10,
+        "pag_mgt": 10,
+        "only_show_mobile": false,
+        "pag_hide_mobile": false,
+        "colors_by_section": false,
+        "color_scheme": "",
+        "background_opacity": 0,
+        "section_layout": "container",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "padding_rate": 80
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main-product",
+    "tabs",
+    "sidebar",
+    "1758704761eedd61d7",
+    "related-products",
+    "recently-products"
+  ]
+}

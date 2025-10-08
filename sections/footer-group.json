@@ -1,0 +1,461 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "footer_KwXhWr": {
+      "type": "footer",
+      "blocks": {
+        "footer_column_pA3QPh": {
+          "type": "_footer-column",
+          "settings": {
+            "col_heading": "",
+            "hide_on_mobile": false,
+            "only_mobile": true,
+            "sec_heading_size": "lg",
+            "space": 15,
+            "colors_by_section": false,
+            "color_scheme": "scheme-c9476b69-abc7-454f-a946-2d5a9f5f3a37",
+            "background_opacity": 0,
+            "width_lg": 25,
+            "width_md": 50,
+            "width": 100,
+            "padding_t": 0,
+            "padding_b": 0,
+            "padding_rate": 50
+          },
+          "blocks": {
+            "footer_image_d8wFnT": {
+              "type": "_footer-image",
+              "settings": {
+                "img": "shopify://shop_images/JUST-LITTLE-SWEETER_1_1.png",
+                "custom_width": "custom",
+                "image_w": 110,
+                "image_w_tb": 110,
+                "image_w_mb": 110
+              },
+              "blocks": {}
+            },
+            "spacer_69LYhC": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 34,
+                "space_md": 30,
+                "space": 30
+              },
+              "blocks": {}
+            },
+            "custom_liquid_P3m7HC": {
+              "type": "text",
+              "settings": {
+                "text": "<p>📍 Melbourne, VIC, 3074</p><p>✉️ <a href=\"mailto:shop@justalittlesweeter.com.au\" target=\"_blank\" title=\"shop@justalittlesweeter.com.au\">shop@justalittlesweeter.com.au</a></p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            },
+            "spacer_ETKTxk": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 20,
+                "space_md": 20,
+                "space": 20
+              },
+              "blocks": {}
+            },
+            "socials_nemGjD": {
+              "type": "socials",
+              "settings": {
+                "type": "follow",
+                "share_facebook": false,
+                "share_x": false,
+                "share_pinterest": false,
+                "share_tumblr": false,
+                "share_telegram": false,
+                "share_email": false,
+                "share_whatsapp": false,
+                "socials_style": "simple",
+                "socials_size": "small",
+                "bd_radius": 30,
+                "space_item": 30
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "footer_image_d8wFnT",
+            "spacer_69LYhC",
+            "custom_liquid_P3m7HC",
+            "spacer_ETKTxk",
+            "socials_nemGjD"
+          ]
+        },
+        "footer_column_C3zLBR": {
+          "type": "_footer-column",
+          "settings": {
+            "col_heading": "Information",
+            "hide_on_mobile": false,
+            "only_mobile": false,
+            "sec_heading_size": "lg",
+            "space": 30,
+            "colors_by_section": false,
+            "color_scheme": "scheme-c9476b69-abc7-454f-a946-2d5a9f5f3a37",
+            "background_opacity": 0,
+            "width_lg": 16,
+            "width_md": 50,
+            "width": 100,
+            "padding_t": 6,
+            "padding_b": 0,
+            "padding_rate": 50
+          },
+          "blocks": {
+            "linklist_mTLiQc": {
+              "type": "_linklist",
+              "settings": {
+                "menu_inline": false,
+                "align": "left",
+                "align_mb": "left",
+                "menu": "information",
+                "text_size": "base",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "linklist_mTLiQc"
+          ]
+        },
+        "footer_column_3Dap6p": {
+          "type": "_footer-column",
+          "settings": {
+            "col_heading": "Useful Links",
+            "hide_on_mobile": false,
+            "only_mobile": false,
+            "sec_heading_size": "lg",
+            "space": 30,
+            "colors_by_section": false,
+            "color_scheme": "scheme-c9476b69-abc7-454f-a946-2d5a9f5f3a37",
+            "background_opacity": 0,
+            "width_lg": 16,
+            "width_md": 50,
+            "width": 100,
+            "padding_t": 6,
+            "padding_b": 0,
+            "padding_rate": 50
+          },
+          "blocks": {
+            "linklist_BDr677": {
+              "type": "_linklist",
+              "settings": {
+                "menu_inline": false,
+                "align": "left",
+                "align_mb": "left",
+                "menu": "useful-links",
+                "text_size": "base",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "linklist_BDr677"
+          ]
+        },
+        "footer_column_U4EkTn": {
+          "type": "_footer-column",
+          "settings": {
+            "col_heading": "Secure Payments",
+            "hide_on_mobile": false,
+            "only_mobile": false,
+            "sec_heading_size": "lg",
+            "space": 30,
+            "colors_by_section": false,
+            "color_scheme": "scheme-c9476b69-abc7-454f-a946-2d5a9f5f3a37",
+            "background_opacity": 0,
+            "width_lg": 16,
+            "width_md": 50,
+            "width": 100,
+            "padding_t": 6,
+            "padding_b": 0,
+            "padding_rate": 50
+          },
+          "blocks": {
+            "linklist_cCjYzb": {
+              "type": "_linklist",
+              "settings": {
+                "menu_inline": false,
+                "align": "left",
+                "align_mb": "left",
+                "menu": "",
+                "text_size": "base",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            },
+            "payment_icons_NKQxpY": {
+              "type": "_payment_icons",
+              "name": "t:blocks.payment.name",
+              "settings": {
+                "svg": "amazon,american_express,apple_pay,paypal,shopify_pay,visa,master,after pay, discover",
+                "height": 30
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "linklist_cCjYzb",
+            "payment_icons_NKQxpY"
+          ]
+        },
+        "footer_column_dYTFqa": {
+          "type": "_footer-column",
+          "settings": {
+            "col_heading": "Email Sign Up",
+            "hide_on_mobile": false,
+            "only_mobile": false,
+            "sec_heading_size": "lg",
+            "space": 30,
+            "colors_by_section": false,
+            "color_scheme": "scheme-c9476b69-abc7-454f-a946-2d5a9f5f3a37",
+            "background_opacity": 0,
+            "width_lg": 25,
+            "width_md": 50,
+            "width": 100,
+            "padding_t": 6,
+            "padding_b": 0,
+            "padding_rate": 50
+          },
+          "blocks": {
+            "text_Mh6Yzg": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Subscribe to our newsletter and get 10% off your first purchase</p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-text-secondary",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            },
+            "spacer_NL7ph9": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 30,
+                "space_md": 30,
+                "space": 30
+              },
+              "blocks": {}
+            },
+            "newsletter_k8PhDN": {
+              "type": "_newsletter",
+              "settings": {
+                "color_scheme": "",
+                "des_newsletter": "3",
+                "alignment": "left",
+                "button_lb": "Subscribe",
+                "size": "m",
+                "btn_fw": "semibold",
+                "agree_form": false,
+                "content": "I agree with the terms and conditions",
+                "icon": "none",
+                "icon_position": "after",
+                "icon_height": 14,
+                "icon_spacing": 5
+              },
+              "blocks": {}
+            },
+            "spacer_QaUeJi": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 20,
+                "space_md": 20,
+                "space": 20
+              },
+              "blocks": {}
+            },
+            "footer_image_TVmt7r": {
+              "type": "_footer-image",
+              "settings": {
+                "custom_width": "default",
+                "image_w": 100,
+                "image_w_tb": 100,
+                "image_w_mb": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_Mh6Yzg",
+            "spacer_NL7ph9",
+            "newsletter_k8PhDN",
+            "spacer_QaUeJi",
+            "footer_image_TVmt7r"
+          ]
+        }
+      },
+      "block_order": [
+        "footer_column_pA3QPh",
+        "footer_column_C3zLBR",
+        "footer_column_3Dap6p",
+        "footer_column_U4EkTn",
+        "footer_column_dYTFqa"
+      ],
+      "settings": {
+        "sticky": false,
+        "collapse": true,
+        "full_width": false,
+        "padding_top": 75,
+        "padding_bottom": 75,
+        "padding_rate": 50,
+        "colors_by_section": true,
+        "color_scheme": "scheme-e41c9842-677c-43a7-ada0-3c5abf205f8e",
+        "background_opacity": 1
+      }
+    },
+    "footer_ziwVXA": {
+      "type": "footer",
+      "blocks": {
+        "footer_column_Xk9eJH": {
+          "type": "_footer-column",
+          "disabled": true,
+          "settings": {
+            "col_heading": "",
+            "hide_on_mobile": false,
+            "only_mobile": false,
+            "sec_heading_size": "h4",
+            "space": 30,
+            "colors_by_section": false,
+            "color_scheme": "",
+            "background_opacity": 0,
+            "width_lg": 50,
+            "width_md": 50,
+            "width": 100,
+            "padding_t": 0,
+            "padding_b": 0,
+            "padding_rate": 50
+          },
+          "blocks": {
+            "custom_liquid_7gTHbP": {
+              "type": "text",
+              "settings": {
+                "text": "<p>All Rights Reserved © 2025 Just a Little Sweeter</p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "custom_liquid_7gTHbP"
+          ]
+        },
+        "footer_column_T7fBhY": {
+          "type": "_footer-column",
+          "disabled": true,
+          "settings": {
+            "col_heading": "",
+            "hide_on_mobile": false,
+            "only_mobile": false,
+            "sec_heading_size": "h4",
+            "space": 30,
+            "colors_by_section": false,
+            "color_scheme": "",
+            "background_opacity": 0,
+            "width_lg": 50,
+            "width_md": 50,
+            "width": 100,
+            "padding_t": 0,
+            "padding_b": 0,
+            "padding_rate": 50
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "footer_column_Xk9eJH",
+        "footer_column_T7fBhY"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media (max-width: 768px) {.hdt-row {text-align: center; }}"
+      ],
+      "settings": {
+        "sticky": false,
+        "collapse": true,
+        "full_width": false,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_rate": 75,
+        "colors_by_section": false,
+        "color_scheme": "",
+        "background_opacity": 0
+      }
+    },
+    "custom_liquid_TV3n4k": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.name",
+      "settings": {
+        "custom_liquid": "<footer class=\"jals-footer\">\n  <p class=\"jals-footer-text\">\n    All Rights Reserved © 2025 Just a Little Sweeter\n    <a\n      class=\"jals-footer-link\"\n      href=\"https://growthdigital.com.au/?utm_source=client&utm_medium=website&utm_campaign=footer&utm_term=digital+agency\"\n      target=\"_blank\"\n      rel=\"noopener noreferrer\"\n      title=\"Growth Digital – Digital Marketing Agency Australia\"\n    >\n      <img\n        class=\"jals-footer-icon\"\n        src=\"https://cdn.shopify.com/s/files/1/0726/5163/7054/files/growth-digital-black-icon.png\"\n        alt=\"Growth Digital\"\n        width=\"20\"\n        height=\"20\"\n        loading=\"lazy\"\n      />\n      <span>Digital Agency</span>\n    </a>\n  </p>\n</footer>\n\n<style>\n  /* ---------- Reset (scoped to footer to avoid global impact) ---------- */\n  .jals-footer *,\n  .jals-footer *::before,\n  .jals-footer *::after {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n    border: 0;\n  }\n\n  /* ---------- Footer Styles ---------- */\n  .jals-footer {\n    text-align: center;\n    padding: 1rem 0.5rem;\n    font-size: clamp(1.5rem, 2vw, 1rem);\n    line-height: 1.4;\n  }\n\n  .jals-footer-text {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    gap: 0.5rem;\n    margin: 0;\n  }\n\n  .jals-footer-link {\n    display: inline-flex;\n    align-items: center;\n    gap: 0.25rem;\n    color: inherit;\n    text-decoration: none;\n  }\n\n  .jals-footer-link:hover,\n  .jals-footer-link:focus-visible {\n    text-decoration: underline;\n  }\n\n  .jals-footer-icon {\n    width: 1.5rem;\n    height: 1.5rem;\n    flex-shrink: 0;\n  }\n\n  /* ---------- Dark Mode Support ---------- */\n  @media (prefers-color-scheme: dark) {\n    .jals-footer-icon {\n      filter: invert(1);\n    }\n  }\n\n  /* ---------- Mobile Optimization ---------- */\n  @media (max-width: 480px) {\n    .jals-footer-text {\n      flex-direction: column;\n      gap: 0.375rem;\n      font-size: 1.3rem;\n    }\n  }\n</style>",
+        "colors_by_section": false,
+        "color_scheme": "",
+        "background_opacity": 0,
+        "section_layout": "container",
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "padding_rate": 50
+      }
+    }
+  },
+  "order": [
+    "footer_KwXhWr",
+    "footer_ziwVXA",
+    "custom_liquid_TV3n4k"
+  ]
+}
