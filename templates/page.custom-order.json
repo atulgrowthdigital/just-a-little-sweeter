@@ -233,7 +233,7 @@
       ],
       "name": "t:sections.custom_section.name",
       "settings": {
-        "layout": "10",
+        "layout": "12",
         "item_spacing": 0,
         "item_spacing_tb": 15,
         "item_spacing_mb": 15,
