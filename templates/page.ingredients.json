@@ -1714,7 +1714,26 @@
             "text_JekeHj": {
               "type": "text",
               "settings": {
-                "text": "<p><strong>Contains:</strong> Milk, Soy, wheat, Gluten. May contain Tree Nuts.</p>",
+                "text": "<p><strong>Contains:</strong> Milk, Soy, wheat, Gluten.</p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            },
+            "text_3GKkqm": {
+              "type": "text",
+              "settings": {
+                "text": "<p><strong>May contain:</strong> Tree Nuts.</p>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "ffamily": "",
@@ -1735,7 +1754,8 @@
             "heading_gmxNEE",
             "spacer_xA7w7q",
             "text_nBrW47",
-            "text_JekeHj"
+            "text_JekeHj",
+            "text_3GKkqm"
           ]
         }
       },
