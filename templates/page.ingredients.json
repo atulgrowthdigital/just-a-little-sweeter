@@ -1502,7 +1502,7 @@
             "text_iVEzmD": {
               "type": "text",
               "settings": {
-                "text": "<p><strong>Contains:</strong> Wheat, Gluten. May contain Milk.</p>",
+                "text": "<p><strong>Contains:</strong> Wheat, Gluten.</p>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "ffamily": "",
@@ -1521,7 +1521,7 @@
             "text_n8XtPV": {
               "type": "text",
               "settings": {
-                "text": "<p><strong>May contain:</strong> Wheat, Gluten, Peanuts, Tree Nuts.</p>",
+                "text": "<p><strong>May contain:</strong> Milk.</p>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "ffamily": "",
