@@ -188,7 +188,7 @@
             "message_label": "Message",
             "message_placeholder": "Enter your message",
             "message_required": false,
-            "submit_button_text": "Send message",
+            "submit_button_text": "Submit",
             "form_width": 800,
             "form_padding": 0,
             "border_radius": 0,
