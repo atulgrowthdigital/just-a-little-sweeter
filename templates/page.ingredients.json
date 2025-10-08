@@ -2297,6 +2297,102 @@
             "spacer_YJtADp",
             "text_ahHUiq"
           ]
+        },
+        "multi_column_U763JD": {
+          "type": "_multi_column",
+          "settings": {
+            "column_dk": "6",
+            "column_tb": "6",
+            "column_mb": "12",
+            "column_dk_10": "5",
+            "column_tb_10": "5",
+            "column_mb_10": "10",
+            "spacing_h_dk": 0,
+            "spacing_v_dk": 0,
+            "spacing_h_tb": 0,
+            "spacing_v_tb": 0,
+            "spacing_h_mb": 0,
+            "spacing_v_mb": 0,
+            "content_width": "auto",
+            "content_position": "start",
+            "content_position_mb": "start",
+            "alignment": "left",
+            "alignment_mb": "left",
+            "background_color": "rgba(0,0,0,0)",
+            "rounded": "none"
+          },
+          "blocks": {
+            "heading_VF9AhD": {
+              "type": "heading",
+              "settings": {
+                "heading": "<p><strong>Wacky Bubble Gum Strawberry</strong></p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "line_height": "",
+                "font_weight": "normal",
+                "heading_size": "h5",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 50,
+                "font_size_heading": 24,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            },
+            "spacer_x3EVPR": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 10,
+                "space_md": 10,
+                "space": 10
+              },
+              "blocks": {}
+            },
+            "text_kTb7cc": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Sugar, Gum Base, Liquid Glucose (Corn Syrup), Flavour, Food Acid (330), Coconut Oil, Colour (129).</p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            },
+            "text_g4TjDx": {
+              "type": "text",
+              "settings": {
+                "text": "<p><em><strong>Not suitable for children under 5 years old.</strong></em></p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_VF9AhD",
+            "spacer_x3EVPR",
+            "text_kTb7cc",
+            "text_g4TjDx"
+          ]
         }
       },
       "block_order": [
@@ -2304,7 +2400,8 @@
         "multi_column_pQ8PXm",
         "multi_column_8yKjnG",
         "multi_column_DGAYQV",
-        "multi_column_X4JfCH"
+        "multi_column_X4JfCH",
+        "multi_column_U763JD"
       ],
       "name": "t:sections.custom_section.name",
       "settings": {
