@@ -82,7 +82,7 @@
         "show_description": false,
         "description_position": "before",
         "product_des": "1",
-        "image_ratio": "custom-pr",
+        "image_ratio": "square",
         "image_size": true,
         "show_vendor": false,
         "pr_border": "none",
