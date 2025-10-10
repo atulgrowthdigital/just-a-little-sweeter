@@ -41,7 +41,7 @@
 .hdt-product-form__top-buttons.hdt-flex {
     align-items: center;
 }
-
+.is--minus.disabled,
 .is--minus.disabled wrapp-remove-item-oncart {
     opacity:0;
     pointer-events: none;    
