@@ -27,3 +27,9 @@
         margin-top:0px;
     }
 }
+
+.hdt-marquee-inner .hdt-marquee-item {
+    display: inline-flex;
+    align-items: center;
+    column-gap: var(--space-item, var(--spacing-x));
+}

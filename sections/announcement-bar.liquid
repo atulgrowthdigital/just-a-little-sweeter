@@ -142,28 +142,27 @@ wrapp-close-announce {gap: 5px;cursor: pointer;}
         {% else %}
           <hdt-marquee speed-factor="{{ section.settings.speed }}" direction="{{ section.settings.direction }}" pausable class="hdt-marquee hdt-block hdt-relative hdt-oh hdt-current-scrollbar hdt-s-text" style="--space-item: {{ section.settings.space_item }}px;">
             <div class="hdt-marquee-inner">
-              {%- for block in section.blocks -%}
-                {%- if block.settings.text != blank -%}
-                  {%- capture cap_date -%}
-                    <hdt-countdown config='{"month":"{{ block.settings.countdown | date: '%m' | plus: 0 }}", "date":"{{ block.settings.countdown | date: '%d, %Y %H:%M:%S' }}", "hideTimerOnComplete": true, "hasZero": true }'>
-                      <hdt-countdown-amount data-days>00</hdt-countdown-amount> {{  block.settings.txt_day }} <hdt-countdown-amount data-hours>00</hdt-countdown-amount><span>:</span><hdt-countdown-amount data-minutes>00</hdt-countdown-amount><span>:</span><hdt-countdown-amount data-seconds>00</hdt-countdown-amount>
-                    </hdt-countdown>
-                  {%- endcapture -%}
-                  <div class="hdt-marquee-item 11">
-                    <div class="hdt-announcement-bar__marquee-icon"><span></span></div>
-                    <div class="hdt-marquee__item hdt-inline-block">
-                      {%- if block.settings.link != blank -%}
-                        <a href="{{ block.settings.link }}" class="hdt-absolute hdt-top-0 hdt-right-0 hdt-bottom-0 hdt-left-0 hdt-left-0"></a>
-                      {%- endif -%}
-                      <div class="hdt-announcement-bar__text hdt-inline-block {% if block.settings.adding_border %} hdt-rte {% else %} hdt-tag-list {% endif %}">
-                        {{ block.settings.text | replace: '[countdown]', cap_date | replace: '[icon_arrow]', cap_arrow }}
+                <div class="hdt-marquee-item{% if section.settings.text_uppercase %} hdt-marquee-text-uppercase{% endif %}">
+                  {%- for block in section.blocks -%}
+                    {%- if block.settings.text != blank -%}
+                      {%- capture cap_date -%}
+                        <hdt-countdown config='{"month":"{{ block.settings.countdown | date: '%m' | plus: 0 }}", "date":"{{ block.settings.countdown | date: '%d, %Y %H:%M:%S' }}", "hideTimerOnComplete": true, "hasZero": true }'>
+                          <hdt-countdown-amount data-days>00</hdt-countdown-amount> {{  block.settings.txt_day }} <hdt-countdown-amount data-hours>00</hdt-countdown-amount><span>:</span><hdt-countdown-amount data-minutes>00</hdt-countdown-amount><span>:</span><hdt-countdown-amount data-seconds>00</hdt-countdown-amount>
+                        </hdt-countdown>
+                      {%- endcapture -%}
+                      <div class="hdt-marquee__item hdt-inline-block" style="--space-item: {{ section.settings.space_item }}px;">
+                        <div class="hdt-announcement-bar__marquee-icon"><span></span></div>
+                        {%- if block.settings.link != blank -%}
+                          <a href="{{ block.settings.link }}" class="hdt-absolute hdt-top-0 hdt-right-0 hdt-bottom-0 hdt-left-0 hdt-left-0"></a>
+                        {%- endif -%}
+                        <div class="hdt-announcement-bar__text hdt-inline-block {% if block.settings.adding_border %} hdt-rte {% else %} hdt-tag-list {% endif %}">
+                          {{ block.settings.text | replace: '[countdown]', cap_date | replace: '[icon_arrow]', cap_arrow }}
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                {%- endif -%}
-                {% comment %} {%- assign total_size = total_size | plus: block.settings.text.size -%} {% endcomment %}
-              {%- endfor -%}
-            </div>
+                    {%- endif -%}
+                  {%- endfor -%}
+                </div>
+              </div>
           </hdt-marquee>
         {% endif %}
       {{- cap_btn | remove: ' hdt-op-0 hdt-hidden md:hdt-block' -}}
