@@ -161,7 +161,7 @@ wrapp-close-announce {gap: 5px;cursor: pointer;}
                     </div>
                   </div>
                 {%- endif -%}
-                {%- assign total_size = total_size | plus: block.settings.text.size -%}
+                {% comment %} {%- assign total_size = total_size | plus: block.settings.text.size -%} {% endcomment %}
               {%- endfor -%}
             </div>
           </hdt-marquee>
