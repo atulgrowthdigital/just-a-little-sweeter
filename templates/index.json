@@ -928,6 +928,7 @@
             },
             "text_99Q3WR": {
               "type": "text",
+              "disabled": true,
               "settings": {
                 "text": "<p>You can still indulge. A keto diet is a delicious diet that fuels your body and mind.</p>",
                 "hidden_br_mobile": false,
