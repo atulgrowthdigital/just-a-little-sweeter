@@ -41,6 +41,7 @@
 .hdt-product-form__top-buttons.hdt-flex {
     align-items: center;
 }
+.hdt-quantity-wrapp wrapp-remove-item-oncart,
 .is--minus.disabled,
 .is--minus.disabled wrapp-remove-item-oncart {
     opacity:0;
