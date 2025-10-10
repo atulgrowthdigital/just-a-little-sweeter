@@ -233,14 +233,13 @@
           "type": "_shipping",
           "settings": {
             "icon_themes": "door-lock",
-            "image_icon": "shopify://shop_images/gift_6613643.svg",
             "icon": ""
           },
           "blocks": {
             "heading_FkL9Ep": {
               "type": "heading",
               "settings": {
-                "heading": "<p>CREATE YOUR OWN HAMPER</p>",
+                "heading": "<p>100% PAYMENT SECURE</p>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",
