@@ -62,7 +62,7 @@
     "badge_shape": "circle",
     "label_onsale_style": "percentage",
     "wis_atc_added": "2",
-    "use_url_collection_vendor": true,
+    "use_url_collection_vendor": false,
     "use_url_collection_type": true,
     "show_secondary_image": false,
     "effect_secondary_image": "none",
