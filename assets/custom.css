@@ -29,7 +29,7 @@
 }
 
 
-.hdt-marquee-inner .hdt-marquee-item {
+.hdt-marquee-inner .hdt-marquee__item {
     display: inline-flex;
     align-items: center;
     column-gap: var(--space-item, var(--spacing-x));
