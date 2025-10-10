@@ -5952,4 +5952,12 @@ button.hdt-btn-link:not(.hdt-btn) {
   padding-bottom: 20px;
 }
 
+
+@media (max-width:1149px) {
+  .main__banner_row {
+    display: flex;
+    flex-direction: column;
+}
+}
 /*  */
+
