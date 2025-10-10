@@ -2202,7 +2202,7 @@
             "heading_d6GcBB": {
               "type": "heading",
               "settings": {
-                "heading": "<p>Sign up to our newsletter & be rewarded with 10% off your first order</p>",
+                "heading": "<h2>Sign up to our newsletter & be rewarded with 10% off your first order</h2>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",
