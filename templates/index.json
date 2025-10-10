@@ -1226,7 +1226,7 @@
         "pag_space": 10,
         "pag_mgt": 10,
         "pag_hide_mobile": false,
-        "colors_by_section": false,
+        "colors_by_section": true,
         "color_scheme": "",
         "background_opacity": 0,
         "section_layout": "container",
