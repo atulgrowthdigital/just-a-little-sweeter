@@ -2007,6 +2007,30 @@
     "image_text_H3jX74": {
       "type": "image_text",
       "blocks": {
+        "image_text_column_HBfedV": {
+          "type": "_image-text-column",
+          "settings": {
+            "image_position": ""
+          },
+          "blocks": {
+            "image_4MKJ9C": {
+              "type": "image",
+              "settings": {
+                "img": "shopify://shop_images/our_story_lisa.webp",
+                "image_ratio": "square",
+                "img_effect": "none",
+                "b_effect": "none",
+                "custom_width": "full",
+                "image_w": 100,
+                "image_w_mb": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_4MKJ9C"
+          ]
+        },
         "image_text_col_tGe9dt": {
           "type": "_image-text-col",
           "settings": {
@@ -2110,30 +2134,6 @@
             "button_GBz4by"
           ]
         },
-        "image_text_column_HBfedV": {
-          "type": "_image-text-column",
-          "settings": {
-            "image_position": ""
-          },
-          "blocks": {
-            "image_4MKJ9C": {
-              "type": "image",
-              "settings": {
-                "img": "shopify://shop_images/our_story_lisa.webp",
-                "image_ratio": "square",
-                "img_effect": "none",
-                "b_effect": "none",
-                "custom_width": "full",
-                "image_w": 100,
-                "image_w_mb": 100
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "image_4MKJ9C"
-          ]
-        },
         "image-text-heading": {
           "type": "section-heading",
           "disabled": true,
@@ -2149,8 +2149,8 @@
         }
       },
       "block_order": [
-        "image_text_col_tGe9dt",
-        "image_text_column_HBfedV"
+        "image_text_column_HBfedV",
+        "image_text_col_tGe9dt"
       ],
       "name": "Image with text",
       "settings": {
