@@ -324,9 +324,8 @@
             },
             "text_Fj9iTV": {
               "type": "text",
-              "disabled": true,
               "settings": {
-                "text": "<p>We ensure secure payment with PEV</p>",
+                "text": "<p>Lorem Ipsum is simply dummy text of the printing</p>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "ffamily": "",
