@@ -33,3 +33,7 @@
     align-items: center;
     column-gap: var(--space-item, var(--spacing-x));
 }
+
+.mw-apo-price-custom {
+    margin-top:0px;
+}
