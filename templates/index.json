@@ -1906,7 +1906,7 @@
               "name": "t:blocks.button.name",
               "settings": {
                 "label": "ABOUT US",
-                "link": "shopify://pages/about-us",
+                "link": "shopify://pages/our-story",
                 "open_in_new_tab": false,
                 "full_width": false,
                 "btn_style": "hdt-btn-outline",
