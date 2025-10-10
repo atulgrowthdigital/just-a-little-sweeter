@@ -5962,7 +5962,12 @@ button.hdt-btn-link:not(.hdt-btn) {
 .banner_img {
     width: 100%;
 }
+}
 
+@media (max-width:749px) {
+  .Banner__content__section {
+    padding:2rem 1.5rem;
+  }
 }
 /*  */
 
