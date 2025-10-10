@@ -379,6 +379,172 @@
         "padding_rate": 90
       }
     },
+    "image_text_QJc9Mp": {
+      "type": "image_text",
+      "blocks": {
+        "image_text_column_cRqM7J": {
+          "type": "_image-text-column",
+          "settings": {
+            "image_position": ""
+          },
+          "blocks": {
+            "image_DCMPTa": {
+              "type": "image",
+              "settings": {
+                "img": "shopify://shop_images/Prd7.png",
+                "image_ratio": "landscape",
+                "img_effect": "none",
+                "b_effect": "none",
+                "custom_width": "full",
+                "image_w": 50,
+                "image_w_mb": 50
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_DCMPTa"
+          ]
+        },
+        "image_text_col_hmC3T6": {
+          "type": "_image-text-col",
+          "settings": {
+            "alignment": "left",
+            "alignment_mb": "center",
+            "colors_by_block": false,
+            "color_scheme": "",
+            "align_center": true,
+            "padding_h": 0,
+            "padding_v": 0,
+            "padding_h_mb": 15,
+            "padding_v_mb": 15
+          },
+          "blocks": {
+            "heading_cKLU4h": {
+              "type": "heading",
+              "settings": {
+                "heading": "<p><strong>ABOUT JUST A LITTLE SWEETER</strong></p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "line_height": "",
+                "font_weight": "normal",
+                "heading_size": "h2",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 50,
+                "font_size_heading": 24,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            },
+            "spacer_3zDbAX": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 10,
+                "space_md": 10,
+                "space": 10
+              },
+              "blocks": {}
+            },
+            "text_DgC3Nm": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Welcome to Just a Little Sweeter-where every gift is made to brighten someone's day. </p><p>From our signature lolly hampers and jars to lolly snack boxes and pouches, each one is filled with care and joy. Whether it's celebrating life's big milestones or the everyday moments, our gifts bring people closer together. Because life's moments always taste better....just a little sweeter.</p>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "ffamily": "",
+                "text_size": "base",
+                "line_height": "",
+                "font_weight": "normal",
+                "text_color": "hdt-s-text",
+                "countdown": "2025-12-30 15:00:00",
+                "txt_day": "days",
+                "font_size_text_lg": 16,
+                "font_size_text": 14,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            },
+            "spacer_zC7AkA": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 10,
+                "space_md": 10,
+                "space": 10
+              },
+              "blocks": {}
+            },
+            "spacer_rQAhM3": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 10,
+                "space_md": 10,
+                "space": 10
+              },
+              "blocks": {}
+            },
+            "button_xaKdMg": {
+              "type": "button",
+              "settings": {
+                "label": "Shop Now",
+                "link": "#",
+                "open_in_new_tab": true,
+                "full_width": false,
+                "btn_style": "",
+                "size": "m",
+                "font_weight": "normal",
+                "font_size_btn": 14,
+                "padding_btn": 30,
+                "min_width_btn": 100,
+                "min_width_dt_btn": 100,
+                "min_height_btn": 40,
+                "icon": "none",
+                "icon_position": "after",
+                "icon_height": 10,
+                "icon_spacing": 5
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_cKLU4h",
+            "spacer_3zDbAX",
+            "text_DgC3Nm",
+            "spacer_zC7AkA",
+            "spacer_rQAhM3",
+            "button_xaKdMg"
+          ]
+        },
+        "image-text-heading": {
+          "type": "section-heading",
+          "static": true,
+          "settings": {
+            "design_heading": "1",
+            "horizontal": false,
+            "alignment": "left",
+            "heading_gap": 15,
+            "margin_bottom": 30
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "image_text_column_cRqM7J",
+        "image_text_col_hmC3T6"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "colors_by_section": false,
+        "color_scheme": "",
+        "background_opacity": 0,
+        "section_layout": "container",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "padding_rate": 50
+      }
+    },
     "tabs_collection_L3nLmb": {
       "type": "tabs-collection",
       "blocks": {
@@ -981,172 +1147,6 @@
         "section_layout": "full_width",
         "padding_top": 40,
         "padding_bottom": 40,
-        "padding_rate": 50
-      }
-    },
-    "image_text_QJc9Mp": {
-      "type": "image_text",
-      "blocks": {
-        "image_text_column_cRqM7J": {
-          "type": "_image-text-column",
-          "settings": {
-            "image_position": ""
-          },
-          "blocks": {
-            "image_DCMPTa": {
-              "type": "image",
-              "settings": {
-                "img": "shopify://shop_images/Prd7.png",
-                "image_ratio": "landscape",
-                "img_effect": "none",
-                "b_effect": "none",
-                "custom_width": "full",
-                "image_w": 50,
-                "image_w_mb": 50
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "image_DCMPTa"
-          ]
-        },
-        "image_text_col_hmC3T6": {
-          "type": "_image-text-col",
-          "settings": {
-            "alignment": "left",
-            "alignment_mb": "center",
-            "colors_by_block": false,
-            "color_scheme": "",
-            "align_center": true,
-            "padding_h": 0,
-            "padding_v": 0,
-            "padding_h_mb": 15,
-            "padding_v_mb": 15
-          },
-          "blocks": {
-            "heading_cKLU4h": {
-              "type": "heading",
-              "settings": {
-                "heading": "<p><strong>ABOUT JUST A LITTLE SWEETER</strong></p>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "line_height": "",
-                "font_weight": "normal",
-                "heading_size": "h2",
-                "text_color": "hdt-s-text",
-                "font_size_heading_lg": 50,
-                "font_size_heading": 24,
-                "letter_spacing_heading": 0
-              },
-              "blocks": {}
-            },
-            "spacer_3zDbAX": {
-              "type": "spacer",
-              "settings": {
-                "direction": false,
-                "space_lg": 10,
-                "space_md": 10,
-                "space": 10
-              },
-              "blocks": {}
-            },
-            "text_DgC3Nm": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Welcome to Just a Little Sweeter-where every gift is made to brighten someone's day. </p><p>From our signature lolly hampers and jars to lolly snack boxes and pouches, each one is filled with care and joy. Whether it's celebrating life's big milestones or the everyday moments, our gifts bring people closer together. Because life's moments always taste better....just a little sweeter.</p>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "ffamily": "",
-                "text_size": "base",
-                "line_height": "",
-                "font_weight": "normal",
-                "text_color": "hdt-s-text",
-                "countdown": "2025-12-30 15:00:00",
-                "txt_day": "days",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
-            },
-            "spacer_zC7AkA": {
-              "type": "spacer",
-              "settings": {
-                "direction": false,
-                "space_lg": 10,
-                "space_md": 10,
-                "space": 10
-              },
-              "blocks": {}
-            },
-            "spacer_rQAhM3": {
-              "type": "spacer",
-              "settings": {
-                "direction": false,
-                "space_lg": 10,
-                "space_md": 10,
-                "space": 10
-              },
-              "blocks": {}
-            },
-            "button_xaKdMg": {
-              "type": "button",
-              "settings": {
-                "label": "Shop Now",
-                "link": "#",
-                "open_in_new_tab": true,
-                "full_width": false,
-                "btn_style": "",
-                "size": "m",
-                "font_weight": "normal",
-                "font_size_btn": 14,
-                "padding_btn": 30,
-                "min_width_btn": 100,
-                "min_width_dt_btn": 100,
-                "min_height_btn": 40,
-                "icon": "none",
-                "icon_position": "after",
-                "icon_height": 10,
-                "icon_spacing": 5
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "heading_cKLU4h",
-            "spacer_3zDbAX",
-            "text_DgC3Nm",
-            "spacer_zC7AkA",
-            "spacer_rQAhM3",
-            "button_xaKdMg"
-          ]
-        },
-        "image-text-heading": {
-          "type": "section-heading",
-          "static": true,
-          "settings": {
-            "design_heading": "1",
-            "horizontal": false,
-            "alignment": "left",
-            "heading_gap": 15,
-            "margin_bottom": 30
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "image_text_column_cRqM7J",
-        "image_text_col_hmC3T6"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "colors_by_section": false,
-        "color_scheme": "",
-        "background_opacity": 0,
-        "section_layout": "container",
-        "padding_top": 50,
-        "padding_bottom": 0,
         "padding_rate": 50
       }
     },
@@ -3127,9 +3127,9 @@
   "order": [
     "new_hero_banner_W8ynUw",
     "shipping_9pXycT",
+    "image_text_QJc9Mp",
     "tabs_collection_L3nLmb",
     "shipping_dNGrLB",
-    "image_text_QJc9Mp",
     "collections_list_QMYDRT",
     "custom_section_knxa6G",
     "marquee_dEjm8n",
