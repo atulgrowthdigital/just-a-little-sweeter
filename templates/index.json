@@ -808,6 +808,7 @@
             },
             "text_4Qjzid": {
               "type": "text",
+              "disabled": true,
               "settings": {
                 "text": "<p>Contact us 24 hours a day, 7 days a week</p>",
                 "hidden_br_mobile": false,
