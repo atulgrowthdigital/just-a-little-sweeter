@@ -1304,7 +1304,7 @@
         "background_opacity": 0,
         "section_layout": "container",
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 50,
         "padding_rate": 50
       }
     },
