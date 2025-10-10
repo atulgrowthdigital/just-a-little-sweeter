@@ -37,3 +37,7 @@
 .mw-apo-price-custom {
     margin-top:0px !important;
 }
+
+.hdt-product-form__top-buttons.hdt-flex {
+    align-items: center;
+}
