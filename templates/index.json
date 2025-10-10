@@ -1265,8 +1265,8 @@
             "button_7D7XPd": {
               "type": "button",
               "settings": {
-                "label": "Button label",
-                "link": "",
+                "label": "VIEW MORE",
+                "link": "shopify://collections",
                 "open_in_new_tab": false,
                 "full_width": false,
                 "btn_style": "",
