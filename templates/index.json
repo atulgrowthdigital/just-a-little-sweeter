@@ -233,6 +233,7 @@
           "type": "_shipping",
           "settings": {
             "icon_themes": "door-lock",
+            "image_icon": "shopify://shop_images/gift_6613643.svg",
             "icon": ""
           },
           "blocks": {
