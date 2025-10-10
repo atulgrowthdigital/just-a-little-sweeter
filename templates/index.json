@@ -867,6 +867,7 @@
             },
             "text_686fMQ": {
               "type": "text",
+              "disabled": true,
               "settings": {
                 "text": "<p>Proudly Australian-owned, supporting local jobs and communities nationwide.</p>",
                 "hidden_br_mobile": false,
