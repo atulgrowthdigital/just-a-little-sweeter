@@ -489,7 +489,7 @@
               "type": "button",
               "settings": {
                 "label": "Shop Now",
-                "link": "#",
+                "link": "shopify://collections/all",
                 "open_in_new_tab": true,
                 "full_width": false,
                 "btn_style": "",
