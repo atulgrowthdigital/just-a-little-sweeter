@@ -152,8 +152,12 @@ wrapp-close-announce {gap: 5px;cursor: pointer;}
                   <div class="hdt-marquee-item">
                     <div class="hdt-announcement-bar__marquee-icon"><span></span></div>
                     <div class="hdt-marquee__item hdt-inline-block">
-                      {%- if block.settings.link != blank -%}<a href="{{ block.settings.link }}" class="hdt-absolute hdt-top-0 hdt-right-0 hdt-bottom-0 hdt-left-0 hdt-left-0"></a>{%- endif -%}
-                      <div class="hdt-announcement-bar__text hdt-inline-block{% if block.settings.adding_border %} hdt-rte{% else %} hdt-tag-list{% endif %}">{{ block.settings.text | replace: '[countdown]', cap_date | replace: '[icon_arrow]', cap_arrow }}</div>
+                      {%- if block.settings.link != blank -%}
+                        <a href="{{ block.settings.link }}" class="hdt-absolute hdt-top-0 hdt-right-0 hdt-bottom-0 hdt-left-0 hdt-left-0"></a>
+                      {%- endif -%}
+                      <div class="hdt-announcement-bar__text hdt-inline-block {% if block.settings.adding_border %} hdt-rte {% else %} hdt-tag-list {% endif %}">
+                        {{ block.settings.text | replace: '[countdown]', cap_date | replace: '[icon_arrow]', cap_arrow }}
+                      </div>
                     </div>
                   </div>
                 {%- endif -%}
