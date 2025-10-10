@@ -5958,6 +5958,11 @@ button.hdt-btn-link:not(.hdt-btn) {
     display: flex;
     flex-direction: column;
 }
+.Banner__content__section,
+.banner_img {
+    width: 100%;
+}
+
 }
 /*  */
 
