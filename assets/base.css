@@ -5923,6 +5923,8 @@ button.hdt-btn-link:not(.hdt-btn) {
   width: 100%;
   max-width: 100%;
   display: block;
+  height:100%;
+  object-fit:cover;
 }
 
 .Banner__content__section {
