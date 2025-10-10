@@ -1,5 +1,6 @@
 .hdt-main-header .hdt-nav__ul .hdt-line-clamp {
     font-weight:bold;
+    text-transform:uppercase;
 }
 
 .jdgm-review-widget .jdgm-rev-widg__header .jdgm-rev-widg__title {
