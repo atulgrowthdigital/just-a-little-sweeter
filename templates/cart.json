@@ -34,8 +34,7 @@
       ],
       "settings": {
         "use_dynamic_source": false,
-        "image": "shopify://shop_images/shopping-cart-head.jpg",
-        "color_scheme": "scheme-77e4ef58-56a9-4631-876a-12098ba7d57d",
+        "color_scheme": "scheme-fe88a2ec-47a1-478d-8953-54da0178e18c",
         "bg_overlay": 54,
         "space_item": 0,
         "padding_top": 50,
@@ -64,6 +63,7 @@
           "type": "btn_checkout",
           "settings": {
             "btn_style": "hdt-btn-accent",
+            "size": "m",
             "icon": "none",
             "icon_position": "before",
             "icon_height": 16,
@@ -103,6 +103,7 @@
         "show_gift": true,
         "show_estimate": true,
         "show_cart_discount": true,
+        "discount_error_message": "Enter a valid discount code",
         "padding_top": 70,
         "padding_bottom": 50,
         "padding_rate": 100

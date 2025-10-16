@@ -375,7 +375,7 @@
           "text": "#ffffff",
           "text2": "#878787",
           "background": "#383838",
-          "background_gradient": "",
+          "background_gradient": "linear-gradient(90deg,rgba(81, 201, 245, 1) 0%, rgba(176, 70, 198, 0.75) 30%, rgba(143, 43, 143, 0.77) 58%, rgba(214, 131, 99, 0.9) 92%)",
           "background2": "#f2f2f2",
           "button": "#ffffff",
           "button_label": "#222222",

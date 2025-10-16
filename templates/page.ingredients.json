@@ -32,10 +32,9 @@
       "block_order": [
         "heading_liquid_hGxrbr"
       ],
-      "disabled": true,
       "settings": {
         "use_dynamic_source": false,
-        "color_scheme": "scheme-77e4ef58-56a9-4631-876a-12098ba7d57d",
+        "color_scheme": "scheme-fe88a2ec-47a1-478d-8953-54da0178e18c",
         "bg_overlay": 57,
         "space_item": 0,
         "padding_top": 50,
@@ -56,6 +55,7 @@
     },
     "ingredients_qY6DUK": {
       "type": "ingredients",
+      "disabled": true,
       "name": "Ingredients",
       "settings": {}
     },
@@ -83,14 +83,14 @@
             "content_position_mb": "center",
             "alignment": "center",
             "alignment_mb": "center",
-            "background_color": "#000000",
+            "background_color": "rgba(0,0,0,0)",
             "rounded": "none"
           },
           "blocks": {
             "heading_9zqmnW": {
               "type": "heading",
               "settings": {
-                "heading": "<p><strong>Ingredients and Contents</strong></p>",
+                "heading": "<p>Ingredients and Contents</p>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",
@@ -112,6 +112,7 @@
       "block_order": [
         "multi_column_96wgTi"
       ],
+      "disabled": true,
       "name": "t:sections.custom_section.name",
       "settings": {
         "layout": "12",
@@ -119,9 +120,9 @@
         "item_spacing_tb": 15,
         "item_spacing_mb": 15,
         "colors_by_section": true,
-        "color_scheme": "scheme-6707cc8e-6558-49d9-8759-f7d934d9fe4f",
+        "color_scheme": "scheme-fe88a2ec-47a1-478d-8953-54da0178e18c",
         "background_opacity": 0,
-        "section_layout": "full_width",
+        "section_layout": "wrapper_container",
         "padding_top": 0,
         "padding_bottom": 0,
         "padding_rate": 50

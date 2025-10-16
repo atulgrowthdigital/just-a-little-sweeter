@@ -34,8 +34,7 @@
       ],
       "settings": {
         "use_dynamic_source": false,
-        "image": "shopify://shop_images/shopping-cart-head.jpg",
-        "color_scheme": "scheme-77e4ef58-56a9-4631-876a-12098ba7d57d",
+        "color_scheme": "scheme-fe88a2ec-47a1-478d-8953-54da0178e18c",
         "bg_overlay": 57,
         "space_item": 0,
         "padding_top": 70,
@@ -60,7 +59,6 @@
         "timeline_RdpDtc": {
           "type": "timeline",
           "settings": {
-            "image": "shopify://shop_images/timeline1.jpg",
             "img_pos": "left",
             "image_ratio": "adapt_image",
             "image_size": true,
@@ -72,6 +70,7 @@
             "link": "",
             "open_in_new_tab": false,
             "btn_style": "",
+            "size": "m",
             "icon": "truck",
             "icon_position": "before",
             "icon_height": 16,
@@ -81,7 +80,6 @@
         "timeline_efi3Dx": {
           "type": "timeline",
           "settings": {
-            "image": "shopify://shop_images/timeline2.jpg",
             "img_pos": "right",
             "image_ratio": "adapt_image",
             "image_size": true,
@@ -93,6 +91,7 @@
             "link": "",
             "open_in_new_tab": false,
             "btn_style": "",
+            "size": "m",
             "icon": "truck",
             "icon_position": "before",
             "icon_height": 16,
@@ -102,7 +101,6 @@
         "timeline_qVi3rz": {
           "type": "timeline",
           "settings": {
-            "image": "shopify://shop_images/timeline3.jpg",
             "img_pos": "left",
             "image_ratio": "adapt_image",
             "image_size": true,
@@ -114,6 +112,7 @@
             "link": "",
             "open_in_new_tab": false,
             "btn_style": "",
+            "size": "m",
             "icon": "truck",
             "icon_position": "before",
             "icon_height": 16,
@@ -123,7 +122,6 @@
         "timeline_pWwbWQ": {
           "type": "timeline",
           "settings": {
-            "image": "shopify://shop_images/timeline4.jpg",
             "img_pos": "right",
             "image_ratio": "adapt_image",
             "image_size": true,
@@ -135,6 +133,7 @@
             "link": "",
             "open_in_new_tab": false,
             "btn_style": "",
+            "size": "m",
             "icon": "truck",
             "icon_position": "before",
             "icon_height": 16,

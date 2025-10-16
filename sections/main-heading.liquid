@@ -38,7 +38,8 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgb(var(--color-overlay));
+    /* background: rgb(var(--color-overlay)); */
+    background: var(--gradient-background, rgb(var(--color-background, var(--color-base-background)) / var(--background-opacity, 100)));
     opacity: var(--bg-overlay);
   }
   #shopify-section-{{ section.id }} .hdt-row-grid{
@@ -50,7 +51,7 @@
     }
   }
 {% endstyle %}
-<div class="hdt-section-spacing hdt-relative hdt-oh" color-scheme="{{ section.settings.color_scheme }}">
+<div class="hdt-section-spacing hdt-relative hdt-oh hdt-s-gradient" color-scheme="{{ section.settings.color_scheme }}">
   {% comment %} <h1 class="sr-only hdt-pe-none">{{ page_title }}</h1> {% endcomment %}
   <div class="hdt-heading-image hdt-h-overlay hdt-pe-none" style="--bg-overlay:{{ section.settings.bg_overlay | divided_by: 100.00 }};">
     {%- if image != blank -%}
