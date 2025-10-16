@@ -65,16 +65,17 @@
                 "hidden_on_mobile": false,
                 "line_height": "",
                 "font_weight": "medium",
-                "heading_size": "h6",
+                "heading_size": "h_custom",
                 "text_color": "hdt-s-text",
-                "font_size_heading_lg": 16,
-                "font_size_heading": 24,
+                "font_size_heading_lg": 12,
+                "font_size_heading": 12,
                 "letter_spacing_heading": 0
               },
               "blocks": {}
             },
             "spacer_NEFf8W": {
               "type": "spacer",
+              "disabled": true,
               "settings": {
                 "direction": false,
                 "space_lg": 4,
@@ -85,6 +86,7 @@
             },
             "text_dMrMq7": {
               "type": "text",
+              "disabled": true,
               "settings": {
                 "text": "<p>Order now for fast, reliable next day delivery service.</p>",
                 "hidden_br_mobile": false,
@@ -113,7 +115,7 @@
           "type": "_shipping",
           "settings": {
             "icon_themes": "help",
-            "image_icon": "shopify://shop_images/Afterpay_logo.webp",
+            "image_icon": "shopify://shop_images/AP_logo_lockup_6328x2204_blackclear_png-6328x2204-4ffc2bc_1_png.png",
             "icon": ""
           },
           "blocks": {
@@ -125,16 +127,17 @@
                 "hidden_on_mobile": false,
                 "line_height": "",
                 "font_weight": "medium",
-                "heading_size": "h6",
+                "heading_size": "h_custom",
                 "text_color": "hdt-s-text",
-                "font_size_heading_lg": 16,
-                "font_size_heading": 24,
+                "font_size_heading_lg": 12,
+                "font_size_heading": 12,
                 "letter_spacing_heading": 0
               },
               "blocks": {}
             },
             "spacer_pqetkW": {
               "type": "spacer",
+              "disabled": true,
               "settings": {
                 "direction": false,
                 "space_lg": 4,
@@ -145,6 +148,7 @@
             },
             "text_CUr68b": {
               "type": "text",
+              "disabled": true,
               "settings": {
                 "text": "<p>With Afterpay</p>",
                 "hidden_br_mobile": false,
@@ -185,10 +189,10 @@
                 "hidden_on_mobile": false,
                 "line_height": "",
                 "font_weight": "medium",
-                "heading_size": "h6",
+                "heading_size": "h_custom",
                 "text_color": "hdt-s-text",
-                "font_size_heading_lg": 16,
-                "font_size_heading": 24,
+                "font_size_heading_lg": 12,
+                "font_size_heading": 12,
                 "letter_spacing_heading": 0
               },
               "blocks": {}
@@ -205,6 +209,7 @@
             },
             "text_XtgbKd": {
               "type": "text",
+              "disabled": true,
               "settings": {
                 "text": "<p>Proudly Australian-owned, supporting local jobs and communities nationwide.</p>",
                 "hidden_br_mobile": false,
@@ -244,10 +249,10 @@
                 "hidden_on_mobile": false,
                 "line_height": "",
                 "font_weight": "medium",
-                "heading_size": "h6",
+                "heading_size": "h_custom",
                 "text_color": "hdt-s-text",
-                "font_size_heading_lg": 16,
-                "font_size_heading": 24,
+                "font_size_heading_lg": 12,
+                "font_size_heading": 12,
                 "letter_spacing_heading": 0
               },
               "blocks": {}
@@ -264,6 +269,7 @@
             },
             "text_YHBMin": {
               "type": "text",
+              "disabled": true,
               "settings": {
                 "text": "<p>We ensure secure payment</p>",
                 "hidden_br_mobile": false,
@@ -304,10 +310,10 @@
                 "hidden_on_mobile": false,
                 "line_height": "",
                 "font_weight": "medium",
-                "heading_size": "h6",
+                "heading_size": "h_custom",
                 "text_color": "hdt-s-text",
-                "font_size_heading_lg": 16,
-                "font_size_heading": 24,
+                "font_size_heading_lg": 12,
+                "font_size_heading": 12,
                 "letter_spacing_heading": 0
               },
               "blocks": {}
@@ -324,6 +330,7 @@
             },
             "text_Fj9iTV": {
               "type": "text",
+              "disabled": true,
               "settings": {
                 "text": "<p>Lorem Ipsum is simply dummy text of the printing</p>",
                 "hidden_br_mobile": false,
@@ -374,8 +381,8 @@
         "color_scheme": "scheme-e41c9842-677c-43a7-ada0-3c5abf205f8e",
         "background_opacity": 1,
         "section_layout": "wrapper_container",
-        "padding_top": 15,
-        "padding_bottom": 10,
+        "padding_top": 10,
+        "padding_bottom": 5,
         "padding_rate": 90
       }
     },
@@ -412,6 +419,8 @@
       },
       "name": "t:sections.collections-list.name",
       "settings": {
+        "view_all_text": "VIEW ALL",
+        "view_all_link": "shopify://collections",
         "collection_list": [
           "signature-gift-jars",
           "signature-gift-boxes",
@@ -582,7 +591,7 @@
             "heading_cKLU4h": {
               "type": "heading",
               "settings": {
-                "heading": "<h2><strong>ABOUT JUST A LITTLE SWEETER</strong></h2>",
+                "heading": "<h2>ABOUT JUST A LITTLE SWEETER</h2>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",
@@ -1113,16 +1122,17 @@
                 "hidden_on_mobile": false,
                 "line_height": "",
                 "font_weight": "normal",
-                "heading_size": "h6",
+                "heading_size": "h_custom",
                 "text_color": "hdt-s-text",
-                "font_size_heading_lg": 16,
-                "font_size_heading": 24,
+                "font_size_heading_lg": 12,
+                "font_size_heading": 12,
                 "letter_spacing_heading": 0
               },
               "blocks": {}
             },
             "spacer_qgm8wn": {
               "type": "spacer",
+              "disabled": true,
               "settings": {
                 "direction": false,
                 "space_lg": 4,
@@ -1173,10 +1183,10 @@
                 "hidden_on_mobile": false,
                 "line_height": "",
                 "font_weight": "normal",
-                "heading_size": "h6",
+                "heading_size": "h_custom",
                 "text_color": "hdt-s-text",
-                "font_size_heading_lg": 16,
-                "font_size_heading": 24,
+                "font_size_heading_lg": 12,
+                "font_size_heading": 12,
                 "letter_spacing_heading": 0
               },
               "blocks": {}
@@ -1234,10 +1244,10 @@
                 "hidden_on_mobile": false,
                 "line_height": "",
                 "font_weight": "normal",
-                "heading_size": "h6",
+                "heading_size": "h_custom",
                 "text_color": "hdt-s-text",
-                "font_size_heading_lg": 16,
-                "font_size_heading": 24,
+                "font_size_heading_lg": 12,
+                "font_size_heading": 12,
                 "letter_spacing_heading": 0
               },
               "blocks": {}
@@ -1292,7 +1302,7 @@
         "icon_design": "default",
         "use_border": false,
         "space_padding": false,
-        "icon_size": "medium",
+        "icon_size": "small",
         "icon_color": "hdt-icon-secondary",
         "col_dk": "3",
         "col_tb": "2",
@@ -1304,8 +1314,8 @@
         "color_scheme": "scheme-e41c9842-677c-43a7-ada0-3c5abf205f8e",
         "background_opacity": 1,
         "section_layout": "full_width",
-        "padding_top": 15,
-        "padding_bottom": 10,
+        "padding_top": 10,
+        "padding_bottom": 5,
         "padding_rate": 50
       }
     },
@@ -1954,7 +1964,7 @@
               "type": "_heading_section",
               "name": "t:blocks.section_heading.name",
               "settings": {
-                "heading": "Reviews From Our Customers",
+                "heading": "REVIEWS FROM OUR CUSTOMERS",
                 "line_height": "",
                 "heading_size": "h2",
                 "text_color": "hdt-s-text"
@@ -2049,12 +2059,12 @@
             "heading_GgehLr": {
               "type": "heading",
               "settings": {
-                "heading": "<h2><strong>HEY, I'M MARIA FLOURIS</strong></h2>",
+                "heading": "<h2>HEY, I'M MARIA FLOURIS</h2>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",
                 "font_weight": "normal",
-                "heading_size": "h4",
+                "heading_size": "h2",
                 "text_color": "hdt-s-text",
                 "font_size_heading_lg": 50,
                 "font_size_heading": 24,
@@ -2111,7 +2121,7 @@
                 "link": "shopify://pages/our-story",
                 "open_in_new_tab": false,
                 "full_width": false,
-                "btn_style": "hdt-btn-outline",
+                "btn_style": "",
                 "size": "m",
                 "font_weight": "normal",
                 "font_size_btn": 14,
@@ -2196,19 +2206,19 @@
             "content_position_mb": "center",
             "alignment": "center",
             "alignment_mb": "center",
-            "background_color": "#f6f6f8",
+            "background_color": "#ffffff",
             "rounded": "none"
           },
           "blocks": {
             "heading_d6GcBB": {
               "type": "heading",
               "settings": {
-                "heading": "<h2>Sign up to our newsletter & be rewarded with 10% off your first order</h2>",
+                "heading": "<p>SIGN UP TO OUR NEWSLETTER & BE REWARDED WITH 10% OFF YOUR FIRST ORDER</p>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",
                 "font_weight": "normal",
-                "heading_size": "h4",
+                "heading_size": "h5",
                 "text_color": "hdt-s-text",
                 "font_size_heading_lg": 50,
                 "font_size_heading": 24,
@@ -2251,7 +2261,7 @@
                 "submit_button_text": "YES, I WANT MY 10% CODE",
                 "form_width": 600,
                 "form_padding": 0,
-                "border_radius": 8,
+                "border_radius": 0,
                 "text_alignment": "left",
                 "spacing_between_elements": 24,
                 "field_spacing": 16,
@@ -2268,7 +2278,7 @@
                 "label_size": 14,
                 "input_padding": 12,
                 "input_border_width": 1,
-                "input_border_radius": 4,
+                "input_border_radius": 0,
                 "input_text_size": 14,
                 "input_background_color": "#ffffff",
                 "input_text_color": "#222222",
@@ -2277,7 +2287,7 @@
                 "placeholder_color": "#999999",
                 "button_padding": 16,
                 "button_border_width": 0,
-                "button_border_radius": 8,
+                "button_border_radius": 0,
                 "button_text_size": 16,
                 "button_background_color": "#222222",
                 "button_text_color": "#ffffff",
@@ -2305,8 +2315,8 @@
         "item_spacing": 0,
         "item_spacing_tb": 0,
         "item_spacing_mb": 0,
-        "colors_by_section": false,
-        "color_scheme": "",
+        "colors_by_section": true,
+        "color_scheme": "scheme-cdfc79ce-2e31-4318-8615-71a5d3be24f9",
         "background_opacity": 0,
         "section_layout": "full_width",
         "padding_top": 0,

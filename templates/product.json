@@ -29,7 +29,7 @@
           "type": "_group-product",
           "settings": {
             "colors_by_block": true,
-            "color_scheme": "scheme-ccabb22c-659b-4b6e-8692-5683b2607d13"
+            "color_scheme": "scheme-1"
           },
           "blocks": {
             "product_title_ehRqkq": {
@@ -379,7 +379,7 @@
             "heading_section_nLFWkr": {
               "type": "_heading_section",
               "settings": {
-                "heading": "You may also like",
+                "heading": "YOU MAY ALSO LIKE",
                 "line_height": "",
                 "heading_size": "h4",
                 "text_color": "hdt-s-text"
@@ -446,7 +446,7 @@
             "heading_section_JdADpx": {
               "type": "_heading_section",
               "settings": {
-                "heading": "Recently viewed products",
+                "heading": "RECENTLY VIEWED PRODUCTS",
                 "line_height": "",
                 "heading_size": "h4",
                 "text_color": "hdt-s-text"

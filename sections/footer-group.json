@@ -113,7 +113,7 @@
         "footer_column_C3zLBR": {
           "type": "_footer-column",
           "settings": {
-            "col_heading": "Information",
+            "col_heading": "INFORMATION",
             "hide_on_mobile": false,
             "only_mobile": false,
             "sec_heading_size": "lg",
@@ -151,7 +151,7 @@
         "footer_column_3Dap6p": {
           "type": "_footer-column",
           "settings": {
-            "col_heading": "Useful Links",
+            "col_heading": "USEFUL LINKS",
             "hide_on_mobile": false,
             "only_mobile": false,
             "sec_heading_size": "lg",
@@ -189,7 +189,7 @@
         "footer_column_U4EkTn": {
           "type": "_footer-column",
           "settings": {
-            "col_heading": "Secure Payments",
+            "col_heading": "SECURE PAYMENTS",
             "hide_on_mobile": false,
             "only_mobile": false,
             "sec_heading_size": "lg",
@@ -237,7 +237,7 @@
         "footer_column_dYTFqa": {
           "type": "_footer-column",
           "settings": {
-            "col_heading": "Email Sign Up",
+            "col_heading": "EMAIL SIGN UP",
             "hide_on_mobile": false,
             "only_mobile": false,
             "sec_heading_size": "lg",
@@ -289,7 +289,7 @@
                 "des_newsletter": "3",
                 "alignment": "left",
                 "button_lb": "Subscribe",
-                "size": "m",
+                "size": "s",
                 "btn_fw": "semibold",
                 "agree_form": false,
                 "content": "I agree with the terms and conditions",
@@ -341,9 +341,9 @@
         "sticky": false,
         "collapse": true,
         "full_width": false,
-        "padding_top": 75,
-        "padding_bottom": 75,
-        "padding_rate": 50,
+        "padding_top": 40,
+        "padding_bottom": 20,
+        "padding_rate": 40,
         "colors_by_section": true,
         "color_scheme": "scheme-e41c9842-677c-43a7-ada0-3c5abf205f8e",
         "background_opacity": 1
@@ -443,12 +443,12 @@
       "name": "t:sections.custom-liquid.name",
       "settings": {
         "custom_liquid": "<footer class=\"jals-footer\">\n  <p class=\"jals-footer-text\">\n    All Rights Reserved © 2025 Just a Little Sweeter\n    <a\n      class=\"jals-footer-link\"\n      href=\"https://growthdigital.com.au/?utm_source=client&utm_medium=website&utm_campaign=footer&utm_term=digital+agency\"\n      target=\"_blank\"\n      rel=\"noopener noreferrer\"\n      title=\"Growth Digital – Digital Marketing Agency Australia\"\n    >\n      <img\n        class=\"jals-footer-icon\"\n        src=\"https://cdn.shopify.com/s/files/1/0726/5163/7054/files/growth-digital-black-icon.png\"\n        alt=\"Growth Digital\"\n        width=\"20\"\n        height=\"20\"\n        loading=\"lazy\"\n      />\n      <span>Digital Agency</span>\n    </a>\n  </p>\n</footer>\n\n<style>\n  /* ---------- Reset (scoped to footer to avoid global impact) ---------- */\n  .jals-footer *,\n  .jals-footer *::before,\n  .jals-footer *::after {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n    border: 0;\n  }\n\n  /* ---------- Footer Styles ---------- */\n  .jals-footer {\n    text-align: center;\n    padding: 1rem 0.5rem;\n    font-size: clamp(1.5rem, 2vw, 1rem);\n    line-height: 1.4;\n  }\n\n  .jals-footer-text {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    gap: 0.5rem;\n    margin: 0;\n  }\n\n  .jals-footer-link {\n    display: inline-flex;\n    align-items: center;\n    gap: 0.25rem;\n    color: inherit;\n    text-decoration: none;\n  }\n\n  .jals-footer-link:hover,\n  .jals-footer-link:focus-visible {\n    text-decoration: underline;\n  }\n\n  .jals-footer-icon {\n    width: 1.5rem;\n    height: 1.5rem;\n    flex-shrink: 0;\n  }\n\n  /* ---------- Dark Mode Support ---------- */\n  @media (prefers-color-scheme: dark) {\n    .jals-footer-icon {\n      filter: invert(1);\n    }\n  }\n\n  /* ---------- Mobile Optimization ---------- */\n  @media (max-width: 480px) {\n    .jals-footer-text {\n      flex-direction: column;\n      gap: 0.375rem;\n      font-size: 1.3rem;\n    }\n  }\n</style>",
-        "colors_by_section": false,
-        "color_scheme": "",
-        "background_opacity": 0,
-        "section_layout": "container",
-        "padding_top": 10,
-        "padding_bottom": 10,
+        "colors_by_section": true,
+        "color_scheme": "scheme-e41c9842-677c-43a7-ada0-3c5abf205f8e",
+        "background_opacity": 1,
+        "section_layout": "wrapper_container",
+        "padding_top": 5,
+        "padding_bottom": 5,
         "padding_rate": 50
       }
     }

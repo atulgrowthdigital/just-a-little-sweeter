@@ -104,7 +104,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" viewBox="0 0 30 16" fill="currentColor"><rect width="30" height="1.5"></rect><rect y="7" width="20" height="1.5"></rect><rect y="14" width="30" height="1.5"></rect></svg>
           </button>
         </div>
-        <div class="{% if section.settings.menu_position == "start" and section.settings.menu_type == "default" %}lg:hdt-custom-col-auto {% else %}lg:hdt-custom-col-3{% endif %} md:hdt-custom-col-4 hdt-custom-col-6 xs:hdt-text-center hdt-flex hdt-align-center hdt-justify-start hdt-col-logo">
+        <div class="{% if section.settings.menu_position == "start" and section.settings.menu_type == "default" %}lg:hdt-custom-col-auto {% else %}44 lg:hdt-custom-col-2{% endif %} md:hdt-custom-col-4 hdt-custom-col-6 xs:hdt-text-center hdt-flex hdt-align-center hdt-justify-start hdt-col-logo">
           {%- if section.settings.menu_type == "sidebar" and section.settings.menu_position == "start" -%}
             <button aria-controls="menu_mobile" class="hdt-push-menu-btn hdt-menu-bar lg:hdt-flex hdt-hidden hdt-justify-center hdt-align-center" aria-label="push-menu">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" viewBox="0 0 30 16" fill="currentColor"><rect width="30" height="1.5"></rect><rect y="7" width="20" height="1.5"></rect><rect y="14" width="30" height="1.5"></rect></svg>
@@ -117,7 +117,7 @@
             </button>
           {%- endif -%}
         </div>
-        <div class="hdt-header-col lg:hdt-custom-col-7 lg:hdt-block hdt-hidden">
+        <div class="hdt-header-col 55 lg:hdt-custom-col-9 lg:hdt-block hdt-hidden">
           {% # theme-check-disable NestedSnippet %}
             {%- if section.settings.menu_type != "sidebar" -%}
               {%- render 'menu_blocks', mega_position: "bottom-start" -%}
@@ -195,11 +195,11 @@
             {%- endif -%}
           {% # theme-check-enable NestedSnippet %}
         </div>
-        <div class="{% if section.settings.menu_position == "end" and section.settings.menu_type == "default" %}lg:hdt-custom-col-auto {% else %}lg:hdt-custom-col-3 {% endif %} md:hdt-custom-col-4 hdt-custom-col-3 hdt-search_{{ section.settings.search_type }}">
+        <div class="{% if section.settings.menu_position == "end" and section.settings.menu_type == "default" %}lg:hdt-custom-col-auto {% else %}33 lg:hdt-custom-col-2 {% endif %} md:hdt-custom-col-4 hdt-custom-col-3 hdt-search_{{ section.settings.search_type }}">
           {%- render 'header_group_icons' -%}
         </div>
       {%- else -%}
-        <div class="{% if section.settings.menu_type == "split" %}lg:hdt-custom-col-3{% else %}lg:hdt-custom-col-5 {% endif %} hdt-justify-start lg:hdt-flex hdt-hidden hdt-align-center">
+        <div class="{% if section.settings.menu_type == "split" %}11 lg:hdt-custom-col-3{% else %}lg:hdt-custom-col-5 {% endif %} hdt-justify-start lg:hdt-flex hdt-hidden hdt-align-center">
           {% # theme-check-disable NestedSnippet %}
           {%- if section.settings.menu_type == "sidebar" -%}
             {%- if section.settings.menu_position != "end" -%}
@@ -239,7 +239,7 @@
             {%- render 'hdt_logo' -%}
           </div>
         {%- endif -%}
-        <div class="{% if section.settings.menu_type == "split" %}lg:hdt-custom-col-3 {% else %}lg:hdt-custom-col-5{% endif %} md:hdt-custom-col-4 hdt-custom-col-3">
+        <div class="{% if section.settings.menu_type == "split" %}22 lg:hdt-custom-col-3 {% else %}lg:hdt-custom-col-5{% endif %} md:hdt-custom-col-4 hdt-custom-col-3">
           {%- render 'header_group_icons' -%}
         </div>
       {%- endif -%}
