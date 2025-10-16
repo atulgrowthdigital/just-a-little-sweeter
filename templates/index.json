@@ -379,6 +379,91 @@
         "padding_rate": 90
       }
     },
+    "collections_list_QMYDRT": {
+      "type": "collections-list",
+      "blocks": {
+        "section-heading-collections-list": {
+          "type": "section-heading",
+          "static": true,
+          "settings": {
+            "design_heading": "5",
+            "horizontal": false,
+            "alignment": "center",
+            "heading_gap": 0,
+            "margin_bottom": 30
+          },
+          "blocks": {
+            "heading_section_M8Maei": {
+              "type": "_heading_section",
+              "name": "t:blocks.section_heading.name",
+              "settings": {
+                "heading": "OUR COLLECTION",
+                "line_height": "",
+                "heading_size": "h2",
+                "text_color": "hdt-s-text"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_section_M8Maei"
+          ]
+        }
+      },
+      "name": "t:sections.collections-list.name",
+      "settings": {
+        "collection_list": [
+          "signature-gift-jars",
+          "alcohol-hampers-1",
+          "signature-gift-boxes",
+          "little-boxes-of-joy-1",
+          "snack-boxes-1",
+          "lolly-pouches"
+        ],
+        "collection_des": "6",
+        "content_size": "base",
+        "content_weight": "semibold",
+        "content_position": "end-center",
+        "content_space": 20,
+        "show_count": false,
+        "count_label": "Products",
+        "image_rounded": false,
+        "enable_border": false,
+        "image_padding": 30,
+        "image_ratio": "square",
+        "image_size": true,
+        "img_effect": "zoom",
+        "b_effect": "none",
+        "col_dk": "3",
+        "col_tb": "3",
+        "col_mb": "1",
+        "space_items": "x",
+        "layout_mode": "grid",
+        "loop": false,
+        "autoplay": 0,
+        "pauseOnHover": false,
+        "navUI": false,
+        "nav_position": "default",
+        "nav_visible": "always",
+        "nav_style": "default",
+        "nav_shape": "default",
+        "nav_size": "small",
+        "nav_hide_mobile": false,
+        "dotUI": false,
+        "pag_style": "default",
+        "pag_rounded": true,
+        "pag_space": 10,
+        "pag_mgt": 10,
+        "pag_hide_mobile": false,
+        "colors_by_section": true,
+        "color_scheme": "",
+        "background_opacity": 0,
+        "section_layout": "container",
+        "padding_top": 50,
+        "padding_bottom": 30,
+        "padding_rate": 50
+      }
+    },
     "image_text_QJc9Mp": {
       "type": "image_text",
       "blocks": {
@@ -1147,91 +1232,6 @@
         "section_layout": "full_width",
         "padding_top": 40,
         "padding_bottom": 40,
-        "padding_rate": 50
-      }
-    },
-    "collections_list_QMYDRT": {
-      "type": "collections-list",
-      "blocks": {
-        "section-heading-collections-list": {
-          "type": "section-heading",
-          "static": true,
-          "settings": {
-            "design_heading": "5",
-            "horizontal": false,
-            "alignment": "center",
-            "heading_gap": 0,
-            "margin_bottom": 30
-          },
-          "blocks": {
-            "heading_section_M8Maei": {
-              "type": "_heading_section",
-              "name": "t:blocks.section_heading.name",
-              "settings": {
-                "heading": "OUR COLLECTION",
-                "line_height": "",
-                "heading_size": "h2",
-                "text_color": "hdt-s-text"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "heading_section_M8Maei"
-          ]
-        }
-      },
-      "name": "t:sections.collections-list.name",
-      "settings": {
-        "collection_list": [
-          "signature-gift-jars",
-          "alcohol-hampers-1",
-          "signature-gift-boxes",
-          "little-boxes-of-joy-1",
-          "snack-boxes-1",
-          "lolly-pouches"
-        ],
-        "collection_des": "6",
-        "content_size": "base",
-        "content_weight": "semibold",
-        "content_position": "end-center",
-        "content_space": 20,
-        "show_count": false,
-        "count_label": "Products",
-        "image_rounded": false,
-        "enable_border": false,
-        "image_padding": 30,
-        "image_ratio": "square",
-        "image_size": true,
-        "img_effect": "zoom",
-        "b_effect": "none",
-        "col_dk": "3",
-        "col_tb": "3",
-        "col_mb": "1",
-        "space_items": "x",
-        "layout_mode": "grid",
-        "loop": false,
-        "autoplay": 0,
-        "pauseOnHover": false,
-        "navUI": false,
-        "nav_position": "default",
-        "nav_visible": "always",
-        "nav_style": "default",
-        "nav_shape": "default",
-        "nav_size": "small",
-        "nav_hide_mobile": false,
-        "dotUI": false,
-        "pag_style": "default",
-        "pag_rounded": true,
-        "pag_space": 10,
-        "pag_mgt": 10,
-        "pag_hide_mobile": false,
-        "colors_by_section": true,
-        "color_scheme": "",
-        "background_opacity": 0,
-        "section_layout": "container",
-        "padding_top": 50,
-        "padding_bottom": 30,
         "padding_rate": 50
       }
     },
@@ -3127,10 +3127,10 @@
   "order": [
     "new_hero_banner_W8ynUw",
     "shipping_9pXycT",
+    "collections_list_QMYDRT",
     "image_text_QJc9Mp",
     "tabs_collection_L3nLmb",
     "shipping_dNGrLB",
-    "collections_list_QMYDRT",
     "custom_section_knxa6G",
     "marquee_dEjm8n",
     "tabs_collection_xhWCEW",
