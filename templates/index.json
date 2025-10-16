@@ -373,9 +373,9 @@
         "colors_by_section": true,
         "color_scheme": "scheme-e41c9842-677c-43a7-ada0-3c5abf205f8e",
         "background_opacity": 1,
-        "section_layout": "full_width",
-        "padding_top": 40,
-        "padding_bottom": 40,
+        "section_layout": "wrapper_container",
+        "padding_top": 15,
+        "padding_bottom": 10,
         "padding_rate": 90
       }
     },
@@ -414,8 +414,8 @@
       "settings": {
         "collection_list": [
           "signature-gift-jars",
-          "alcohol-hampers-1",
           "signature-gift-boxes",
+          "alcohol-hampers-1",
           "little-boxes-of-joy-1",
           "snack-boxes-1",
           "lolly-pouches"
@@ -456,11 +456,85 @@
         "pag_mgt": 10,
         "pag_hide_mobile": false,
         "colors_by_section": true,
-        "color_scheme": "",
-        "background_opacity": 0,
-        "section_layout": "container",
+        "color_scheme": "scheme-ccabb22c-659b-4b6e-8692-5683b2607d13",
+        "background_opacity": 0.2,
+        "section_layout": "wrapper_container",
         "padding_top": 50,
         "padding_bottom": 30,
+        "padding_rate": 50
+      }
+    },
+    "custom_section_knxa6G": {
+      "type": "custom-section",
+      "blocks": {
+        "multi_column_PmXcca": {
+          "type": "_multi_column",
+          "settings": {
+            "column_dk": "6",
+            "column_tb": "6",
+            "column_mb": "12",
+            "column_dk_10": "10",
+            "column_tb_10": "10",
+            "column_mb_10": "10",
+            "spacing_h_dk": 0,
+            "spacing_v_dk": 0,
+            "spacing_h_tb": 0,
+            "spacing_v_tb": 0,
+            "spacing_h_mb": 0,
+            "spacing_v_mb": 0,
+            "content_width": "auto",
+            "content_position": "center",
+            "content_position_mb": "center",
+            "alignment": "center",
+            "alignment_mb": "center",
+            "background_color": "rgba(0,0,0,0)",
+            "rounded": "none"
+          },
+          "blocks": {
+            "button_7D7XPd": {
+              "type": "button",
+              "settings": {
+                "label": "VIEW MORE",
+                "link": "shopify://collections",
+                "open_in_new_tab": false,
+                "full_width": false,
+                "btn_style": "",
+                "size": "m",
+                "font_weight": "normal",
+                "font_size_btn": 14,
+                "padding_btn": 30,
+                "min_width_btn": 100,
+                "min_width_dt_btn": 100,
+                "min_height_btn": 40,
+                "icon": "none",
+                "icon_position": "after",
+                "icon_height": 14,
+                "icon_spacing": 5
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "button_7D7XPd"
+          ]
+        }
+      },
+      "block_order": [
+        "multi_column_PmXcca"
+      ],
+      "disabled": true,
+      "name": "t:sections.custom_section.name",
+      "settings": {
+        "layout": "10",
+        "item_spacing": 30,
+        "item_spacing_tb": 15,
+        "item_spacing_mb": 15,
+        "colors_by_section": true,
+        "color_scheme": "scheme-ccabb22c-659b-4b6e-8692-5683b2607d13",
+        "background_opacity": 0,
+        "section_layout": "wrapper_container",
+        "padding_top": 0,
+        "padding_bottom": 50,
         "padding_rate": 50
       }
     },
@@ -626,7 +700,7 @@
         "background_opacity": 0,
         "section_layout": "container",
         "padding_top": 50,
-        "padding_bottom": 0,
+        "padding_bottom": 50,
         "padding_rate": 50
       }
     },
@@ -1012,10 +1086,10 @@
         "border_width": 2,
         "spacing_tabs_items": 30,
         "tabs_head_spacing": 30,
-        "colors_by_section": false,
-        "color_scheme": "scheme-1",
+        "colors_by_section": true,
+        "color_scheme": "scheme-ccabb22c-659b-4b6e-8692-5683b2607d13",
         "background_opacity": 0,
-        "section_layout": "container",
+        "section_layout": "wrapper_container",
         "padding_top": 50,
         "padding_bottom": 50,
         "padding_rate": 50
@@ -1230,81 +1304,8 @@
         "color_scheme": "scheme-e41c9842-677c-43a7-ada0-3c5abf205f8e",
         "background_opacity": 1,
         "section_layout": "full_width",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "padding_rate": 50
-      }
-    },
-    "custom_section_knxa6G": {
-      "type": "custom-section",
-      "blocks": {
-        "multi_column_PmXcca": {
-          "type": "_multi_column",
-          "settings": {
-            "column_dk": "6",
-            "column_tb": "6",
-            "column_mb": "12",
-            "column_dk_10": "10",
-            "column_tb_10": "10",
-            "column_mb_10": "10",
-            "spacing_h_dk": 0,
-            "spacing_v_dk": 0,
-            "spacing_h_tb": 0,
-            "spacing_v_tb": 0,
-            "spacing_h_mb": 0,
-            "spacing_v_mb": 0,
-            "content_width": "auto",
-            "content_position": "center",
-            "content_position_mb": "center",
-            "alignment": "center",
-            "alignment_mb": "center",
-            "background_color": "rgba(0,0,0,0)",
-            "rounded": "none"
-          },
-          "blocks": {
-            "button_7D7XPd": {
-              "type": "button",
-              "settings": {
-                "label": "VIEW MORE",
-                "link": "shopify://collections",
-                "open_in_new_tab": false,
-                "full_width": false,
-                "btn_style": "",
-                "size": "m",
-                "font_weight": "normal",
-                "font_size_btn": 14,
-                "padding_btn": 30,
-                "min_width_btn": 100,
-                "min_width_dt_btn": 100,
-                "min_height_btn": 40,
-                "icon": "none",
-                "icon_position": "after",
-                "icon_height": 14,
-                "icon_spacing": 5
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "button_7D7XPd"
-          ]
-        }
-      },
-      "block_order": [
-        "multi_column_PmXcca"
-      ],
-      "name": "t:sections.custom_section.name",
-      "settings": {
-        "layout": "10",
-        "item_spacing": 30,
-        "item_spacing_tb": 15,
-        "item_spacing_mb": 15,
-        "colors_by_section": false,
-        "color_scheme": "",
-        "background_opacity": 0,
-        "section_layout": "container",
-        "padding_top": 0,
-        "padding_bottom": 50,
+        "padding_top": 15,
+        "padding_bottom": 10,
         "padding_rate": 50
       }
     },
@@ -1882,10 +1883,10 @@
         "border_width": 2,
         "spacing_tabs_items": 30,
         "tabs_head_spacing": 30,
-        "colors_by_section": false,
-        "color_scheme": "scheme-1",
+        "colors_by_section": true,
+        "color_scheme": "scheme-ccabb22c-659b-4b6e-8692-5683b2607d13",
         "background_opacity": 0,
-        "section_layout": "container",
+        "section_layout": "wrapper_container",
         "padding_top": 50,
         "padding_bottom": 50,
         "padding_rate": 50
@@ -1999,8 +2000,8 @@
         "color_scheme": "scheme-1",
         "pr_rating": "#ff7b54",
         "section_fullwidth": false,
-        "padding_top": 0,
-        "padding_bottom": 100,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "padding_rate": 50
       }
     },
@@ -2048,7 +2049,7 @@
             "heading_GgehLr": {
               "type": "heading",
               "settings": {
-                "heading": "<h2><strong>HEY, I'M LISA</strong></h2>",
+                "heading": "<h2><strong>HEY, I'M MARIA FLOURIS</strong></h2>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",
@@ -2075,7 +2076,7 @@
             "text_nrqYz6": {
               "type": "text",
               "settings": {
-                "text": "<p><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown </p>",
+                "text": "<p>At <em>Just a Little Sweeter</em>, we turn everyday moments into sweet memories. Founded by Maria Flouris, our handcrafted lolly gifts are made with love, nostalgia, and joy. From keepsake jars to custom gift boxes, each creation is designed to surprise and delight—perfect for birthdays, thank-yous, or just-because smiles. Every order is wrapped with care and bursting with personality, because we believe the sweetest gifts are the ones that feel personal.</p><p>Whether you're celebrating or simply sending love, our treats leave a lasting (and delicious) impression. Explore our joyful collection and share a little sugar-coated happiness today.</p>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "ffamily": "",
@@ -2106,7 +2107,7 @@
               "type": "button",
               "name": "t:blocks.button.name",
               "settings": {
-                "label": "ABOUT US",
+                "label": "READ MORE",
                 "link": "shopify://pages/our-story",
                 "open_in_new_tab": false,
                 "full_width": false,
@@ -2155,11 +2156,11 @@
       "name": "Image with text",
       "settings": {
         "colors_by_section": true,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-ccabb22c-659b-4b6e-8692-5683b2607d13",
         "background_opacity": 1,
-        "section_layout": "container",
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "section_layout": "wrapper_container",
+        "padding_top": 50,
+        "padding_bottom": 50,
         "padding_rate": 0
       }
     },
@@ -2185,7 +2186,7 @@
             "column_tb_10": "5",
             "column_mb_10": "10",
             "spacing_h_dk": 30,
-            "spacing_v_dk": 50,
+            "spacing_v_dk": 40,
             "spacing_h_tb": 30,
             "spacing_v_tb": 30,
             "spacing_h_mb": 15,
@@ -2301,9 +2302,9 @@
       "name": "t:sections.custom_section.name",
       "settings": {
         "layout": "12",
-        "item_spacing": 30,
-        "item_spacing_tb": 15,
-        "item_spacing_mb": 15,
+        "item_spacing": 0,
+        "item_spacing_tb": 0,
+        "item_spacing_mb": 0,
         "colors_by_section": false,
         "color_scheme": "",
         "background_opacity": 0,
@@ -3128,10 +3129,10 @@
     "new_hero_banner_W8ynUw",
     "shipping_9pXycT",
     "collections_list_QMYDRT",
+    "custom_section_knxa6G",
     "image_text_QJc9Mp",
     "tabs_collection_L3nLmb",
     "shipping_dNGrLB",
-    "custom_section_knxa6G",
     "marquee_dEjm8n",
     "tabs_collection_xhWCEW",
     "testimonials_i7dnLd",

@@ -109,7 +109,7 @@
       {% liquid
         assign image = section.settings.section_background
       %}
-        {{ image | image_url: width: image.width | image_tag: width: image.width, height: image.height, sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000', loading: 'lazy', class: 'hdt-section-background hdt-absolute hdt-top-0 hdt-left-0 hdt-w-full hdt-h-full hdt-pe-none hdt-object-cover hdt-object-center' }}
+        {{ image | image_url: width: image.width | image_tag: width: image.width, height: image.height, sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000', loading: 'lazy', class: 'hdt-section-background hdt-absolute hdt-top-0 hdt-left-0 hdt-w-full hdt-h-full hdt-pe-none hdt-object-contain hdt-object-center' }}
     {%- endif -%}
     <hdt-scrollsnap class="hdt-content-inner {{ icon_color }} hdt-content-align-{{ content_align }}{% if center_vertical %} hdt-center-content{% endif %} hdt-icon-{{ icon_design }} hdt-icon-size-{{ icon_size }} hdt-space-padding-{{ space_padding }}{% if use_border %} hdt-use-border{% endif %}">
       <div id="Scroller-{{ section.id }}" class="hdt-row-grid hdt-row-grid--modify hdt-grid-cols-{{ col_mb }} md:hdt-grid-cols-{{ col_tb }} lg:hdt-grid-cols-{{ col_dk }}{{ carousel_class }}">

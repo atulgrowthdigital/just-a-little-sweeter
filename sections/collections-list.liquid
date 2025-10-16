@@ -1,27 +1,27 @@
 <!-- collections-list.liquid -->
 {{ 'hdt-collection-items.css' | asset_url | stylesheet_tag }}
 {%- liquid
-  #Section layout
-  assign sizes  = '(min-width: 1150px) ' | append: settings.page_width | append: 'px,(min-width: 750px) calc(100vw - 60px), calc(100vw - 30px)'
+  # Section layout
+  assign sizes = '(min-width: 1150px) ' | append: settings.page_width | append: 'px,(min-width: 750px) calc(100vw - 60px), calc(100vw - 30px)'
 
-  case section.settings.section_layout 
+  case section.settings.section_layout
     when 'container'
       assign parent = 'hdt-container'
-      assign child  = 'hdt-section-spacing hdt-s-gradient hdt-relative'
+      assign child = 'hdt-section-spacing hdt-s-gradient hdt-relative'
     when 'wrapper_container'
       assign parent = 'hdt-section-spacing hdt-s-gradient hdt-relative'
-      assign child  = 'hdt-container'
+      assign child = 'hdt-container'
     when 'full_width'
       assign parent = 'hdt-container-full hdt-section-spacing hdt-s-gradient hdt-relative'
-      assign child  = ''
-      assign sizes  = '100vw'
+      assign child = ''
+      assign sizes = '100vw'
   endcase
 -%}
 {%- liquid
   assign current_width = settings.page_width | append: 'px'
   assign current_width_tb = '100vw'
   assign current_width_mb = '100vw'
-  if section.settings.space_items == "x"
+  if section.settings.space_items == 'x'
     assign space_item = settings.spacing_grid_horizontal
   else
     assign space_item = section.settings.space_items
@@ -30,32 +30,36 @@
 {%- style -%}
   #shopify-section-{{ section.id }}{
     --section-pt: {{ section.settings.padding_top }}px;
-    --section-pb: {{ section.settings.padding_bottom }}px; 
+    --section-pb: {{ section.settings.padding_bottom }}px;
     --section-prate: {{ section.settings.padding_rate }};
   }
 {%- endstyle -%}
 {%- style -%}
   #{{ section.id }} hdt-slider {
     --slide-spacing: {{ space_item }}px;
-  } 
+  }
   #{{section.id}} .hdt-collections-list{
     --content-space:{{section.settings.content_space}}px;
   }
   {% if section.settings.image_padding > 30 %}
+    .sec-collections-list-view-all,
     #{{section.id}} .hdt-collections-list {
       --image-pd:15px
     }
     @media(min-width:768px){
-      #{{section.id}} .hdt-collections-list{ 
+      .sec-collections-list-view-all,
+      #{{section.id}} .hdt-collections-list{
         --image-pd:30px
       }
     }
     @media(min-width:1150px){
+      .sec-collections-list-view-all,
       #{{section.id}} .hdt-collections-list{
         --image-pd:{{section.settings.image_padding}}px;
       }
     }
     {% elsif section.settings.image_padding > 15 %}
+      .sec-collections-list-view-all,
       #{{section.id}} .hdt-collections-list{
         --image-pd:15px;
       }
@@ -63,76 +67,124 @@
         --image-pd:{{section.settings.image_padding}}px;
       }
     @media(min-width:768px){
+      .sec-collections-list-view-all,
       #{{section.id}} .hdt-collections-list{
         --image-pd:{{section.settings.image_padding}}px;
       }
     }
   {% else %}
+    .sec-collections-list-view-all,
     #{{section.id}} .hdt-collections-list {
       --image-pd:{{section.settings.image_padding}}px;
     }
   {% endif %}
 {%- endstyle -%}
-<div id="{{ section.id }}" class="{{ parent }}" {%- if section.settings.colors_by_section %} color-scheme="{{ section.settings.color_scheme }}" style="--background-opacity: {{ section.settings.background_opacity }};"{%- endif %}>
-  <div class="{{ child }}">     
+<div
+  id="{{ section.id }}"
+  class="{{ parent }}"
+  {%- if section.settings.colors_by_section %}
+    color-scheme="{{ section.settings.color_scheme }}"
+    style="--background-opacity: {{ section.settings.background_opacity }};"
+  {%- endif %}
+>
+  <div class="{{ child }}">
     {%- if section.settings.section_background != blank -%}
       {% liquid
         assign image = section.settings.section_background
       %}
-      {{ image | image_url: width: image.width | image_tag: width: image.width, height: image.height, sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000', loading: 'lazy', class: 'hdt-section-background hdt-absolute hdt-top-0 hdt-left-0 hdt-w-full hdt-h-full hdt-pe-none hdt-object-cover hdt-object-center' }}
+      {{
+        image
+        | image_url: width: image.width
+        | image_tag:
+          width: image.width,
+          height: image.height,
+          sizes: sizes,
+          widths: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000',
+          loading: 'lazy',
+          class: 'hdt-section-background hdt-absolute hdt-top-0 hdt-left-0 hdt-w-full hdt-h-full hdt-pe-none hdt-object-cover hdt-object-center'
+      }}
     {%- endif -%}
     {%- capture sizes -%}
       (min-width: 1150px) calc(({{ current_width }} -  ({{ space_item }} * ( {{ section.settings.col_dk }} - 1 ))) * 1 / {{ section.settings.col_dk }}),(min-width: 768px) calc( ({{ current_width_tb }} - ({{ space_item_tb }} * ( {{ section.settings.col_tb }} - 1 ))) * 1 / {{ section.settings.col_tb }}), calc( ({{ current_width_mb }} - ({{ space_item_mb }} * ( {{ section.settings.col_mb }} - 1 ) )) * 1 / {{ section.settings.col_mb }})
     {%- endcapture -%}
-    {%- content_for 'block', type: 'section-heading', id: "section-heading-collections-list" -%}
+    {%- content_for 'block', type: 'section-heading', id: 'section-heading-collections-list' -%}
     {%- capture content_for_blocks -%}
       {% content_for 'blocks' %}
     {%- endcapture -%}
     {% if section.settings.layout_mode == 'carousel' %}
-    <hdt-slider id="Slider-{{ section.id }}" class="hdt-collections-list hdt-has-collection{{ section.settings.collection_des }} hdt-colelction-border-{{ section.settings.enable_border }} hdt-image-rounded-{{ section.settings.image_rounded }} hdt-ratio--{{ section.settings.image_ratio }} {% unless section.settings.image_size %} hdt-ratio--contain{% endunless %} hdt-slider hdt-relative hdt-slide-spacing-x lg:hdt-slides-{{ section.settings.col_dk }} md:hdt-slides-{{ section.settings.col_tb }} hdt-slides-{{ section.settings.col_mb }}" config='{ "id": "Slider-{{ section.id }}", "navUI": {{ section.settings.navUI }}, "dotUI": true, "loop": {{ section.settings.loop }}, "autoPlay": {{ section.settings.autoplay | times: 1000 }}, "pauseOnHover": {{ section.settings.pauseOnHover }} }'>
-      <div class="hdt-slider__viewport hdt-relative">
-        <div class="hdt-slider__container">
-          {%- liquid
-            if section.settings.collection_list != blank
-              for collection in section.settings.collection_list
-                capture current 
-                  cycle 1, 2, 3, 4
-                endcapture
-                render 'collection-item', collection: collection, class: "hdt-slider__slide", sizes: sizes, current: current
-              endfor
-            elsif section.blocks.size > 0
-              echo content_for_blocks
-            else
-              for i in (1..8)
-                capture current
-                  cycle 1, 2, 3, 4
-                endcapture
-                render 'collection-item', class: "hdt-slider__slide", sizes: sizes, current: current
-              endfor
-            endif
-          -%}
+      <hdt-slider
+        id="Slider-{{ section.id }}"
+        class="hdt-collections-list hdt-has-collection{{ section.settings.collection_des }} hdt-colelction-border-{{ section.settings.enable_border }} hdt-image-rounded-{{ section.settings.image_rounded }} hdt-ratio--{{ section.settings.image_ratio }} {% unless section.settings.image_size %} hdt-ratio--contain{% endunless %} hdt-slider hdt-relative hdt-slide-spacing-x lg:hdt-slides-{{ section.settings.col_dk }} md:hdt-slides-{{ section.settings.col_tb }} hdt-slides-{{ section.settings.col_mb }}"
+        config='{ "id": "Slider-{{ section.id }}", "navUI": {{ section.settings.navUI }}, "dotUI": true, "loop": {{ section.settings.loop }}, "autoPlay": {{ section.settings.autoplay | times: 1000 }}, "pauseOnHover": {{ section.settings.pauseOnHover }} }'
+      >
+        <div class="hdt-slider__viewport hdt-relative">
+          <div class="hdt-slider__container">
+            {%- liquid
+              if section.settings.collection_list != blank
+                for collection in section.settings.collection_list
+                  capture current
+                    cycle 1, 2, 3, 4
+                  endcapture
+                  render 'collection-item', collection: collection, class: 'hdt-slider__slide', sizes: sizes, current: current
+                endfor
+              elsif section.blocks.size > 0
+                echo content_for_blocks
+              else
+                for i in (1..8)
+                  capture current
+                    cycle 1, 2, 3, 4
+                  endcapture
+                  render 'collection-item', class: 'hdt-slider__slide', sizes: sizes, current: current
+                endfor
+              endif
+            -%}
+          </div>
         </div>
-      </div>
-      {%- if section.settings.navUI -%}
-        <div class="hdt-navigation hdt-position-{{ section.settings.nav_position }} hdt-visible-{{ section.settings.nav_visible }} hdt-style-{{ section.settings.nav_style }} hdt-shape-{{ section.settings.nav_shape }} hdt-size-{{ section.settings.nav_size }} hdt-hide-mobile-{{ section.settings.nav_hide_mobile }}">
-          <button aria-controls="Slider-{{ section.id }}" class="hdt-slider__button hdt-slider__button--prev" type="button" disabled name="previous" aria-label="previous">
-            <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none"><path d="M5.5 11L0 5.5L5.5 0L6.47625 0.97625L1.9525 5.5L6.47625 10.0238L5.5 11Z" fill="currentColor"/></svg>
-          </button>
-          <button aria-controls="Slider-{{ section.id }}" class="hdt-slider__button hdt-slider__button--next" type="button" disabled name="next" aria-label="next">
-            <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none"><path d="M1.5 11L7 5.5L1.5 0L0.52375 0.97625L5.0475 5.5L0.52375 10.0238L1.5 11Z" fill="currentColor"/></svg>
-          </button>
-        </div>
-      {%- endif -%}
-      {%- if section.settings.dotUI -%}
-        <div hdt-slider-dots aria-controls="Slider-{{ section.id }}" class="hdt-slider__dots hdt-pagination hdt-style-{{ section.settings.pag_style }} hdt-radius-{{ section.settings.pag_rounded }} hdt-hide-mobile-{{ section.settings.pag_hide_mobile }}" style="--space-between: {{ section.settings.pag_space }}px; --margin-top: {{ section.settings.pag_mgt }}px;" hdt-reveal="slide-in" timeline></div>
-      {%- endif -%}
-    </hdt-slider>
+        {%- if section.settings.navUI -%}
+          <div class="hdt-navigation hdt-position-{{ section.settings.nav_position }} hdt-visible-{{ section.settings.nav_visible }} hdt-style-{{ section.settings.nav_style }} hdt-shape-{{ section.settings.nav_shape }} hdt-size-{{ section.settings.nav_size }} hdt-hide-mobile-{{ section.settings.nav_hide_mobile }}">
+            <button
+              aria-controls="Slider-{{ section.id }}"
+              class="hdt-slider__button hdt-slider__button--prev"
+              type="button"
+              disabled
+              name="previous"
+              aria-label="previous"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
+                <path d="M5.5 11L0 5.5L5.5 0L6.47625 0.97625L1.9525 5.5L6.47625 10.0238L5.5 11Z" fill="currentColor"/>
+              </svg>
+            </button>
+            <button
+              aria-controls="Slider-{{ section.id }}"
+              class="hdt-slider__button hdt-slider__button--next"
+              type="button"
+              disabled
+              name="next"
+              aria-label="next"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
+                <path d="M1.5 11L7 5.5L1.5 0L0.52375 0.97625L5.0475 5.5L0.52375 10.0238L1.5 11Z" fill="currentColor"/>
+              </svg>
+            </button>
+          </div>
+        {%- endif -%}
+        {%- if section.settings.dotUI -%}
+          <div
+            hdt-slider-dots
+            aria-controls="Slider-{{ section.id }}"
+            class="hdt-slider__dots hdt-pagination hdt-style-{{ section.settings.pag_style }} hdt-radius-{{ section.settings.pag_rounded }} hdt-hide-mobile-{{ section.settings.pag_hide_mobile }}"
+            style="--space-between: {{ section.settings.pag_space }}px; --margin-top: {{ section.settings.pag_mgt }}px;"
+            hdt-reveal="slide-in"
+            timeline
+          ></div>
+        {%- endif -%}
+      </hdt-slider>
     {% else %}
       <div class="hdt-collections-list hdt-has-collection{{ section.settings.collection_des }} hdt-colelction-border-{{ section.settings.enable_border }} hdt-image-rounded-{{ section.settings.image_rounded }} hdt-ratio--{{ section.settings.image_ratio }} {% unless section.settings.image_size %} hdt-ratio--contain{% endunless %} hdt-relative hdt-row-grid hdt-spacing-{{ section.settings.space_items }} lg:hdt-grid-cols-{{ section.settings.col_dk }} md:hdt-grid-cols-{{ section.settings.col_tb }} hdt-grid-cols-{{ section.settings.col_mb }}">
         {%- liquid
           if section.settings.collection_list != blank
             for collection in section.settings.collection_list
-              capture current 
+              capture current
                 cycle 1, 2, 3, 4
               endcapture
               render 'collection-item', collection: collection, sizes: sizes, current: current
@@ -151,6 +203,20 @@
       </div>
     {% endif %}
   </div>
+  {% if section.settings.view_all_text != blank %}
+    <div class="sec-collections-list-view-all hdt-column_inner hdt-place-self-center md:hdt-place-self-center hdt-text-center md:hdt-text-center">
+      <a
+        hdt-reveal="slide-in"
+        href="{{ section.settings.view_all_link }}"
+        class="hdt-button-block hdt-btn hdt-relative hdt-oh hdt-font-normal hdt-btn--size-m"
+        observed=""
+        style="--animation-order: 1;"
+        animationend=""
+      >
+        {{- section.settings.view_all_text -}}
+      </a>
+    </div>
+  {% endif %}
 </div>
 
 {% schema %}
@@ -159,18 +225,32 @@
   "tag": "section",
   "class": "hdt-section hdt-sec-collections-list",
   "disabled_on": {
-    "groups": [
-      "*"
-    ]
+    "groups": ["*"]
   },
   "settings": [
+    {
+      "type": "header",
+      "content": "View All"
+    },
+    {
+      "type": "text",
+      "id": "view_all_text",
+      "label": "Button Label",
+      "default": "VIEW ALL"
+    },
+    {
+      "type": "url",
+      "id": "view_all_link",
+      "label": "Button Link",
+      "default": "/collections"
+    },
     {
       "type": "header",
       "content": "t:sections.all.general_options.label"
     },
     {
       "id": "collection_list",
-      "type": "collection_list", 
+      "type": "collection_list",
       "label": "t:sections.collections-list.settings.collection_list",
       "info": "t:sections.collections-list.settings.collection_list_info"
     },
@@ -891,7 +971,7 @@
       "unit": "%",
       "label": "t:sections.all.padding.padding_rate",
       "default": 50
-    },
+    }
   ],
   "blocks": [
     {

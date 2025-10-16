@@ -6,7 +6,7 @@
         echo block.settings.icon
       elsif block.settings.image_icon != blank 
         assign image = block.settings.image_icon 
-        echo image | image_url: width: image.width | image_tag: width: image.width, height: image.height, sizes: '50',widths: '20,30,40,50,60', class: 'hdt-object-cover hdt-icon'
+        echo image | image_url: width: image.width | image_tag: width: image.width, height: image.height, sizes: '50',widths: '20,30,40,50,60', class: 'hdt-object-contain hdt-icon'
       else 
         render 'icon_shipping', icon_name: block.settings.icon_themes, icon_class: 'hdt-icon' 
       endif

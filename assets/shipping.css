@@ -37,7 +37,7 @@
 
 .hdt-shipping :where(.hdt-icon,svg){
   width: var(--icon-width,auto);
-  height: auto;
+  height: var(--icon-width,auto);
   fill: currentColor;
   color: rgb(var(--color-foreground));
   z-index: 2;
