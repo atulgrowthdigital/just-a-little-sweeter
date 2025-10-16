@@ -56,7 +56,8 @@
 {%- if block.settings.width_md == 0 %} md:hdt-hidden{% else %} md:hdt-flex{% endif -%}
 {%- if block.settings.width_lg == 0 %} lg:hdt-hidden{% else %} lg:hdt-flex{% endif -%}
 {%- endcapture -%}
-<div {%- if block.settings.colors_by_section %} color-scheme="{{ block.settings.color_scheme }}" style="--background-opacity: {{ block.settings.background_opacity }};" {%- endif %} class="hdt-group-block--{{ block.id }} hdt-footer-col-block hdt-s-gradient {{ visible }}" {{ block.shopify_attributes }}>
+<div {%- if block.settings.colors_by_section %} color-scheme="{{ block.settings.color_scheme }}" style="--background-opacity: {{ block.settings.background_opacity }};" {%- endif %} 
+  class="{{ block.settings.custom_class }} hdt-group-block--{{ block.id }} hdt-footer-col-block hdt-s-gradient {{ visible }}" {{ block.shopify_attributes }}>
   {%- if block.settings.col_heading != blank -%}
     <div class="hdt-footer-heading hdt-text-{{ block.settings.sec_heading_size }} collapsible hdt-flex md:hdt-block hdt-align-center hdt-justify-between">
       <span class="hdt-footer-heading-text">{{ block.settings.col_heading }}</span>
@@ -105,9 +106,17 @@
     },
     {
       "type": "_currency_language"
+    },
+    {
+      "type": "custom-liquid"
     }
   ],
   "settings": [
+    {
+      "type":"text",
+      "id":"custom_class",
+      "label":"Custom Class"
+    },
     {
       "type": "text",
       "id": "col_heading",

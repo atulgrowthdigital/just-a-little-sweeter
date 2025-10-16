@@ -17,6 +17,7 @@
         "footer_column_pA3QPh": {
           "type": "_footer-column",
           "settings": {
+            "custom_class": "",
             "col_heading": "",
             "hide_on_mobile": false,
             "only_mobile": true,
@@ -113,6 +114,7 @@
         "footer_column_C3zLBR": {
           "type": "_footer-column",
           "settings": {
+            "custom_class": "",
             "col_heading": "INFORMATION",
             "hide_on_mobile": false,
             "only_mobile": false,
@@ -121,7 +123,7 @@
             "colors_by_section": false,
             "color_scheme": "scheme-c9476b69-abc7-454f-a946-2d5a9f5f3a37",
             "background_opacity": 0,
-            "width_lg": 16,
+            "width_lg": 25,
             "width_md": 50,
             "width": 100,
             "padding_t": 6,
@@ -151,6 +153,7 @@
         "footer_column_3Dap6p": {
           "type": "_footer-column",
           "settings": {
+            "custom_class": "",
             "col_heading": "USEFUL LINKS",
             "hide_on_mobile": false,
             "only_mobile": false,
@@ -159,7 +162,7 @@
             "colors_by_section": false,
             "color_scheme": "scheme-c9476b69-abc7-454f-a946-2d5a9f5f3a37",
             "background_opacity": 0,
-            "width_lg": 16,
+            "width_lg": 25,
             "width_md": 50,
             "width": 100,
             "padding_t": 6,
@@ -188,7 +191,9 @@
         },
         "footer_column_U4EkTn": {
           "type": "_footer-column",
+          "disabled": true,
           "settings": {
+            "custom_class": "",
             "col_heading": "SECURE PAYMENTS",
             "hide_on_mobile": false,
             "only_mobile": false,
@@ -222,6 +227,7 @@
             "payment_icons_NKQxpY": {
               "type": "_payment_icons",
               "name": "t:blocks.payment.name",
+              "disabled": true,
               "settings": {
                 "svg": "amazon,american_express,apple_pay,paypal,shopify_pay,visa,master,after pay, discover",
                 "height": 30
@@ -237,6 +243,7 @@
         "footer_column_dYTFqa": {
           "type": "_footer-column",
           "settings": {
+            "custom_class": "",
             "col_heading": "EMAIL SIGN UP",
             "hide_on_mobile": false,
             "only_mobile": false,
@@ -328,6 +335,50 @@
             "spacer_QaUeJi",
             "footer_image_TVmt7r"
           ]
+        },
+        "footer_column_DFT7AQ": {
+          "type": "_footer-column",
+          "name": "t:blocks.footer_column.name",
+          "settings": {
+            "custom_class": "footer-bottom-content",
+            "col_heading": "",
+            "hide_on_mobile": false,
+            "only_mobile": false,
+            "sec_heading_size": "lg",
+            "space": 30,
+            "colors_by_section": false,
+            "color_scheme": "",
+            "background_opacity": 0,
+            "width_lg": 100,
+            "width_md": 100,
+            "width": 100,
+            "padding_t": 0,
+            "padding_b": 0,
+            "padding_rate": 50
+          },
+          "blocks": {
+            "custom_liquid_zwcWhb": {
+              "type": "custom-liquid",
+              "name": "Custom liquid",
+              "settings": {
+                "custom_liquid": "<footer class=\"jals-footer\">\n  <p class=\"jals-footer-text\">\n    All Rights Reserved © 2025 Just a Little Sweeter\n    <a\n      class=\"jals-footer-link\"\n      href=\"https://growthdigital.com.au/?utm_source=client&utm_medium=website&utm_campaign=footer&utm_term=digital+agency\"\n      target=\"_blank\"\n      rel=\"noopener noreferrer\"\n      title=\"Growth Digital – Digital Marketing Agency Australia\"\n    >\n      <img\n        class=\"jals-footer-icon\"\n        src=\"https://cdn.shopify.com/s/files/1/0726/5163/7054/files/growth-digital-black-icon.png\"\n        alt=\"Growth Digital\"\n        width=\"20\"\n        height=\"20\"\n        loading=\"lazy\"\n      />\n      <span>Digital Agency</span>\n    </a>\n  </p>\n</footer>\n\n<style>\n  /* ---------- Reset (scoped to footer to avoid global impact) ---------- */\n  .jals-footer *,\n  .jals-footer *::before,\n  .jals-footer *::after {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n    border: 0;\n  }\n\n  /* ---------- Footer Styles ---------- */\n  .jals-footer {\n    text-align: center;\n    padding: 1rem 0.5rem;\n    font-size: clamp(1.5rem, 2vw, 1rem);\n    line-height: 1.4;\n  }\n\n  .jals-footer-text {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    gap: 0.5rem;\n    margin: 0;\n  }\n\n  .jals-footer-link {\n    display: inline-flex;\n    align-items: center;\n    gap: 0.25rem;\n    color: inherit;\n    text-decoration: none;\n  }\n\n  .jals-footer-link:hover,\n  .jals-footer-link:focus-visible {\n    text-decoration: underline;\n  }\n\n  .jals-footer-icon {\n    width: 1.5rem;\n    height: 1.5rem;\n    flex-shrink: 0;\n  }\n\n  /* ---------- Dark Mode Support ---------- */\n  @media (prefers-color-scheme: dark) {\n    .jals-footer-icon {\n      filter: invert(1);\n    }\n  }\n\n  /* ---------- Mobile Optimization ---------- */\n  @media (max-width: 480px) {\n    .jals-footer-text {\n      flex-direction: column;\n      gap: 0.375rem;\n      font-size: 1.3rem;\n    }\n  }\n</style>"
+              },
+              "blocks": {}
+            },
+            "payment_icons_iUwmft": {
+              "type": "_payment_icons",
+              "name": "t:blocks.payment.name",
+              "settings": {
+                "svg": "amazon,american_express,apple_pay,bitcoin,paypal,shopify_pay",
+                "height": 30
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "custom_liquid_zwcWhb",
+            "payment_icons_iUwmft"
+          ]
         }
       },
       "block_order": [
@@ -335,7 +386,8 @@
         "footer_column_C3zLBR",
         "footer_column_3Dap6p",
         "footer_column_U4EkTn",
-        "footer_column_dYTFqa"
+        "footer_column_dYTFqa",
+        "footer_column_DFT7AQ"
       ],
       "settings": {
         "sticky": false,
@@ -349,97 +401,9 @@
         "background_opacity": 1
       }
     },
-    "footer_ziwVXA": {
-      "type": "footer",
-      "blocks": {
-        "footer_column_Xk9eJH": {
-          "type": "_footer-column",
-          "disabled": true,
-          "settings": {
-            "col_heading": "",
-            "hide_on_mobile": false,
-            "only_mobile": false,
-            "sec_heading_size": "h4",
-            "space": 30,
-            "colors_by_section": false,
-            "color_scheme": "",
-            "background_opacity": 0,
-            "width_lg": 50,
-            "width_md": 50,
-            "width": 100,
-            "padding_t": 0,
-            "padding_b": 0,
-            "padding_rate": 50
-          },
-          "blocks": {
-            "custom_liquid_7gTHbP": {
-              "type": "text",
-              "settings": {
-                "text": "<p>All Rights Reserved © 2025 Just a Little Sweeter</p>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "ffamily": "",
-                "text_size": "base",
-                "line_height": "",
-                "font_weight": "normal",
-                "text_color": "hdt-s-text",
-                "countdown": "2025-12-30 15:00:00",
-                "txt_day": "days",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "custom_liquid_7gTHbP"
-          ]
-        },
-        "footer_column_T7fBhY": {
-          "type": "_footer-column",
-          "disabled": true,
-          "settings": {
-            "col_heading": "",
-            "hide_on_mobile": false,
-            "only_mobile": false,
-            "sec_heading_size": "h4",
-            "space": 30,
-            "colors_by_section": false,
-            "color_scheme": "",
-            "background_opacity": 0,
-            "width_lg": 50,
-            "width_md": 50,
-            "width": 100,
-            "padding_t": 0,
-            "padding_b": 0,
-            "padding_rate": 50
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "footer_column_Xk9eJH",
-        "footer_column_T7fBhY"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "@media (max-width: 768px) {.hdt-row {text-align: center; }}"
-      ],
-      "settings": {
-        "sticky": false,
-        "collapse": true,
-        "full_width": false,
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "padding_rate": 75,
-        "colors_by_section": false,
-        "color_scheme": "",
-        "background_opacity": 0
-      }
-    },
     "custom_liquid_TV3n4k": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.name",
       "settings": {
         "custom_liquid": "<footer class=\"jals-footer\">\n  <p class=\"jals-footer-text\">\n    All Rights Reserved © 2025 Just a Little Sweeter\n    <a\n      class=\"jals-footer-link\"\n      href=\"https://growthdigital.com.au/?utm_source=client&utm_medium=website&utm_campaign=footer&utm_term=digital+agency\"\n      target=\"_blank\"\n      rel=\"noopener noreferrer\"\n      title=\"Growth Digital – Digital Marketing Agency Australia\"\n    >\n      <img\n        class=\"jals-footer-icon\"\n        src=\"https://cdn.shopify.com/s/files/1/0726/5163/7054/files/growth-digital-black-icon.png\"\n        alt=\"Growth Digital\"\n        width=\"20\"\n        height=\"20\"\n        loading=\"lazy\"\n      />\n      <span>Digital Agency</span>\n    </a>\n  </p>\n</footer>\n\n<style>\n  /* ---------- Reset (scoped to footer to avoid global impact) ---------- */\n  .jals-footer *,\n  .jals-footer *::before,\n  .jals-footer *::after {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n    border: 0;\n  }\n\n  /* ---------- Footer Styles ---------- */\n  .jals-footer {\n    text-align: center;\n    padding: 1rem 0.5rem;\n    font-size: clamp(1.5rem, 2vw, 1rem);\n    line-height: 1.4;\n  }\n\n  .jals-footer-text {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    gap: 0.5rem;\n    margin: 0;\n  }\n\n  .jals-footer-link {\n    display: inline-flex;\n    align-items: center;\n    gap: 0.25rem;\n    color: inherit;\n    text-decoration: none;\n  }\n\n  .jals-footer-link:hover,\n  .jals-footer-link:focus-visible {\n    text-decoration: underline;\n  }\n\n  .jals-footer-icon {\n    width: 1.5rem;\n    height: 1.5rem;\n    flex-shrink: 0;\n  }\n\n  /* ---------- Dark Mode Support ---------- */\n  @media (prefers-color-scheme: dark) {\n    .jals-footer-icon {\n      filter: invert(1);\n    }\n  }\n\n  /* ---------- Mobile Optimization ---------- */\n  @media (max-width: 480px) {\n    .jals-footer-text {\n      flex-direction: column;\n      gap: 0.375rem;\n      font-size: 1.3rem;\n    }\n  }\n</style>",
@@ -455,7 +419,6 @@
   },
   "order": [
     "footer_KwXhWr",
-    "footer_ziwVXA",
     "custom_liquid_TV3n4k"
   ]
 }
