@@ -103,6 +103,7 @@
             "group_product_accordion_PLpG6Q": {
               "type": "_group_product_accordion",
               "name": "t:sections.accordion.name",
+              "disabled": true,
               "settings": {
                 "open": false,
                 "accordion_des": "3",
@@ -111,6 +112,7 @@
               "blocks": {
                 "accordion_des_item_qpUqAN": {
                   "type": "_accordion_des_item",
+                  "disabled": true,
                   "settings": {
                     "icon": "none",
                     "title": "Description"
@@ -298,7 +300,6 @@
       "blocks": {
         "tab_des_tKqkJj": {
           "type": "tab_des",
-          "disabled": true,
           "settings": {
             "title": "Description"
           }
