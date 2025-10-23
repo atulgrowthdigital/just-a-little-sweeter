@@ -369,7 +369,7 @@
               "type": "_payment_icons",
               "name": "t:blocks.payment.name",
               "settings": {
-                "svg": "amazon,american_express,apple_pay,bitcoin,paypal,shopify_pay",
+                "svg": "american_express,apple_pay,paypal,shopify_pay",
                 "height": 30
               },
               "blocks": {}

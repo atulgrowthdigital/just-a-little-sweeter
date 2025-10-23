@@ -427,9 +427,11 @@
           "alcohol-hampers-1",
           "little-boxes-of-joy-1",
           "snack-boxes-1",
-          "lolly-pouches"
+          "lolly-pouches",
+          "party-favours",
+          "treat-test-tubes"
         ],
-        "collection_des": "6",
+        "collection_des": "5",
         "content_size": "base",
         "content_weight": "semibold",
         "content_position": "end-center",
@@ -443,9 +445,9 @@
         "image_size": true,
         "img_effect": "zoom",
         "b_effect": "none",
-        "col_dk": "3",
+        "col_dk": "4",
         "col_tb": "3",
-        "col_mb": "1",
+        "col_mb": "2",
         "space_items": "x",
         "layout_mode": "grid",
         "loop": false,
@@ -1627,7 +1629,7 @@
               "type": "_heading_section",
               "name": "Heading",
               "settings": {
-                "heading": "SHOP BY OCCASSION",
+                "heading": "SHOP BY OCCASION",
                 "line_height": "",
                 "heading_size": "h2",
                 "text_color": "hdt-s-text"
@@ -1830,7 +1832,7 @@
         "image_text_col_tGe9dt": {
           "type": "_image-text-col",
           "settings": {
-            "alignment": "left",
+            "alignment": "center",
             "alignment_mb": "center",
             "colors_by_block": false,
             "color_scheme": "",
@@ -1844,12 +1846,12 @@
             "heading_GgehLr": {
               "type": "heading",
               "settings": {
-                "heading": "<h2>HEY, I'M MARIA FLOURIS</h2>",
+                "heading": "<h2>Our Story</h2>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",
                 "font_weight": "normal",
-                "heading_size": "h2",
+                "heading_size": "h3",
                 "text_color": "hdt-s-text",
                 "font_size_heading_lg": 50,
                 "font_size_heading": 24,
@@ -1871,7 +1873,7 @@
             "text_nrqYz6": {
               "type": "text",
               "settings": {
-                "text": "<p>At <em>Just a Little Sweeter</em>, we turn everyday moments into sweet memories. Founded by Maria Flouris, our handcrafted lolly gifts are made with love, nostalgia, and joy. From keepsake jars to custom gift boxes, each creation is designed to surprise and delight—perfect for birthdays, thank-yous, or just-because smiles. Every order is wrapped with care and bursting with personality, because we believe the sweetest gifts are the ones that feel personal.</p><p>Whether you're celebrating or simply sending love, our treats leave a lasting (and delicious) impression. Explore our joyful collection and share a little sugar-coated happiness today.</p>",
+                "text": "<p>At <em>Just a Little Sweeter</em>, we turn everyday moments into sweet memories. Founded by Maria Flouris, our handcrafted hampers are made with love, nostalgia, and joy. From keepsake jars to custom gift boxes, each creation is designed to surprise and delight—perfect for birthdays, thank-yous, or just-because smiles. Every order is wrapped with care and bursting with personality, because we believe the sweetest gifts are the ones that feel personal.</p><p>Whether you're celebrating or simply sending love, our treats leave a lasting (and delicious) impression. Explore our joyful collection and share a little sugar-coated happiness today.</p>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "ffamily": "",
@@ -1902,7 +1904,7 @@
               "type": "button",
               "name": "t:blocks.button.name",
               "settings": {
-                "label": "READ MORE",
+                "label": "FIND OUT MORE",
                 "link": "shopify://pages/our-story",
                 "open_in_new_tab": false,
                 "full_width": false,
@@ -1998,7 +2000,7 @@
             "heading_d6GcBB": {
               "type": "heading",
               "settings": {
-                "heading": "<p>SIGN UP TO OUR NEWSLETTER & BE REWARDED WITH 10% OFF YOUR FIRST ORDER</p>",
+                "heading": "<p>SIGN UP WITH YOUR EMAIL & BE REWARDED WITH 10% OFF YOUR FIRST ORDER</p>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",

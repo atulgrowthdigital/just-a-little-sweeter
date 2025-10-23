@@ -9,11 +9,46 @@
  */
 {
   "sections": {
+    "main_heading_kXwPfH": {
+      "type": "main-heading",
+      "blocks": {
+        "heading_liquid_FnQHeE": {
+          "type": "_heading_liquid",
+          "settings": {
+            "text": "{{ page.title }}",
+            "line_height": "",
+            "font_family": "hdt-font-1",
+            "text_size": "2xl",
+            "text_color": "hdt-s-text",
+            "italic": false,
+            "uppercase": true,
+            "font_size_text_lg": 16,
+            "font_size_text": 14,
+            "letter_spacing_text": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading_liquid_FnQHeE"
+      ],
+      "name": "t:sections.heading-page.page",
+      "settings": {
+        "use_dynamic_source": true,
+        "color_scheme": "scheme-fe88a2ec-47a1-478d-8953-54da0178e18c",
+        "bg_overlay": 54,
+        "space_item": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_rate": 100
+      }
+    },
     "custom_section_EBCyhx": {
       "type": "custom-section",
       "blocks": {
         "multi_column_JAcfYg": {
           "type": "_multi_column",
+          "disabled": true,
           "settings": {
             "column_dk": "6",
             "column_tb": "6",
@@ -38,6 +73,7 @@
           "blocks": {
             "heading_kqkWrt": {
               "type": "heading",
+              "disabled": true,
               "settings": {
                 "heading": "<h1>JUST A LITTLE SWEETER BY MARIA FLOURIS</h1>",
                 "hidden_br_mobile": false,
@@ -117,6 +153,22 @@
             "padding_v_mb": 15
           },
           "blocks": {
+            "heading_DHYNji": {
+              "type": "heading",
+              "settings": {
+                "heading": "<h1>JUST A LITTLE SWEETER BY MARIA FLOURIS</h1>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "line_height": "",
+                "font_weight": "normal",
+                "heading_size": "h3",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 50,
+                "font_size_heading": 24,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            },
             "text_rmNDTx": {
               "type": "text",
               "settings": {
@@ -138,6 +190,7 @@
             }
           },
           "block_order": [
+            "heading_DHYNji",
             "text_rmNDTx"
           ]
         },
@@ -164,13 +217,14 @@
         "color_scheme": "",
         "background_opacity": 0,
         "section_layout": "container",
-        "padding_top": 20,
+        "padding_top": 30,
         "padding_bottom": 30,
         "padding_rate": 50
       }
     }
   },
   "order": [
+    "main_heading_kXwPfH",
     "custom_section_EBCyhx",
     "image_text_LECYRi"
   ]
