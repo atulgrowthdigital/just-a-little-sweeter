@@ -31,6 +31,8 @@
     position: relative;
     z-index: 0;
   }
+  {%- if image != blank -%}
+  {% else %}
   #shopify-section-{{ section.id }} .hdt-heading-image:before{
     position: absolute;
     content: "";
@@ -38,10 +40,12 @@
     top: 0;
     width: 100%;
     height: 100%;
-    /* background: rgb(var(--color-overlay)); */
+    /* background: rgb(var(--color-overlay)); */    
     background: var(--gradient-background, rgb(var(--color-background, var(--color-base-background)) / var(--background-opacity, 100)));
     opacity: var(--bg-overlay);
   }
+  {% endif %}
+  
   #shopify-section-{{ section.id }} .hdt-row-grid{
     row-gap: {{ section.settings.space_item | divided_by: 2.00 }}px;
   }
@@ -51,7 +55,7 @@
     }
   }
 {% endstyle %}
-<div class="hdt-section-spacing hdt-relative hdt-oh hdt-s-gradient" color-scheme="{{ section.settings.color_scheme }}">
+<div class="hdt-section-spacing hdt-relative hdt-oh {%- if image != blank -%} {% else %} hdt-s-gradient {% endif %}" color-scheme="{{ section.settings.color_scheme }}">
   {% comment %} <h1 class="sr-only hdt-pe-none">{{ page_title }}</h1> {% endcomment %}
   <div class="hdt-heading-image hdt-h-overlay hdt-pe-none" style="--bg-overlay:{{ section.settings.bg_overlay | divided_by: 100.00 }};">
     {%- if image != blank -%}
