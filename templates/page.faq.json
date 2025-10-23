@@ -320,6 +320,9 @@
         "accordion_item_rAmfYf",
         "accordion_item_Xngk7e"
       ],
+      "custom_css": [
+        ".hdt-container {max-width: 850px;}"
+      ],
       "name": "t:sections.accordion.name",
       "settings": {
         "accordion_des": "1",
