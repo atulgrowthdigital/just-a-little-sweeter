@@ -34,6 +34,7 @@
       ],
       "settings": {
         "use_dynamic_source": false,
+        "image": "shopify://shop_images/76.2_x_46.4mm_sticker_copy.jpg",
         "color_scheme": "scheme-fe88a2ec-47a1-478d-8953-54da0178e18c",
         "bg_overlay": 57,
         "space_item": 0,
