@@ -120,6 +120,7 @@
                 "accordion_item_3eiCMY": {
                   "type": "_accordion-item",
                   "name": "t:sections.accordion.blocks.accordion_item.label",
+                  "disabled": true,
                   "settings": {
                     "open": false,
                     "icon": "none",
@@ -131,6 +132,7 @@
                 "accordion_item_VEJkWw": {
                   "type": "_accordion-item",
                   "name": "t:sections.accordion.blocks.accordion_item.label",
+                  "disabled": true,
                   "settings": {
                     "open": false,
                     "icon": "none",
@@ -313,12 +315,21 @@
             "content": "<p>At Just a Little Sweeter, we lovingly pack and dispatch your parcel with great care and positive vibes! Once your parcel leaves our warehouse and it’s on its way, it’s officially out of our control and in the great and capable hands of the courier team. </p><p><strong>Important to know:</strong> </p><ul><li>As we use third party couriers, we cannot guarantee next day delivery on any order. While we aim to get your parcel delivered on your preferred date, we dispatch on the advise of our courier team.  </li><li>Were the address is located in a rural area, delivery of your parcel may take an extra day or two. </li><li>Parcels may be returned to us if the courier is not able to deliver your order, or the order isn't retrieved from the Post Office. If your parcel is returned to us we will contact you, the sender to organise alternate delivery options. Please note that redelivery costs apply.  </li><li>We rely on the shipping address provided to ensure a smooth delivery-please double-check it’s correct.  </li><li>If the customer is not home to receive their parcel, we recommend you use a business address. If no one is home on the day of delivery, the parcel will be left outside the customers house, thus it is important the customer provides clear and accurate delivery instructions when placing an order. </li><li>Just a little Sweeter is exempt from any liability or responsibility for loss/damage arising as a result of parcels being left safely and securely at unattended premises. Or due to an incident arising from returned/melted/damaged/undelivered products. </li></ul>",
             "page": ""
           }
+        },
+        "tab_html_eXrUz8": {
+          "type": "tab_html",
+          "settings": {
+            "title": "Gift Hamper Delivery FAQs",
+            "content": "<p>Any delivery queries can be emailed to <a href=\"mailto:shop@justalittleswetter.com.au\" target=\"_blank\"><span style=\"text-decoration:underline\">shop@justalittleswetter.com.au</span></a>.  </p><p><strong>Can l return my order?</strong> </p><p>As your order has been created especially for you, we are unable to resell it and so you are not able to return it.  </p><p><strong>I’ve placed an order and need to make changes. Is it possible?</strong> </p><p>Our warehouse team pack your order at lighting speed to ensure it is dispatched as soon as possible. If you have placed an order and made a mistake, please contact us within 1 hour to make the changes. If your order is dispatched before you contact us, we are unable to make changes. </p><p><strong>Faulty Products</strong> </p><p>The customer can return the product within 4 days of receiving the original order if the product is faulty. Just a little Sweeter do not accept exchanges or refunds for change of mind purchases. The product must be in new condition and in the original packaging. No refund will be given if the product is ruined, used or consumed. </p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "tab_des_tKqkJj",
         "tab_add_HXf3yk",
-        "tab_html_7dKb7L"
+        "tab_html_7dKb7L",
+        "tab_html_eXrUz8"
       ],
       "settings": {
         "tabs_design": "tab",
