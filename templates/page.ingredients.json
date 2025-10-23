@@ -44,7 +44,6 @@
     },
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "full_width": false,
         "color_scheme": "",
@@ -189,6 +188,7 @@
       "block_order": [
         "multi_column_xdjFCV"
       ],
+      "disabled": true,
       "name": "t:sections.custom_section.name",
       "settings": {
         "layout": "10",
@@ -715,6 +715,7 @@
         "multi_column_pcLAAW",
         "multi_column_B3PzfR"
       ],
+      "disabled": true,
       "name": "t:sections.custom_section.name",
       "settings": {
         "layout": "10",
@@ -791,6 +792,7 @@
       "block_order": [
         "multi_column_Tng7YN"
       ],
+      "disabled": true,
       "name": "t:sections.custom_section.name",
       "settings": {
         "layout": "10",
@@ -1337,6 +1339,7 @@
         "multi_column_X3wCiW",
         "multi_column_qyrbeD"
       ],
+      "disabled": true,
       "name": "t:sections.custom_section.name",
       "settings": {
         "layout": "10",
@@ -1413,6 +1416,7 @@
       "block_order": [
         "multi_column_9q69Jg"
       ],
+      "disabled": true,
       "name": "t:sections.custom_section.name",
       "settings": {
         "layout": "10",
@@ -1765,6 +1769,7 @@
         "multi_column_if4QzQ",
         "multi_column_ANwy8k"
       ],
+      "disabled": true,
       "name": "t:sections.custom_section.name",
       "settings": {
         "layout": "10",
@@ -1841,6 +1846,7 @@
       "block_order": [
         "multi_column_JGigdn"
       ],
+      "disabled": true,
       "name": "t:sections.custom_section.name",
       "settings": {
         "layout": "10",
@@ -2501,6 +2507,7 @@
         "multi_column_U763JD",
         "multi_column_yRr7wJ"
       ],
+      "disabled": true,
       "name": "t:sections.custom_section.name",
       "settings": {
         "layout": "10",
@@ -2577,6 +2584,7 @@
       "block_order": [
         "multi_column_niDnEi"
       ],
+      "disabled": true,
       "name": "t:sections.custom_section.name",
       "settings": {
         "layout": "10",
@@ -2812,6 +2820,7 @@
         "multi_column_tPBGDF",
         "multi_column_XjkANy"
       ],
+      "disabled": true,
       "name": "t:sections.custom_section.name",
       "settings": {
         "layout": "10",
