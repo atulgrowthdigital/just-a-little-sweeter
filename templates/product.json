@@ -298,12 +298,14 @@
       "blocks": {
         "tab_des_tKqkJj": {
           "type": "tab_des",
+          "disabled": true,
           "settings": {
             "title": "Description"
           }
         },
         "tab_add_HXf3yk": {
           "type": "tab_add",
+          "disabled": true,
           "settings": {
             "title": "Additional Information"
           }
