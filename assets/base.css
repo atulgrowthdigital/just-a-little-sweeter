@@ -334,6 +334,7 @@ html.no-js .no-js-inline {
   font: var(--font-heading-weight) var(--text-base) / var(--font-heading-line-height) var(--font-heading-family);
   color: rgb(var(--color-foreground));
   word-break: break-word;
+  text-transform: uppercase;
 }
 
 .hdt-h0 {
