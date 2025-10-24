@@ -82,6 +82,7 @@
 .has_menu_inner {
     max-height: 75vh;
     overflow: auto;
+    left: auto;
 }
 .has_menu_inner .hdt-container {
     padding-left: 0;
