@@ -1,0 +1,66 @@
+/* Mobile Menu Inner Block Styles */
+.hdt-menu-inner-mobile-level-1,
+.hdt-menu-inner-mobile-level-2,
+.hdt-menu-inner-mobile-level-3,
+.hdt-menu-inner-mobile-level-4,
+.hdt-menu-inner-mobile-level-5 {
+  --indent-level: 12px;
+  padding-left: var(--indent-level);
+}
+
+.hdt-menu-inner-mobile-level-2 {
+  --indent-level: 24px;
+}
+
+.hdt-menu-inner-mobile-level-3 {
+  --indent-level: 36px;
+}
+
+.hdt-menu-inner-mobile-level-4 {
+  --indent-level: 48px;
+}
+
+.hdt-menu-inner-mobile-level-5 {
+  --indent-level: 60px;
+}
+
+.hdt-menu-inner-mobile-level-1 .hdt-menu-item,
+.hdt-menu-inner-mobile-level-2 .hdt-menu-item,
+.hdt-menu-inner-mobile-level-3 .hdt-menu-item,
+.hdt-menu-inner-mobile-level-4 .hdt-menu-item,
+.hdt-menu-inner-mobile-level-5 .hdt-menu-item {
+  border-bottom: 1px solid rgb(var(--color-line-border)/.1);
+}
+
+.hdt-menu-inner-mobile-level-1 .hdt-menu-link,
+.hdt-menu-inner-mobile-level-2 .hdt-menu-link,
+.hdt-menu-inner-mobile-level-3 .hdt-menu-link,
+.hdt-menu-inner-mobile-level-4 .hdt-menu-link,
+.hdt-menu-inner-mobile-level-5 .hdt-menu-link {
+  padding: 12px 0;
+}
+
+.hdt-menu-inner-mobile-level-1 .hdt-menu-item-arrow,
+.hdt-menu-inner-mobile-level-2 .hdt-menu-item-arrow,
+.hdt-menu-inner-mobile-level-3 .hdt-menu-item-arrow,
+.hdt-menu-inner-mobile-level-4 .hdt-menu-item-arrow,
+.hdt-menu-inner-mobile-level-5 .hdt-menu-item-arrow {
+  transition: transform 0.3s ease;
+}
+
+.hdt-menu-inner-mobile-level-1 details[open] .hdt-menu-item-arrow,
+.hdt-menu-inner-mobile-level-2 details[open] .hdt-menu-item-arrow,
+.hdt-menu-inner-mobile-level-3 details[open] .hdt-menu-item-arrow,
+.hdt-menu-inner-mobile-level-4 details[open] .hdt-menu-item-arrow,
+.hdt-menu-inner-mobile-level-5 details[open] .hdt-menu-item-arrow {
+  transform: rotate(180deg);
+}
+
+[dir="rtl"] .hdt-menu-inner-mobile-level-1,
+[dir="rtl"] .hdt-menu-inner-mobile-level-2,
+[dir="rtl"] .hdt-menu-inner-mobile-level-3,
+[dir="rtl"] .hdt-menu-inner-mobile-level-4,
+[dir="rtl"] .hdt-menu-inner-mobile-level-5 {
+  padding-left: 0;
+  padding-right: var(--indent-level);
+}

@@ -253,7 +253,7 @@
       <button ref="closeButton" class="hdt-s-text hdt-dialog-btn__close" aria-controls="menu_mobile" aria-label="{{ 'accessibility.close' | t | escape }}">{%- render 'icon' with 'close' -%}</button>
     </div>
     <div class="hdt-dialog-drawer__inner">
-      {%- render 'menu_mobile', header_categories: section.settings.header_categories -%}
+      {%- render 'menu_mobile', header_categories: section.settings.header_categories, block: block  -%}
     </div>
 </dialog>
 </hdt-drawer>
@@ -302,7 +302,7 @@
       "header"
     ]
   },
-  "settings": [
+  "settings": [ 
     {
       "type": "paragraph",
       "content": "t:sections.header.settings.header_note"
@@ -691,6 +691,56 @@
     }
   ],
   "blocks": [
+    {
+      "type":"menu_inner",
+      "name":"Inner Menu",
+      "settings":[
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.header.blocks.title",
+          "info": "t:sections.header.blocks.info",
+          "default": "Title"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "Menu"
+        },
+        {
+          "type": "color_scheme",
+          "id": "mega_menu_colors",
+          "label": "t:sections.all.colors.label"
+        },
+        {
+          "type": "radio",
+          "id": "mega_width",
+          "label": "t:sections.header.blocks.mega_width.label",
+          "default": "full",
+          "options": [
+            {
+              "label": "t:sections.header.blocks.mega_width.full",
+              "value": "full"
+            },
+            {
+              "label": "t:sections.header.blocks.mega_width.custom",
+              "value": "custom"
+            }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "mega_custom_width",
+          "label": "t:sections.header.blocks.mega_custom_width",
+          "min": 600,
+          "max": 1600,
+          "step": 10,
+          "unit": "px",
+          "default": 1200,
+          "visible_if": "{{ block.settings.mega_width == 'custom' }}"
+        }
+      ]
+    },
     {
       "type": "html",
       "name": "t:sections.header.blocks.html_name",

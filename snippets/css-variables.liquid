@@ -352,6 +352,8 @@
 {{ 'product-card.css' | asset_url | stylesheet_tag: media: 'all' }}
 {{ 'collection-products.css' | asset_url | stylesheet_tag: media: 'all' }}
 {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'hdt-menu-inner.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'hdt-menu-inner-mobile.css' | asset_url | stylesheet_tag: media: 'print', onload: "this.media='all'" }}
 
 {%- # theme-check-disable AssetPreload -%}
 {% comment %} {%- unless settings.type_body_font.system? -%}

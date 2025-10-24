@@ -8,6 +8,8 @@
 
 {%- if lazyMn -%}
 	{%- case block.type -%}
+		{%- when 'menu_inner' -%}
+			<hdt-lazy-submenu id="sub-{{ block.id }}" data-section="{{ section.id }}" class="hdt-sub-menu hdt-mega-menu hdt-mega-menu--inner hdt-absolute" color-scheme="{{ block.settings.mega_menu_colors }}"> </hdt-lazy-submenu>
 		{%- when 'mega_shop' -%}
 			<hdt-lazy-submenu id="sub-{{ block.id }}" data-section="{{ section.id }}" class="hdt-sub-menu hdt-mega-menu hdt-mega-shop hdt-absolute" color-scheme="{{ block.settings.mega_menu_colors }}"> </hdt-lazy-submenu>
 		{%- when 'mega_product' -%}
@@ -23,6 +25,14 @@
 	{%- endcase -%}
 {%- else -%}
 	{%- case block.type -%}
+		{%- when 'menu_inner' -%}
+			<div class="14 13 has_menu_inner hdt-sub-menu hdt-absolute hdt-dropdown-menu" color-scheme="{{ block.settings.mega_menu_colors }}">
+				{%- if block.settings.menu != blank -%}
+					{%- render 'menu_inner_blocks-2', block: block, link: link -%}
+				{%- else -%}
+					{{ 'sections.header.add_content' | t: item: "menu" }}
+				{%- endif -%}
+			</div>
 		{%- when 'mega_shop' -%}
 			<div id="sub-{{ block.id }}" class="hdt-sub-menu hdt-mega-menu hdt-mega-shop hdt-absolute" color-scheme="{{ block.settings.mega_menu_colors }}">
 				{%- if block.settings.collection_list == blank and link.links == blank -%}

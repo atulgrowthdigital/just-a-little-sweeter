@@ -1,0 +1,98 @@
+/* Menu Inner Block Styles */
+.hdt-mega-menu--inner {
+    --spacing-x: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    box-shadow: 0px 4px 8px 0px rgb(var(--color-line-border));
+    max-height: calc(100vh - var(--header-height) - 20px);
+    overflow: auto;
+    /* position: relative; */
+}
+
+.hdt-menu-inner-wrapper {
+    padding-inline-start: 19px;
+    padding-inline-end: 20px;
+}
+
+.hdt-menu-inner-level-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.hdt-menu-inner-level-2,
+.hdt-menu-inner-level-3,
+.hdt-menu-inner-level-4,
+.hdt-menu-inner-level-5 {
+    margin-top: 0.5rem;
+    margin-inline-start: 1rem;
+}
+
+.hdt-mega-menu--inner .hdt-menu-item>a,
+.hdt-mega-menu--inner .hdt-menu-item>details summary {
+    padding: 0.5rem 0;
+    transition: color 0.2s ease;
+}
+
+.hdt-mega-menu--inner .hdt-menu-item>a:hover,
+.hdt-mega-menu--inner .hdt-menu-item>details summary:hover {
+    color: rgb(var(--color-link));
+}
+
+.hdt-mega-menu--inner .hdt-menu-item-arrow {
+    width: 10px;
+    height: 7px;
+    transform: rotate(-90deg);
+    transition: transform 0.2s ease;
+}
+
+.hdt-mega-menu--inner details[open]>summary .hdt-menu-item-arrow {
+    transform: rotate(0deg);
+}
+
+.hdt-mega-menu--inner .hdt-menu-item.hdt-has-children>details summary {
+    padding-inline-end: 24px;
+}
+
+.hdt-mega-menu--inner .hdt-sub-menu-child {
+    display: none;
+    padding-inline-start: 1rem;
+}
+
+.hdt-mega-menu--inner details[open]>.hdt-sub-menu-child {
+    display: block;
+    animation: slideDown 0.2s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* =============================  */
+
+.has_menu_inner {
+    max-height: 75vh;
+    overflow: auto;
+}
+.has_menu_inner .hdt-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.hdt-mega-menu__inner .hdt-menu-inner-wrapper {
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+}
+
+#hdt-nav-ul>li details> .hdt-sub-menu.hdt-sub-menu-child {
+    padding-inline-end: 0px;
+}
