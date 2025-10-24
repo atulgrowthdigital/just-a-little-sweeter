@@ -141,35 +141,26 @@
         "mega_shop_PKdDaN": {
           "type": "mega_shop",
           "settings": {
-            "title": "SHOP ALL",
+            "title": "Shop",
             "image_ratio": "asos",
-            "image_size": false,
+            "image_size": true,
             "mega_menu_colors": "scheme-1",
             "collection_list": [
-              "anniversary",
-              "christmas"
+              "women",
+              "men"
             ],
             "collection_colors": "scheme-77e4ef58-56a9-4631-876a-12098ba7d57d",
-            "mega_width": "full",
+            "mega_width": "custom",
             "mega_position": "bottom",
             "mega_custom_width": 1200
           }
         },
         "mega_product_ntakNQ": {
           "type": "mega_product",
-          "disabled": true,
           "settings": {
-            "title": "SHOP ALL",
+            "title": "Products",
             "product_list_title": "BEST SELLER",
-            "product_list": [
-              "animal-kingdom-favour-pouch",
-              "animal-kingdom-gift-box",
-              "animal-kingdom-jar-favours",
-              "animal-kingdom-gift-jar",
-              "animal-kingdom-pouch-favours",
-              "billson-s-weekender-alcohol-hamper",
-              "animal-kingdom-keepsake-cubes-favours"
-            ],
+            "product_list": [],
             "image_ratio": "adapt_image",
             "image_size": true,
             "navUI": true,
@@ -229,14 +220,14 @@
             "navUI": true
           }
         },
-        "menu_inner_7zPTrd": {
+        "menu_inner_G9XQUB": {
           "type": "menu_inner",
           "settings": {
             "title": "BY OCCASION",
             "menu": "by-occasion",
-            "mega_menu_colors": "scheme-1",
-            "mega_width": "custom",
-            "mega_custom_width": 600
+            "mega_menu_colors": "",
+            "mega_width": "full",
+            "mega_custom_width": 1200
           }
         }
       },
@@ -247,7 +238,7 @@
         "mega_sale_7qDM6U",
         "mega_page_MtwFkx",
         "mega_blog_Jbe4K9",
-        "menu_inner_7zPTrd"
+        "menu_inner_G9XQUB"
       ],
       "settings": {
         "header_layout": "logo_left",
@@ -264,7 +255,7 @@
         "text_transform": false,
         "dropdown_arrow": false,
         "spacing_nav": 25,
-        "open_event": "click",
+        "open_event": "hover",
         "menu_type": "default",
         "header_menu_colors": "",
         "search_type": "icon",
