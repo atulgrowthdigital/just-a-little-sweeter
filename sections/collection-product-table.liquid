@@ -1,0 +1,148 @@
+<section class="collection-product-table">
+  {% if section.settings.collection != blank %}
+    {% assign selected_collection = collections[section.settings.collection] %}
+
+    <h2>{{ selected_collection.title }}</h2>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Product Title</th>
+            <th>Product URL</th>
+            <th>Product ID</th>
+            <th>Variant IDs</th>
+            <th>Image URL</th>
+            <th>Image Name</th>
+            <th>Image Format</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {% for product in selected_collection.products %}
+            <tr>
+              <td>{{ forloop.index }}</td>
+              <td>{{ product.title }}</td>
+              <td>
+                <a href="{{ product.url }}" target="_blank">
+                  {{ product.url }}
+                </a>
+              </td>
+              <td>
+                <a href="https://admin.shopify.com/store/qwt94e/products/{{ product.id }}" target="_blank">
+                  {{ product.id }}
+                </a>
+              </td>
+              <td>
+                {% for variant in product.variants %}
+                  {{ variant.id -}}
+                  {%- unless forloop.last %}, {% endunless %}
+                {% endfor %}
+              </td>
+              <td>
+                {% if product.images.size > 0 %}
+                  {% for image in product.images %}
+                    <a href="https://qwt94e.myshopify.com/cdn/shop/{{ product.featured_image.src }}" target="_blank">
+                      {{ image.src }}
+                    </a>
+                    {% unless forloop.last %}<br>{% endunless %}
+                  {% endfor %}
+                {% else %}
+                  No Images
+                {% endif %}
+              </td>
+              <td>
+                {% assign image_url = product.featured_image.src | default: '' %}
+                {% assign image_name = image_url | split: '/' | last %}
+                {% if product.images.size > 0 %}
+                  {% for image in product.images %}
+                    {% assign img_last = image.src | split: '/' | last %}
+                    {% assign img_clean = img_last | split: '?' | first %}
+                    {% assign name_without_ext = img_clean
+                      | replace: '.jpg', ''
+                      | replace: '.jpeg', ''
+                      | replace: '.png', ''
+                      | replace: '.webp', ''
+                      | replace: '.gif', ''
+                    %}
+                    <a
+                      href="https://admin.shopify.com/store/qwt94e/content/files?query={{ name_without_ext }}"
+                      target="_blank"
+                    >
+                      {{ name_without_ext }}
+                    </a>
+                    {% unless forloop.last %}<br>{% endunless %}
+                  {% endfor %}
+                {% endif %}
+              </td>
+              <td>
+                {% if product.images.size > 0 %}
+                  {% for image in product.images %}
+                    {{ image.src | split: '.' | last | split: '?' | first }}
+                    {% unless forloop.last %}<br>{% endunless %}
+                  {% endfor %}
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+  {% else %}
+    <p>Please select a collection from the section settings.</p>
+  {% endif %}
+</section>
+
+<style>
+  .collection-product-table h2 {
+    margin-bottom: 15px;
+  }
+
+  .table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid #ddd;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+
+  .collection-product-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .collection-product-table th,
+  .collection-product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 14px;
+    word-break: break-all;
+  }
+
+  .collection-product-table thead th {
+    position: sticky;
+    top: 0;
+    background: #f5f5f5;
+    z-index: 2;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Collection Product Table",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Select Collection"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection Product Table"
+    }
+  ]
+}
+{% endschema %}
