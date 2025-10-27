@@ -1,4 +1,3 @@
-
 .hdt-card-product__media .hdt-pe-none.hdt-size-list {
     display: none;
 }
@@ -72,8 +71,9 @@
 }
 
 @media (max-width:1149px) {
-    .footer-bottom-content .hdt-col-content {        
-        flex-direction: column;        
+    .footer-bottom-content .hdt-col-content {
+        flex-direction: column;
         justify-content: center;
     }
 }
+

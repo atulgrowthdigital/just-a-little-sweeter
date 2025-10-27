@@ -47,7 +47,7 @@
           {%- endif -%}
           {%- assign show_section = true -%}
           <div class="hdt-slider__slide{% if category.handle == collection.handle %} hdt-current-active{% endif %}">
-            <a href="{{ category.url }}">
+            <a class="hdt-uppercase" href="{{ category.url }}">
               {{- category.title -}}
             </a>
           </div>

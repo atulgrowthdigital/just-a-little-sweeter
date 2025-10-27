@@ -6015,3 +6015,7 @@ hdt-drawer {
 div#o_2337897 {
   padding-bottom: 12px;
 }
+
+.mw-option--type-multiswatchcard .mw-stack .mw-stack__item:last-child {
+    order: 1;
+}
