@@ -166,7 +166,7 @@
         "pagination_type": "links",
         "enable_progressbar": true,
         "paginate_pos": "center",
-        "dis_pagination": 40,
+        "dis_pagination": 20,
         "btn_label": "",
         "btn_style": "hdt-btn-outline",
         "size": "xl",
