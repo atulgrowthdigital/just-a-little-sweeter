@@ -80,11 +80,11 @@
             "column_dk_10": "5",
             "column_tb_10": "5",
             "column_mb_10": "10",
-            "spacing_h_dk": 30,
-            "spacing_v_dk": 30,
-            "spacing_h_tb": 30,
-            "spacing_v_tb": 30,
-            "spacing_h_mb": 15,
+            "spacing_h_dk": 0,
+            "spacing_v_dk": 15,
+            "spacing_h_tb": 0,
+            "spacing_v_tb": 15,
+            "spacing_h_mb": 0,
             "spacing_v_mb": 15,
             "content_width": "auto",
             "content_position": "center",
@@ -126,16 +126,16 @@
       "name": "t:sections.custom_section.name",
       "settings": {
         "layout": "12",
-        "item_spacing": 30,
-        "item_spacing_tb": 15,
-        "item_spacing_mb": 15,
+        "item_spacing": 0,
+        "item_spacing_tb": 0,
+        "item_spacing_mb": 0,
         "colors_by_section": false,
         "color_scheme": "",
         "background_opacity": 0,
         "section_layout": "container",
         "padding_top": 0,
         "padding_bottom": 0,
-        "padding_rate": 50
+        "padding_rate": 0
       }
     },
     "main-collection": {
