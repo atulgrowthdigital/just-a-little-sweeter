@@ -172,7 +172,7 @@
         "size": "xl",
         "btn_fw": "medium",
         "enable_sorting": true,
-        "enable_filtering": true,
+        "enable_filtering": false,
         "enable_num_cols_selector": true,
         "widget_heading": "Product categories",
         "cat_source": "1",
