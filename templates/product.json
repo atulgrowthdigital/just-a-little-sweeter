@@ -40,7 +40,7 @@
                 "heading_size": "h4",
                 "font_size_heading_lg": 50,
                 "font_size_heading": 24,
-                "font_weight": "normal",
+                "font_weight": "semibold",
                 "letter_spacing_heading": 0,
                 "create_link": false
               },

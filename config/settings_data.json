@@ -74,7 +74,7 @@
     "show_qty": false,
     "pr_card_alignment": "center",
     "show_rating": false,
-    "pr_title_weight": "medium",
+    "pr_title_weight": "semibold",
     "pr_price_weight": "normal",
     "color_mode": "color",
     "color_type": "all",
