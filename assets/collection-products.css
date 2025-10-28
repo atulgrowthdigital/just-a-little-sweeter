@@ -295,7 +295,7 @@ hdt-card-product.hdt-card-product.hdt-pr-list:not(:first-child) {
 }
 
 .hdt-shop-control {
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 40px;
   --spacing-x:  10px;
   --button-control-cl: rgba(var(--color-foreground)/ 0.6);
