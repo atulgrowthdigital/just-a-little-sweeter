@@ -1,7 +1,15 @@
 <section class="collection-product-table">
+  {% comment %}
+    If a collection is selected in settings, use it.
+    Otherwise, use the current collection page's collection.
+  {% endcomment %}
   {% if section.settings.collection != blank %}
     {% assign selected_collection = collections[section.settings.collection] %}
+  {% elsif collection %}
+    {% assign selected_collection = collection %}
+  {% endif %}
 
+  {% if selected_collection %}
     <h2>{{ selected_collection.title }}</h2>
 
     <div class="table-wrapper">
@@ -12,7 +20,9 @@
             <th>Product Title</th>
             <th>Product URL</th>
             <th>Product ID</th>
-            <th>Variant IDs</th>
+            {% comment %} <th>Variant IDs</th> {% endcomment %}
+            <th>Tags</th>
+            <th>Collections</th>
             <th>Image URL</th>
             <th>Image Name</th>
             <th>Image Format</th>
@@ -25,36 +35,63 @@
               <td>{{ forloop.index }}</td>
               <td>{{ product.title }}</td>
               <td>
-                <a href="{{ product.url }}" target="_blank">
-                  {{ product.url }}
-                </a>
+                <a href="{{ product.url }}" target="_blank">{{ product.url }}</a>
               </td>
               <td>
                 <a href="https://admin.shopify.com/store/qwt94e/products/{{ product.id }}" target="_blank">
                   {{ product.id }}
                 </a>
               </td>
-              <td>
+              {% comment %} <td>
                 {% for variant in product.variants %}
                   {{ variant.id -}}
                   {%- unless forloop.last %}, {% endunless %}
                 {% endfor %}
+              </td> {% endcomment %}
+
+              <!-- ✅ Product Tags -->
+              <td>
+                {% if product.tags.size > 0 %}
+                  <ul>
+                    {% for tag in product.tags %}
+                      <li>
+                        {{ tag }}
+                        {% unless forloop.last %}<br>{% endunless %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                  {% comment %} {{ product.tags | join: ', ' }} {% endcomment %}
+                {% else %}
+                  No Tags
+                {% endif %}
               </td>
+
+              <!-- ✅ Product belongs to these Collections -->
+              <td>
+                {% if product.collections.size > 0 %}
+                  {% for coll in product.collections %}
+                    <a href="{{ coll.url }}" target="_blank">{{ coll.title }}</a>
+                    {% unless forloop.last %}<br>{% endunless %}
+                  {% endfor %}
+                {% else %}
+                  No Collections
+                {% endif %}
+              </td>
+
+              <!-- Product Images -->
               <td>
                 {% if product.images.size > 0 %}
                   {% for image in product.images %}
-                    <a href="https://qwt94e.myshopify.com/cdn/shop/{{ product.featured_image.src }}" target="_blank">
-                      {{ image.src }}
-                    </a>
+                    <a href="{{ image.src | img_url: 'master' }}" target="_blank">{{ image.src }}</a>
                     {% unless forloop.last %}<br>{% endunless %}
                   {% endfor %}
                 {% else %}
                   No Images
                 {% endif %}
               </td>
+
+              <!-- Image Name -->
               <td>
-                {% assign image_url = product.featured_image.src | default: '' %}
-                {% assign image_name = image_url | split: '/' | last %}
                 {% if product.images.size > 0 %}
                   {% for image in product.images %}
                     {% assign img_last = image.src | split: '/' | last %}
@@ -76,6 +113,8 @@
                   {% endfor %}
                 {% endif %}
               </td>
+
+              <!-- Image Format -->
               <td>
                 {% if product.images.size > 0 %}
                   {% for image in product.images %}
@@ -89,9 +128,8 @@
         </tbody>
       </table>
     </div>
-
   {% else %}
-    <p>Please select a collection from the section settings.</p>
+    <p>No collection selected and no default collection available.</p>
   {% endif %}
 </section>
 
