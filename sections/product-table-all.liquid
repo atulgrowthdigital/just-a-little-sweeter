@@ -1,0 +1,174 @@
+<section class="collection-product-table">
+  <h2>All Store Products</h2>
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Product Title</th>
+          <th>Product URL</th>
+          <th>Product ID</th>
+          {% comment %} <th>Variant IDs</th> {% endcomment %}
+          <th>Tags</th>
+          <th>Collections</th>
+          <th>Image URL</th>
+          <th>Image Name</th>
+          <th>Image Format</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% assign counter = 0 %}
+
+        {%- paginate collections.all.products by 1000 -%}
+          {% for product in collections.all.products %}
+            {% assign counter = counter | plus: 1 %}
+            <tr>
+              <td>{{ counter }}</td>
+              <td>{{ product.title }}</td>
+              <td>
+                <a href="{{ product.url }}" target="_blank">{{ product.url }}</a>
+              </td>
+              <td>
+                <a
+                  href="https://admin.shopify.com/store/{{ shop.permanent_domain }}/products/{{ product.id }}"
+                  target="_blank"
+                >
+                  {{- product.id -}}
+                </a>
+              </td>
+              {% comment %} <td>
+                {% for variant in product.variants %}
+                  {{ variant.id -}}
+                  {%- unless forloop.last %}, {% endunless %}
+                {% endfor %}
+              </td> {% endcomment %}
+              <td>
+                {% if product.tags.size > 0 %}
+                  <ul>
+                    {% for tag in product.tags %}
+                      <li>
+                        {{ tag }}
+                        {% unless forloop.last %}<br>{% endunless %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                  {% comment %} {{ product.tags | join: ', ' }} {% endcomment %}
+                {% else %}
+                  No Tags
+                {% endif %}
+              </td>
+              <td>
+                {% if product.collections.size > 0 %}
+                  {% for coll in product.collections %}
+                    <a href="{{ coll.url }}" target="_blank">{{ coll.title }}</a>
+                    {% unless forloop.last %}<br>{% endunless %}
+                  {% endfor %}
+                {% else %}
+                  No Collections
+                {% endif %}
+              </td>
+              <td>
+                {% if product.images.size > 0 %}
+                  {% for image in product.images %}
+                    <a href="{{ image.src | img_url: 'master' }}" target="_blank">{{ image.src }}</a>
+                    {% unless forloop.last %}<br>{% endunless %}
+                  {% endfor %}
+                {% else %}
+                  No Images
+                {% endif %}
+              </td>
+              <td>
+                {% if product.images.size > 0 %}
+                  {% for image in product.images %}
+                    {% assign img_last = image.src | split: '/' | last %}
+                    {% assign img_clean = img_last | split: '?' | first %}
+                    {% assign name_without_ext = img_clean
+                      | replace: '.jpg', ''
+                      | replace: '.jpeg', ''
+                      | replace: '.png', ''
+                      | replace: '.webp', ''
+                      | replace: '.gif', ''
+                    %}
+                    <a
+                      href="https://admin.shopify.com/store/{{ shop.permanent_domain }}/content/files?query={{ name_without_ext }}"
+                      target="_blank"
+                    >
+                      {{ name_without_ext }}
+                    </a>
+                    {% unless forloop.last %}<br>{% endunless %}
+                  {% endfor %}
+                {% endif %}
+              </td>
+              <td>
+                {% if product.images.size > 0 %}
+                  {% for image in product.images %}
+                    {{ image.src | split: '.' | last | split: '?' | first }}
+                    {% unless forloop.last %}<br>{% endunless %}
+                  {% endfor %}
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        {%- endpaginate -%}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<style>
+  .collection-product-table h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid #ddd;
+    max-height: 600px;
+    overflow-y: auto;
+  }
+
+  .collection-product-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .collection-product-table th,
+  .collection-product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 14px;
+    word-break: break-all;
+    vertical-align: top;
+  }
+
+  .collection-product-table thead th {
+    position: sticky;
+    top: 0;
+    background: #f5f5f5;
+    z-index: 2;
+  }
+
+  .collection-product-table a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .collection-product-table a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Product Table All",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Product Table All"
+    }
+  ]
+}
+{% endschema %}
