@@ -115,8 +115,8 @@
       ],
       "name": "t:sections.collections-list.name",
       "settings": {
-        "view_all_text": "VIEW ALL",
-        "view_all_link": "shopify://collections",
+        "view_all_text": "",
+        "view_all_link": "",
         "collection_list": [
           "signature-gift-boxes",
           "signature-gift-jars",
@@ -144,7 +144,7 @@
         "col_tb": "2",
         "col_mb": "1",
         "space_items": "x",
-        "layout_mode": "carousel",
+        "layout_mode": "grid",
         "loop": false,
         "autoplay": 0,
         "pauseOnHover": false,
