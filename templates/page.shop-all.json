@@ -117,7 +117,15 @@
       "settings": {
         "view_all_text": "VIEW ALL",
         "view_all_link": "shopify://collections",
-        "collection_list": [],
+        "collection_list": [
+          "signature-gift-boxes",
+          "signature-gift-jars",
+          "snack-boxes-1",
+          "treat-test-tubes",
+          "little-boxes-of-joy-1",
+          "lolly-pouches",
+          "alcohol-hampers-1"
+        ],
         "collection_des": "7",
         "content_size": "base",
         "content_weight": "semibold",
