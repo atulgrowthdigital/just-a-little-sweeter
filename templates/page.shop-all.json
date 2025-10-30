@@ -136,7 +136,7 @@
         "image_rounded": false,
         "enable_border": false,
         "image_padding": 30,
-        "image_ratio": "adapt_image",
+        "image_ratio": "square",
         "image_size": true,
         "img_effect": "zoom",
         "b_effect": "none",
