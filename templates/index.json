@@ -561,8 +561,8 @@
             "image_DCMPTa": {
               "type": "image",
               "settings": {
-                "img": "shopify://shop_images/Prd7.png",
-                "image_ratio": "landscape",
+                "img": "shopify://shop_images/profile.webp",
+                "image_ratio": "portrait",
                 "img_effect": "none",
                 "b_effect": "none",
                 "custom_width": "full",
