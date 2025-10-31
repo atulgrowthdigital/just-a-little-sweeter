@@ -40,7 +40,7 @@
                 "heading_size": "h4",
                 "font_size_heading_lg": 50,
                 "font_size_heading": 24,
-                "font_weight": "semibold",
+                "font_weight": "bold",
                 "letter_spacing_heading": 0,
                 "create_link": false
               },
@@ -361,9 +361,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "real_data",
+            "max_width": 1200,
             "show_shop_reviews": false,
-            "empty_state": "empty_widget",
-            "max_width": 1200
+            "empty_state": "empty_widget"
           }
         }
       },
