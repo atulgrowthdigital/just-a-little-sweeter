@@ -255,7 +255,7 @@
         "text_transform": false,
         "dropdown_arrow": false,
         "spacing_nav": 25,
-        "open_event": "hover",
+        "open_event": "click",
         "menu_type": "default",
         "header_menu_colors": "",
         "search_type": "icon",

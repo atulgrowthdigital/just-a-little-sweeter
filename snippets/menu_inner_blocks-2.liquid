@@ -15,7 +15,9 @@
                           class="hdt-menu-item hdt-flex hdt-justify-center hdt-flex-col hdt-has-children hdt-relative"
                         >
                           <summary
-                            data-url="{{ inner_link.url }}"
+                            {% if section.settings.open_event == 'hover' %}
+                              data-url="{{ inner_link.url }}"
+                            {% endif %}
                             class="hdt-flex hdt-justify-between hdt-align-center hdt-relative"
                           >
                             <span class="hdt-menu-link-text hdt-block">
@@ -48,7 +50,9 @@
                                         class="hdt-menu-item hdt-flex hdt-justify-center hdt-flex-col hdt-has-children hdt-relative"
                                       >
                                         <summary
-                                          data-url="{{ level2_link.url }}"
+                                          {% if section.settings.open_event == 'hover' %}
+                                            data-url="{{ level2_link.url }}"
+                                          {% endif %}
                                           class="hdt-flex hdt-justify-between hdt-align-center hdt-relative"
                                         >
                                           <span class="hdt-menu-link-text hdt-block">
