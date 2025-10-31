@@ -143,6 +143,7 @@
       "blocks": {
         "filter_KX6bJW": {
           "type": "filter",
+          "disabled": true,
           "settings": {}
         }
       },
