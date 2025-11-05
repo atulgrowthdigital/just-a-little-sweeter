@@ -173,7 +173,7 @@
         "btn_fw": "medium",
         "enable_sorting": true,
         "enable_filtering": false,
-        "enable_num_cols_selector": true,
+        "enable_num_cols_selector": false,
         "widget_heading": "Product categories",
         "cat_source": "1",
         "cat_link_list": "",
