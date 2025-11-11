@@ -397,8 +397,6 @@
             "product_list": [
               "christmas-cheer-gift-box",
               "christmas-cheer-gift-jar",
-              "christmas-gift-box",
-              "christmas-gift-jars",
               "christmas-glow-gift-hamper",
               "christmas-self-care-hamper"
             ],
@@ -407,7 +405,7 @@
             "image_ratio": "square",
             "image_size": true,
             "show_vendor": false,
-            "col_dk": "5",
+            "col_dk": "4",
             "col_tb": "3",
             "col_mb": "2",
             "space_items": "x",
@@ -460,7 +458,7 @@
         "background_opacity": 0,
         "section_layout": "container",
         "padding_top": 50,
-        "padding_bottom": 0,
+        "padding_bottom": 50,
         "padding_rate": 50
       }
     },
