@@ -454,7 +454,7 @@
       "name": "t:sections.collection_products.name",
       "settings": {
         "colors_by_section": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "background_opacity": 0,
         "section_layout": "container",
         "padding_top": 50,
