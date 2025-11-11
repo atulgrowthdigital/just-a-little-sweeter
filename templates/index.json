@@ -393,11 +393,18 @@
           "type": "_product-grid",
           "settings": {
             "collection": "",
-            "products_count": 8,
-            "product_list": [],
+            "products_count": 50,
+            "product_list": [
+              "christmas-cheer-gift-box",
+              "christmas-cheer-gift-jar",
+              "christmas-gift-box",
+              "christmas-gift-jars",
+              "christmas-glow-gift-hamper",
+              "christmas-self-care-hamper"
+            ],
             "pr_border": "none",
             "product_des": "1",
-            "image_ratio": "adapt_image",
+            "image_ratio": "square",
             "image_size": true,
             "show_vendor": false,
             "col_dk": "4",
