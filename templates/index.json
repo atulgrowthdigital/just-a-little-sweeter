@@ -420,7 +420,7 @@
           "type": "section-heading",
           "static": true,
           "settings": {
-            "design_heading": "2",
+            "design_heading": "5",
             "horizontal": false,
             "alignment": "center",
             "heading_gap": 0,
@@ -430,31 +430,16 @@
             "heading_section_ziCUWR": {
               "type": "_heading_section",
               "settings": {
-                "heading": "TRENDING",
-                "line_height": "",
-                "heading_size": "h5",
+                "heading": "Shop by Christmas",
+                "line_height": "hdt-lh-1",
+                "heading_size": "h2",
                 "text_color": "hdt-s-text"
-              },
-              "blocks": {}
-            },
-            "sub_heading_section_dUCFBC": {
-              "type": "_sub_heading_section",
-              "settings": {
-                "text": "<p><em>Top view in this week</em></p>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "text_size": "base",
-                "text_color": "hdt-s-text",
-                "font_size_text_lg": 16,
-                "font_size_text": 14,
-                "letter_spacing_text": 0
               },
               "blocks": {}
             }
           },
           "block_order": [
-            "heading_section_ziCUWR",
-            "sub_heading_section_dUCFBC"
+            "heading_section_ziCUWR"
           ]
         }
       },
@@ -467,7 +452,7 @@
         "color_scheme": "",
         "background_opacity": 0,
         "section_layout": "container",
-        "padding_top": 0,
+        "padding_top": 50,
         "padding_bottom": 0,
         "padding_rate": 50
       }
