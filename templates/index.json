@@ -400,7 +400,7 @@
               "christmas-glow-gift-hamper",
               "christmas-self-care-hamper"
             ],
-            "pr_border": "none",
+            "pr_border": "on_item",
             "product_des": "1",
             "image_ratio": "square",
             "image_size": true,
