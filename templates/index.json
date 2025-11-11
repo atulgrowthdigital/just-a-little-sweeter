@@ -436,7 +436,7 @@
               "type": "_heading_section",
               "settings": {
                 "heading": "Shop by Christmas",
-                "line_height": "hdt-lh-1",
+                "line_height": "",
                 "heading_size": "h2",
                 "text_color": "hdt-s-text"
               },
