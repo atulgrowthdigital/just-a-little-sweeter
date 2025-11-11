@@ -49,7 +49,9 @@
                 {% endif %}
               >
                 <summary
-                  data-url="{{ link.url }}"
+                  {% if section.settings.open_event == 'hover' %}
+                    data-url="{{ link.url }}"
+                  {% endif %}
                   class="hdt-menu-link hdt-flex hdt-align-center hdt-justify-between hdt-relative hdt-text-{{ section.settings.menu_size }} hdt-font-{{ section.settings.menu_weight }}{% if link.current and section.settings.active_link %} hdt-menu-link--active{% endif %}"
                 >
                   <span class="hdt-menu-link-text hdt-block{% if arr_label.size > 0 %} hdt-relative hdt-title_size-{{ arr_title[0].size | at_most: 20 }} hdt-has-{{ arr_label.size | at_most: 2 }}label{% endif %}">
