@@ -1305,7 +1305,12 @@
               "settings": {
                 "collection": "{{ closest.collection }}",
                 "products_count": 4,
-                "product_list": [],
+                "product_list": [
+                  "billson-s-weekender-alcohol-hamper",
+                  "mini-moscato-rose-hampers",
+                  "the-mixed-minchinbury-alcohol-hamper",
+                  "the-weekender-alcohol-hamper"
+                ],
                 "pr_border": "none",
                 "product_des": "1",
                 "image_ratio": "square",
