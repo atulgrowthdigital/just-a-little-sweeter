@@ -83,7 +83,7 @@
                 {% if product.images.size > 0 %}
                   {% for image in product.images %}
                     <a href="{{ image.src | img_url: 'master' }}" target="_blank">{{ image.src }}</a>
-                    <img src="{{ image.src | img_url: 'master' }}" />
+                    <img src="{{ image.src | img_url: 'master' }}" height="100px" width="100px">
                     {% unless forloop.last %}<br>{% endunless %}
                   {% endfor %}
                 {% else %}
