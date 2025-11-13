@@ -109,6 +109,7 @@
                       target="_blank"
                     >
                       {{ name_without_ext }}
+                      <img src="{{ image.src | img_url: 'master' }}" height="100px" width="100px">
                     </a>
                     {% unless forloop.last %}<br>{% endunless %}
                   {% endfor %}
