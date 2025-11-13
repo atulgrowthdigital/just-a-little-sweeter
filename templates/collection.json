@@ -9,13 +9,6 @@
  */
 {
   "sections": {
-    "collection_product_table_eknXPc": {
-      "type": "collection-product-table",
-      "name": "Collection Product Table",
-      "settings": {
-        "collection": ""
-      }
-    },
     "collections_list_simple_4yRUED": {
       "type": "top-list-collections",
       "settings": {
@@ -202,7 +195,6 @@
     }
   },
   "order": [
-    "collection_product_table_eknXPc",
     "collections_list_simple_4yRUED",
     "main_heading_PHNGje",
     "custom_section_hVBWG7",
