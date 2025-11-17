@@ -64,6 +64,7 @@
     "price_varies_style": "1",
     "badge_shape": "circle",
     "label_onsale_style": "percentage",
+    "use_new_badge": false,
     "wis_atc_added": "2",
     "use_url_collection_vendor": false,
     "use_url_collection_type": true,
