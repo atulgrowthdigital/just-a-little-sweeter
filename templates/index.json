@@ -2508,7 +2508,7 @@
         "icon_design": "default",
         "use_border": false,
         "space_padding": false,
-        "icon_size": "small",
+        "icon_size": "medium",
         "icon_color": "hdt-icon-secondary",
         "col_dk": "4",
         "col_tb": "2",
