@@ -25,7 +25,7 @@
         <div class="hdt-collection-wrapper hdt-flex hdt-flex-col hdt-justify-center hdt-align-center">
           <a data-pr-href class="hdt-full-width-link"  aria-label="link" href="{{ collection_link }}"></a>
           <a class="hdt-collection-title hdt-truncate hdt-inline-flex hdt-align-center hdt-justify-center hdt-text-{{ section.settings.content_size }} hdt-font-{{ section.settings.content_weight }}" href="{{ collection_link }}">
-            <span class="hdt-collection-title-text hdt-truncate">{{ title }}</span>
+            <span class="hdt-collection-title-text hdt-truncate hdt-font-bold">{{ title }}</span>
             {% if collection_des == "10" %} <span class="hdt-count">{{ collection.all_products_count | default: 0 }}</span> {% endif %}
             {% if collection_des == "11" %} <span class="hdt-count"> ({{ collection.all_products_count | default: 0 }}) </span> {% endif %}
           </a>
