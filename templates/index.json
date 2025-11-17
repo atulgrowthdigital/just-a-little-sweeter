@@ -449,125 +449,13 @@
             "product_carousel_GazLTi"
           ]
         },
-        "tab_collection_hXgMjn": {
-          "type": "_tab-collection",
-          "settings": {
-            "title": "Item title",
-            "collection": ""
-          },
-          "blocks": {
-            "product_carousel_BnwcjC": {
-              "type": "_product-carousel",
-              "settings": {
-                "collection": "",
-                "products_count": 8,
-                "product_list": [],
-                "pr_border": "none",
-                "product_des": "1",
-                "image_ratio": "adapt_image",
-                "image_size": true,
-                "show_vendor": false,
-                "col_dk": "4",
-                "col_tb": "3",
-                "col_mb": "2",
-                "space_items": "x",
-                "pagination": true,
-                "paginate_pos": "center",
-                "dis_pagination": 30,
-                "btn_label": "",
-                "btn_style": "",
-                "icon": "none",
-                "size": "m",
-                "btn_fw": "medium",
-                "font_size_btn": 14,
-                "padding_btn": 30,
-                "min_width_btn": 100,
-                "min_width_dt_btn": 100,
-                "min_height_btn": 40,
-                "loop": false,
-                "autoplay": 0,
-                "pauseOnHover": false,
-                "navUI": false,
-                "nav_position": "default",
-                "nav_visible": "always",
-                "nav_style": "default",
-                "nav_shape": "default",
-                "nav_size": "small",
-                "nav_hide_mobile": false,
-                "dotUI": false,
-                "pag_style": "default",
-                "pag_rounded": true,
-                "pag_space": 10,
-                "pag_mgt": 10,
-                "only_show_mobile": false,
-                "pag_hide_mobile": false
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_carousel_BnwcjC"
-          ]
-        },
         "tab_collection_rxNCbm": {
           "type": "_tab-collection",
           "settings": {
             "title": "Item title",
             "collection": ""
           },
-          "blocks": {
-            "product_carousel_QDnYWW": {
-              "type": "_product-carousel",
-              "settings": {
-                "collection": "",
-                "products_count": 8,
-                "product_list": [],
-                "pr_border": "none",
-                "product_des": "1",
-                "image_ratio": "adapt_image",
-                "image_size": true,
-                "show_vendor": false,
-                "col_dk": "4",
-                "col_tb": "3",
-                "col_mb": "2",
-                "space_items": "x",
-                "pagination": true,
-                "paginate_pos": "center",
-                "dis_pagination": 30,
-                "btn_label": "",
-                "btn_style": "",
-                "icon": "none",
-                "size": "m",
-                "btn_fw": "medium",
-                "font_size_btn": 14,
-                "padding_btn": 30,
-                "min_width_btn": 100,
-                "min_width_dt_btn": 100,
-                "min_height_btn": 40,
-                "loop": false,
-                "autoplay": 0,
-                "pauseOnHover": false,
-                "navUI": false,
-                "nav_position": "default",
-                "nav_visible": "always",
-                "nav_style": "default",
-                "nav_shape": "default",
-                "nav_size": "small",
-                "nav_hide_mobile": false,
-                "dotUI": false,
-                "pag_style": "default",
-                "pag_rounded": true,
-                "pag_space": 10,
-                "pag_mgt": 10,
-                "only_show_mobile": false,
-                "pag_hide_mobile": false
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_carousel_QDnYWW"
-          ]
+          "blocks": {}
         },
         "tabs-collection-heading": {
           "type": "section-heading",
@@ -598,7 +486,6 @@
       },
       "block_order": [
         "tab_collection_KgdrP9",
-        "tab_collection_hXgMjn",
         "tab_collection_rxNCbm"
       ],
       "name": "t:sections.tabs_collections.carousel_name",
@@ -614,8 +501,8 @@
         "color_scheme": "",
         "background_opacity": 0,
         "section_layout": "container",
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "padding_rate": 50
       }
     },
