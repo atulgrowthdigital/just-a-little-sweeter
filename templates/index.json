@@ -2519,10 +2519,10 @@
         "colors_by_section": true,
         "color_scheme": "scheme-ccabb22c-659b-4b6e-8692-5683b2607d13",
         "background_opacity": 1,
-        "section_layout": "full_width",
+        "section_layout": "wrapper_container",
         "padding_top": 10,
         "padding_bottom": 5,
-        "padding_rate": 50
+        "padding_rate": 90
       }
     },
     "logo_list_bfCRt4": {
