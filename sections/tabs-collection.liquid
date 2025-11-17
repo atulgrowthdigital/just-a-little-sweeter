@@ -81,7 +81,8 @@
     {%- endif -%}
     <div class="hdt-tabs-{{ section.settings.tabs_des }}">
       <div class="hdt-tabs-head hdt-flex hdt-flex-col {% if section.settings.tabs_des == "inline" %}lg:hdt-justify-between lg:hdt-align-center{% endif %}">
-        {%- content_for "block", type: "section-heading", id: "tabs-collection-heading" -%} 
+        {%- content_for "block", type: "section-heading", id: "tabs-collection-heading" -%}
+        {% if section.settings.show_tabs_heading == true %} 
         <div class="hdt-tabs-head-bottom hdt-flex hdt-flex-col {% if section.settings.tabs_des != "inline" %} hdt-align-{{ section.settings.tabs_list_pos }}{% else %} lg:hdt-align-{{ section.settings.tabs_list_pos }} hdt-align-{{ section.settings.heading_align }}{% endif %}">
           <hdt-tab id="Scroller-{{ section.id }}" class="hdt-tab hdt-tabs-list hdt-{{ section.blocks.size | at_most: 5 }}tab-item hdt-flex {% unless section.settings.heading_inline %} hdt-row-grid--modify lg:hdt-justify-center{% else %} lg:hdt-justify-end{% endunless %}" aria-controls="{{ section.id }}-content">
             <hdt-slider id="Slider-{{ section.id }}" class="hdt-tabs-slider hdt-flex md:hdt-justify-center hdt-oh hdt-slider hdt-slider__dots_outline hdt-slides-auto" config='{ "id": "Slider-{{ section.id }}", "navUI": false, "dotUI": true }' hdt-reveal="slide-in" timeline>
@@ -99,6 +100,7 @@
             </hdt-slider>
           </hdt-tab>
         </div>
+        {% endif %}
       </div>
       <div id="{{ section.id }}-content">
         {% content_for 'blocks' %}
