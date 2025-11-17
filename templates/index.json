@@ -401,7 +401,14 @@
               "settings": {
                 "collection": "",
                 "products_count": 8,
-                "product_list": [],
+                "product_list": [
+                  "christmas-cheer-gift-box",
+                  "christmas-cheer-gift-jar",
+                  "christmas-gift-box",
+                  "christmas-gift-jars",
+                  "christmas-glow-gift-hamper",
+                  "christmas-self-care-hamper"
+                ],
                 "pr_border": "none",
                 "product_des": "1",
                 "image_ratio": "adapt_image",
@@ -449,14 +456,6 @@
             "product_carousel_GazLTi"
           ]
         },
-        "tab_collection_rxNCbm": {
-          "type": "_tab-collection",
-          "settings": {
-            "title": "Item title",
-            "collection": ""
-          },
-          "blocks": {}
-        },
         "tabs-collection-heading": {
           "type": "section-heading",
           "static": true,
@@ -485,8 +484,7 @@
         }
       },
       "block_order": [
-        "tab_collection_KgdrP9",
-        "tab_collection_rxNCbm"
+        "tab_collection_KgdrP9"
       ],
       "name": "t:sections.tabs_collections.carousel_name",
       "settings": {
@@ -496,7 +494,7 @@
         "tab_item_border": "solid",
         "border_width": 2,
         "spacing_tabs_items": 30,
-        "tabs_head_spacing": 30,
+        "tabs_head_spacing": 1,
         "colors_by_section": false,
         "color_scheme": "",
         "background_opacity": 0,
@@ -559,6 +557,7 @@
       "block_order": [
         "product_grid_ACaQC4"
       ],
+      "disabled": true,
       "name": "t:sections.collection_products.name",
       "settings": {
         "colors_by_section": false,
