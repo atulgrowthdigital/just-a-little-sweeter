@@ -411,7 +411,7 @@
                 ],
                 "pr_border": "none",
                 "product_des": "1",
-                "image_ratio": "adapt_image",
+                "image_ratio": "square",
                 "image_size": true,
                 "show_vendor": false,
                 "col_dk": "4",
