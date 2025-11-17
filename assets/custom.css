@@ -75,6 +75,10 @@
     opacity: 0.5;
 }
 
+.mw-option.mw-option--type-multiswatchcard .mw-option__container {
+    border-width:0px;
+}
+
 @media (max-width:1149px) {
     .footer-bottom-content .hdt-col-content {
         flex-direction: column;
