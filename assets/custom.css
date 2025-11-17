@@ -70,10 +70,14 @@
     justify-content: space-between;
 }
 
+.btn-undisble {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
 @media (max-width:1149px) {
     .footer-bottom-content .hdt-col-content {
         flex-direction: column;
         justify-content: center;
     }
 }
-
