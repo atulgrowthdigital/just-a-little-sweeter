@@ -398,7 +398,9 @@
               "christmas-cheer-gift-box",
               "christmas-cheer-gift-jar",
               "christmas-glow-gift-hamper",
-              "christmas-self-care-hamper"
+              "christmas-self-care-hamper",
+              "christmas-gift-box",
+              "christmas-gift-jars"
             ],
             "pr_border": "on_item",
             "product_des": "1",
