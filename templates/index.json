@@ -488,6 +488,7 @@
       ],
       "name": "t:sections.tabs_collections.carousel_name",
       "settings": {
+        "show_tabs_heading": false,
         "tabs_des": "base",
         "tabs_list_pos": "center",
         "tab_item_size": "lg",
@@ -1266,6 +1267,7 @@
       ],
       "name": "t:sections.tabs_collections.grid_name",
       "settings": {
+        "show_tabs_heading": true,
         "tabs_des": "underline",
         "tabs_list_pos": "center",
         "tab_item_size": "lg",
@@ -1849,6 +1851,7 @@
       ],
       "name": "t:sections.tabs_collections.grid_name",
       "settings": {
+        "show_tabs_heading": true,
         "tabs_des": "underline",
         "tabs_list_pos": "center",
         "tab_item_size": "lg",
