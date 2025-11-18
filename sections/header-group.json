@@ -85,7 +85,7 @@
         "text_yBAEgJ": {
           "type": "text",
           "settings": {
-            "text1": "Summer sale discount off <strong>50%</strong>! <a href=\"/collections/all\" title=\"All products\">Shop Now</a>",
+            "text1": "",
             "text2": "",
             "text3": "",
             "adding_border": true,
