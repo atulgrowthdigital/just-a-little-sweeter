@@ -286,9 +286,9 @@
         "color_scheme": "scheme-6707cc8e-6558-49d9-8759-f7d934d9fe4f",
         "direction": "ver",
         "after": "scroll",
-        "time_delay": 2,
+        "time_delay": 1,
         "scroll_delay": 800,
-        "day_next": 7
+        "day_next": 1
       }
     }
   },
