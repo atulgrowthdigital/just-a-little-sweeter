@@ -1446,6 +1446,50 @@
             "product_grid_6BdhP3"
           ]
         },
+        "tab_collection_PQK4W4": {
+          "type": "_tab-collection",
+          "settings": {
+            "title": "CHRISTMAS",
+            "collection": "signature-gift-jars"
+          },
+          "blocks": {
+            "product_grid_PjNTfD": {
+              "type": "_product-grid",
+              "settings": {
+                "collection": "{{ closest.collection }}",
+                "products_count": 4,
+                "product_list": [
+                  "christmas-cheer-gift-box",
+                  "christmas-gift-box",
+                  "christmas-glow-gift-hamper",
+                  "christmas-self-care-hamper"
+                ],
+                "pr_border": "none",
+                "product_des": "1",
+                "image_ratio": "square",
+                "image_size": true,
+                "show_vendor": false,
+                "col_dk": "4",
+                "col_tb": "4",
+                "col_mb": "2",
+                "space_items": "x",
+                "pagination": false,
+                "pagination_type": "load_more",
+                "paginate_pos": "center",
+                "dis_pagination": 50,
+                "btn_label": "Load More",
+                "btn_style": "",
+                "endable_btn_icon": true,
+                "size": "xl",
+                "btn_fw": "semibold"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_grid_PjNTfD"
+          ]
+        },
         "tab_collection_PMRzkr": {
           "type": "_tab-collection",
           "settings": {
@@ -1483,45 +1527,6 @@
           },
           "block_order": [
             "product_grid_XmcByg"
-          ]
-        },
-        "tab_collection_PQK4W4": {
-          "type": "_tab-collection",
-          "settings": {
-            "title": "CHRISTMAS",
-            "collection": "signature-gift-jars"
-          },
-          "blocks": {
-            "product_grid_PjNTfD": {
-              "type": "_product-grid",
-              "settings": {
-                "collection": "{{ closest.collection }}",
-                "products_count": 4,
-                "product_list": [],
-                "pr_border": "none",
-                "product_des": "1",
-                "image_ratio": "square",
-                "image_size": true,
-                "show_vendor": false,
-                "col_dk": "4",
-                "col_tb": "4",
-                "col_mb": "2",
-                "space_items": "x",
-                "pagination": false,
-                "pagination_type": "load_more",
-                "paginate_pos": "center",
-                "dis_pagination": 50,
-                "btn_label": "Load More",
-                "btn_style": "",
-                "endable_btn_icon": true,
-                "size": "xl",
-                "btn_fw": "semibold"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_grid_PjNTfD"
           ]
         },
         "tab_collection_JxAxDd": {
@@ -1844,8 +1849,8 @@
       },
       "block_order": [
         "tab_collection_n9RYMg",
-        "tab_collection_PMRzkr",
         "tab_collection_PQK4W4",
+        "tab_collection_PMRzkr",
         "tab_collection_JxAxDd",
         "tab_collection_tj3E6p",
         "tab_collection_Xar4WF",
