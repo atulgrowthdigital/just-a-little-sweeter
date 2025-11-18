@@ -216,6 +216,8 @@
             "color_scheme": "scheme-77e4ef58-56a9-4631-876a-12098ba7d57d",
             "des_newsletter": "3",
             "alignment": "left",
+            "show_fullname": true,
+            "fullname_placeholder": "Full Name",
             "button_lb": "Subscribe",
             "size": "m",
             "btn_fw": "normal",
