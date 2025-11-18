@@ -2153,3 +2153,6 @@ class atcAnimation extends HTMLElement {
 }
 
 customElements.define('hdt-atc-animation', atcAnimation);
+
+//Site refresh on variant change
+console.log("--->>>hello");
