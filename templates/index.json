@@ -1490,6 +1490,51 @@
             "product_grid_PjNTfD"
           ]
         },
+        "tab_collection_yN89n9": {
+          "type": "_tab-collection",
+          "disabled": true,
+          "settings": {
+            "title": "KIDS/TEENS",
+            "collection": "for-kids-teens"
+          },
+          "blocks": {
+            "product_grid_J7yhbT": {
+              "type": "_product-grid",
+              "settings": {
+                "collection": "{{ closest.collection }}",
+                "products_count": 4,
+                "product_list": [
+                  "christmas-cheer-gift-box",
+                  "christmas-gift-box",
+                  "christmas-glow-gift-hamper",
+                  "christmas-self-care-hamper"
+                ],
+                "pr_border": "none",
+                "product_des": "1",
+                "image_ratio": "square",
+                "image_size": true,
+                "show_vendor": false,
+                "col_dk": "4",
+                "col_tb": "4",
+                "col_mb": "2",
+                "space_items": "x",
+                "pagination": false,
+                "pagination_type": "load_more",
+                "paginate_pos": "center",
+                "dis_pagination": 50,
+                "btn_label": "Load More",
+                "btn_style": "",
+                "endable_btn_icon": true,
+                "size": "xl",
+                "btn_fw": "semibold"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_grid_J7yhbT"
+          ]
+        },
         "tab_collection_PMRzkr": {
           "type": "_tab-collection",
           "settings": {
@@ -1502,7 +1547,12 @@
               "settings": {
                 "collection": "{{ closest.collection }}",
                 "products_count": 4,
-                "product_list": [],
+                "product_list": [
+                  "i-heart-you-gift-box",
+                  "pick-and-mix-gift-box",
+                  "the-weekender-alcohol-hamper",
+                  "pick-mix-12-little-boxes-of-joy"
+                ],
                 "pr_border": "none",
                 "product_des": "1",
                 "image_ratio": "square",
@@ -1850,6 +1900,7 @@
       "block_order": [
         "tab_collection_n9RYMg",
         "tab_collection_PQK4W4",
+        "tab_collection_yN89n9",
         "tab_collection_PMRzkr",
         "tab_collection_JxAxDd",
         "tab_collection_tj3E6p",
