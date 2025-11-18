@@ -64,7 +64,7 @@
       "type": "main-search",
       "settings": {
         "product_des": "1",
-        "image_ratio": "asos",
+        "image_ratio": "square",
         "image_size": true,
         "show_vendor": false,
         "pr_border": "none",
