@@ -66,11 +66,14 @@
         "img_trust_zatTgB"
       ],
       "settings": {
+        "colors_by_section": true,
         "color_scheme": "scheme-e0b73555-c767-4eda-aa6d-4e44e10aefce",
         "show_free_shipping_bar": true,
         "show_cart_note": true,
         "show_gift_wrap": true,
         "show_shipping_estimator": true,
+        "show_cart_discount": true,
+        "discount_error_message": "Enter a valid discount code",
         "heading": "Customers also bought",
         "product_list": [],
         "replaces_products_selected": true
@@ -133,11 +136,139 @@
         "border_cl": "#f5f5f5",
         "border_cl_active": "#000000"
       }
+    },
+    "exit_popup_hKAJNf": {
+      "type": "exit-popup",
+      "blocks": {
+        "heading_PWfdmF": {
+          "type": "heading",
+          "name": "t:blocks.heading.name",
+          "settings": {
+            "heading": "<p>Wait! before you leave...</p>",
+            "hidden_br_mobile": false,
+            "hidden_on_mobile": false,
+            "line_height": "hdt-lh-1-2",
+            "font_weight": "semibold",
+            "heading_size": "h_custom",
+            "text_color": "hdt-s-text",
+            "font_size_heading_lg": 32,
+            "font_size_heading": 24,
+            "letter_spacing_heading": 0
+          },
+          "blocks": {}
+        },
+        "spacer_Vn7YGA": {
+          "type": "spacer",
+          "settings": {
+            "direction": false,
+            "space_lg": 4,
+            "space_md": 4,
+            "space": 4
+          },
+          "blocks": {}
+        },
+        "text_dTTWMy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get 15% off for your first order</p>",
+            "hidden_br_mobile": false,
+            "hidden_on_mobile": false,
+            "ffamily": "",
+            "text_size": "base",
+            "line_height": "",
+            "font_weight": "normal",
+            "text_color": "hdt-s-text",
+            "countdown": "2025-12-30 15:00:00",
+            "txt_day": "days",
+            "font_size_text_lg": 16,
+            "font_size_text": 14,
+            "letter_spacing_text": 0
+          },
+          "blocks": {}
+        },
+        "spacer_VTBfbR": {
+          "type": "spacer",
+          "settings": {
+            "direction": false,
+            "space_lg": 30,
+            "space_md": 30,
+            "space": 30
+          },
+          "blocks": {}
+        },
+        "discount_VhYMTX": {
+          "type": "_discount",
+          "name": "t:sections.exit_popup.blocks.discount.name",
+          "settings": {
+            "discount": "CODE20OFF"
+          },
+          "blocks": {}
+        },
+        "spacer_kbfaiA": {
+          "type": "spacer",
+          "settings": {
+            "direction": false,
+            "space_lg": 30,
+            "space_md": 30,
+            "space": 30
+          },
+          "blocks": {}
+        },
+        "text_DtqEga": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use above code to get 15% 0FF for your first order when checkout</p>",
+            "hidden_br_mobile": false,
+            "hidden_on_mobile": false,
+            "ffamily": "",
+            "text_size": "base",
+            "line_height": "",
+            "font_weight": "normal",
+            "text_color": "hdt-s-text",
+            "countdown": "2025-12-30 15:00:00",
+            "txt_day": "days",
+            "font_size_text_lg": 16,
+            "font_size_text": 14,
+            "letter_spacing_text": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading_PWfdmF",
+        "spacer_Vn7YGA",
+        "text_dTTWMy",
+        "spacer_VTBfbR",
+        "discount_VhYMTX",
+        "spacer_kbfaiA",
+        "text_DtqEga"
+      ],
+      "name": "t:sections.exit_popup.name",
+      "settings": {
+        "color_scheme": "",
+        "heading": "Recommended Products",
+        "color_scheme_pr": "",
+        "collections": "",
+        "product_list": [],
+        "limit": 3,
+        "image_ratio": "adapt_image",
+        "after": "move_cursor",
+        "time_delay": 2,
+        "day_next": 7,
+        "index": true,
+        "product": false,
+        "collection": false,
+        "article": false,
+        "blog": false,
+        "cart": false,
+        "page": false
+      }
     }
   },
   "order": [
     "cart-drawer",
     "toolbar-mobile",
-    "back_top_k436G4"
+    "back_top_k436G4",
+    "exit_popup_hKAJNf"
   ]
 }
