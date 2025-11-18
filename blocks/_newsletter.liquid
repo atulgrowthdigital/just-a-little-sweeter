@@ -8,12 +8,14 @@
       <div class="hdt-newsletter__fields">
         <div class="hdt-newsletter__inner hdt-oh hdt-justify-center hdt-flex hdt-flex-col gap-1">
           <!-- NEW FULL NAME FIELD -->
-          <input 
-            type="text" 
-            name="contact[first_name]" 
-            placeholder="Full Name" 
-            class="hdt-newsletter__name hdt-flex hdt-align-center hdt-input hdt-text-{{ block.settings.alignment }}" 
-            required="required">
+          {% if block.settings.show_fullname %}
+            <input 
+              type="text" 
+              name="contact[first_name]" 
+              placeholder="{{ block.settings.fullname_placeholder }}"
+              class="hdt-newsletter__name hdt-flex hdt-align-center hdt-input hdt-text-{{ block.settings.alignment }}" 
+              required="required">
+          {% endif %}
 
           <input type="email" name="contact[email]" placeholder="{{ 'sections.newsletter_form.email_placeholder' | t }}"  value="{% if customer %}{{ customer.email }}{% endif %}" class="hdt-newsletter__email hdt-flex hdt-align-center hdt-input hdt-text-{{ block.settings.alignment }}" required="required">
           <button data-agreeMail-btn type="submit" class="hdt-w-100 hdt-newsletter__submit hdt-btn-loading__svg hdt-flex hdt-align-center hdt-btn hdt-btn-solid hdt-btn--size-{{ block.settings.size }} hdt-font-{{ block.settings.btn_fw }} hdt-relative {% if block.settings.icon != "none" %} hdt-btn--with-icon hdt-btn--pos-icon-{{ block.settings.icon_position }}{% endif %}"{% if block.settings.icon != "none" %} style="--gap-btn-icon: {{ block.settings.icon_spacing }}px; --height-btn-icon: {{ block.settings.icon_height }}px"{% endif %}>
