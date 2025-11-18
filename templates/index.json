@@ -1591,7 +1591,12 @@
               "settings": {
                 "collection": "{{ closest.collection }}",
                 "products_count": 4,
-                "product_list": [],
+                "product_list": [
+                  "lets-start-the-party-gift-box",
+                  "pick-and-mix-gift-box",
+                  "mixed-snack-box-grande",
+                  "pick-mix-12-little-boxes-of-joy"
+                ],
                 "pr_border": "none",
                 "product_des": "1",
                 "image_ratio": "square",
