@@ -1492,7 +1492,6 @@
         },
         "tab_collection_yN89n9": {
           "type": "_tab-collection",
-          "disabled": true,
           "settings": {
             "title": "KIDS/TEENS",
             "collection": "for-kids-teens"
@@ -1503,12 +1502,7 @@
               "settings": {
                 "collection": "{{ closest.collection }}",
                 "products_count": 4,
-                "product_list": [
-                  "christmas-cheer-gift-box",
-                  "christmas-gift-box",
-                  "christmas-glow-gift-hamper",
-                  "christmas-self-care-hamper"
-                ],
+                "product_list": [],
                 "pr_border": "none",
                 "product_des": "1",
                 "image_ratio": "square",
