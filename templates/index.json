@@ -1723,7 +1723,12 @@
               "settings": {
                 "collection": "{{ closest.collection }}",
                 "products_count": 4,
-                "product_list": [],
+                "product_list": [
+                  "chocaholic-fix-gift-box",
+                  "so-much-liquorice-gift-box",
+                  "the-weekender-alcohol-hamper",
+                  "mixed-snack-box-grande"
+                ],
                 "pr_border": "none",
                 "product_des": "1",
                 "image_ratio": "square",
@@ -1750,45 +1755,6 @@
             "product_grid_ndCLk7"
           ]
         },
-        "tab_collection_tj3E6p": {
-          "type": "_tab-collection",
-          "settings": {
-            "title": "ALCOHOL",
-            "collection": "alcohol-hampers-1"
-          },
-          "blocks": {
-            "product_grid_AEPpzJ": {
-              "type": "_product-grid",
-              "settings": {
-                "collection": "{{ closest.collection }}",
-                "products_count": 4,
-                "product_list": [],
-                "pr_border": "none",
-                "product_des": "1",
-                "image_ratio": "square",
-                "image_size": true,
-                "show_vendor": false,
-                "col_dk": "4",
-                "col_tb": "4",
-                "col_mb": "2",
-                "space_items": "x",
-                "pagination": false,
-                "pagination_type": "load_more",
-                "paginate_pos": "center",
-                "dis_pagination": 50,
-                "btn_label": "Load More",
-                "btn_style": "",
-                "endable_btn_icon": true,
-                "size": "xl",
-                "btn_fw": "semibold"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_grid_AEPpzJ"
-          ]
-        },
         "tab_collection_yC4RfV": {
           "type": "_tab-collection",
           "settings": {
@@ -1801,7 +1767,12 @@
               "settings": {
                 "collection": "{{ closest.collection }}",
                 "products_count": 4,
-                "product_list": [],
+                "product_list": [
+                  "i-heart-you-gift-box",
+                  "pinkalicious-gift-box",
+                  "mini-moscato-rose-hampers",
+                  "pick-mix-12-little-boxes-of-joy"
+                ],
                 "pr_border": "none",
                 "product_des": "1",
                 "image_ratio": "square",
@@ -1826,45 +1797,6 @@
           },
           "block_order": [
             "product_grid_p3Gty6"
-          ]
-        },
-        "tab_collection_GQhcpq": {
-          "type": "_tab-collection",
-          "settings": {
-            "title": "EASTER",
-            "collection": "easter"
-          },
-          "blocks": {
-            "product_grid_MzqkBB": {
-              "type": "_product-grid",
-              "settings": {
-                "collection": "{{ closest.collection }}",
-                "products_count": 4,
-                "product_list": [],
-                "pr_border": "none",
-                "product_des": "1",
-                "image_ratio": "square",
-                "image_size": true,
-                "show_vendor": false,
-                "col_dk": "4",
-                "col_tb": "4",
-                "col_mb": "2",
-                "space_items": "x",
-                "pagination": false,
-                "pagination_type": "load_more",
-                "paginate_pos": "center",
-                "dis_pagination": 50,
-                "btn_label": "Load More",
-                "btn_style": "",
-                "endable_btn_icon": true,
-                "size": "xl",
-                "btn_fw": "semibold"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_grid_MzqkBB"
           ]
         },
         "tabs-collection-heading": {
@@ -1921,9 +1853,7 @@
         "tab_collection_Xar4WF",
         "tab_collection_h9c6nn",
         "tab_collection_FrQ8jJ",
-        "tab_collection_tj3E6p",
-        "tab_collection_yC4RfV",
-        "tab_collection_GQhcpq"
+        "tab_collection_yC4RfV"
       ],
       "name": "t:sections.tabs_collections.grid_name",
       "settings": {
