@@ -2161,7 +2161,9 @@ customElements.define('hdt-atc-animation', atcAnimation);
   if (allVariants.length > 0) {
     allVariants.forEach((variant) => {
       variant.addEventListener("change", () => {
-        location.reload();
+        setTimeout(() => {
+          location.reload();
+        }, 200);
       });
     });
   }
