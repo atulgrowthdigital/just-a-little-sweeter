@@ -79,6 +79,11 @@
     border-width:0px;
 }
 
+.mw-text--style-negative {
+    --mw-apo-color-danger:#999999;
+    color: var(--mw-apo-color-danger, #de3618);
+}
+
 @media (max-width:1149px) {
     .footer-bottom-content .hdt-col-content {
         flex-direction: column;
