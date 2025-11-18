@@ -2155,4 +2155,14 @@ class atcAnimation extends HTMLElement {
 customElements.define('hdt-atc-animation', atcAnimation);
 
 //Site refresh on variant change
-console.log("--->>>hello");
+{
+  let allVariants = document.querySelectorAll(".js-variant-site-reload");
+
+  if (allVariants.length > 0) {
+    allVariants.forEach((variant) => {
+      variant.addEventListener("change", () => {
+        location.reload();
+      });
+    });
+  }
+}
