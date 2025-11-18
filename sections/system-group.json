@@ -137,47 +137,48 @@
         "border_cl_active": "#000000"
       }
     },
-    "exit_popup_hKAJNf": {
-      "type": "exit-popup",
+    "newsletter_modal_mpHxwa": {
+      "type": "newsletter-modal",
       "blocks": {
-        "heading_PWfdmF": {
+        "heading_qNjBfb": {
           "type": "heading",
           "name": "t:blocks.heading.name",
           "settings": {
-            "heading": "<p>Wait! before you leave...</p>",
+            "heading": "<p>ENJOY 10% OFF</p>",
             "hidden_br_mobile": false,
             "hidden_on_mobile": false,
-            "line_height": "hdt-lh-1-2",
-            "font_weight": "semibold",
-            "heading_size": "h_custom",
+            "line_height": "",
+            "font_weight": "medium",
+            "heading_size": "h0",
             "text_color": "hdt-s-text",
-            "font_size_heading_lg": 32,
-            "font_size_heading": 24,
+            "font_size_heading_lg": 18,
+            "font_size_heading": 18,
             "letter_spacing_heading": 0
           },
           "blocks": {}
         },
-        "spacer_Vn7YGA": {
+        "spacer_FG6BpY": {
           "type": "spacer",
+          "name": "t:blocks.spacer.name",
           "settings": {
             "direction": false,
-            "space_lg": 4,
-            "space_md": 4,
-            "space": 4
+            "space_lg": 10,
+            "space_md": 10,
+            "space": 10
           },
           "blocks": {}
         },
-        "text_dTTWMy": {
+        "text_pJmW8j": {
           "type": "text",
           "settings": {
-            "text": "<p>Get 15% off for your first order</p>",
+            "text": "<p>Subscribe to our newsletters and don’t miss new arrivals, the latest fashion updates and our promotions.</p>",
             "hidden_br_mobile": false,
             "hidden_on_mobile": false,
             "ffamily": "",
             "text_size": "base",
             "line_height": "",
             "font_weight": "normal",
-            "text_color": "hdt-s-text",
+            "text_color": "hdt-text-secondary",
             "countdown": "2025-12-30 15:00:00",
             "txt_day": "days",
             "font_size_text_lg": 16,
@@ -186,82 +187,93 @@
           },
           "blocks": {}
         },
-        "spacer_VTBfbR": {
+        "spacer_TVXNh7": {
           "type": "spacer",
+          "name": "t:blocks.spacer.name",
           "settings": {
             "direction": false,
-            "space_lg": 30,
-            "space_md": 30,
-            "space": 30
+            "space_lg": 10,
+            "space_md": 10,
+            "space": 10
           },
           "blocks": {}
         },
-        "discount_VhYMTX": {
-          "type": "_discount",
-          "name": "t:sections.exit_popup.blocks.discount.name",
+        "newsletter_BLaMim": {
+          "type": "_newsletter",
+          "name": "t:blocks.newsletter.name",
           "settings": {
-            "discount": "CODE20OFF"
+            "color_scheme": "",
+            "des_newsletter": "6",
+            "alignment": "left",
+            "button_lb": "Subscribe",
+            "size": "m",
+            "btn_fw": "normal",
+            "agree_form": false,
+            "content": "Hello",
+            "icon": "none",
+            "icon_position": "after",
+            "icon_height": 14,
+            "icon_spacing": 5
           },
           "blocks": {}
         },
-        "spacer_kbfaiA": {
+        "spacer_LkqtrB": {
           "type": "spacer",
+          "name": "t:blocks.spacer.name",
           "settings": {
             "direction": false,
-            "space_lg": 30,
-            "space_md": 30,
-            "space": 30
+            "space_lg": 10,
+            "space_md": 10,
+            "space": 10
           },
           "blocks": {}
         },
-        "text_DtqEga": {
+        "text_V4b9mf": {
           "type": "text",
           "settings": {
-            "text": "<p>Use above code to get 15% 0FF for your first order when checkout</p>",
+            "text": "<p>Your Information will never be shared with any third party.</p>",
             "hidden_br_mobile": false,
             "hidden_on_mobile": false,
             "ffamily": "",
-            "text_size": "base",
+            "text_size": "custom",
             "line_height": "",
             "font_weight": "normal",
-            "text_color": "hdt-s-text",
+            "text_color": "hdt-text-secondary",
             "countdown": "2025-12-30 15:00:00",
             "txt_day": "days",
-            "font_size_text_lg": 16,
-            "font_size_text": 14,
+            "font_size_text_lg": 12,
+            "font_size_text": 12,
             "letter_spacing_text": 0
+          },
+          "blocks": {}
+        },
+        "popup-button": {
+          "type": "_popup_button",
+          "static": true,
+          "settings": {
+            "button_label": "Do not show it anymore."
           },
           "blocks": {}
         }
       },
       "block_order": [
-        "heading_PWfdmF",
-        "spacer_Vn7YGA",
-        "text_dTTWMy",
-        "spacer_VTBfbR",
-        "discount_VhYMTX",
-        "spacer_kbfaiA",
-        "text_DtqEga"
+        "heading_qNjBfb",
+        "spacer_FG6BpY",
+        "text_pJmW8j",
+        "spacer_TVXNh7",
+        "newsletter_BLaMim",
+        "spacer_LkqtrB",
+        "text_V4b9mf"
       ],
-      "name": "t:sections.exit_popup.name",
+      "name": "t:sections.newsletter_popup.name",
       "settings": {
-        "color_scheme": "",
-        "heading": "Recommended Products",
-        "color_scheme_pr": "",
-        "collections": "",
-        "product_list": [],
-        "limit": 3,
-        "image_ratio": "adapt_image",
-        "after": "move_cursor",
+        "colors_by_section": true,
+        "color_scheme": "scheme-6707cc8e-6558-49d9-8759-f7d934d9fe4f",
+        "direction": "ver",
+        "after": "scroll",
         "time_delay": 2,
-        "day_next": 7,
-        "index": true,
-        "product": false,
-        "collection": false,
-        "article": false,
-        "blog": false,
-        "cart": false,
-        "page": false
+        "scroll_delay": 800,
+        "day_next": 7
       }
     }
   },
@@ -269,6 +281,6 @@
     "cart-drawer",
     "toolbar-mobile",
     "back_top_k436G4",
-    "exit_popup_hKAJNf"
+    "newsletter_modal_mpHxwa"
   ]
 }
