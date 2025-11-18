@@ -272,7 +272,7 @@
       "settings": {
         "colors_by_section": true,
         "color_scheme": "scheme-6707cc8e-6558-49d9-8759-f7d934d9fe4f",
-        "direction": "hor",
+        "direction": "ver",
         "after": "scroll",
         "time_delay": 2,
         "scroll_delay": 800,
