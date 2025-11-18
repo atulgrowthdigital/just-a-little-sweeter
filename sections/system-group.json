@@ -202,8 +202,8 @@
           "type": "_newsletter",
           "name": "t:blocks.newsletter.name",
           "settings": {
-            "color_scheme": "",
-            "des_newsletter": "6",
+            "color_scheme": "scheme-77e4ef58-56a9-4631-876a-12098ba7d57d",
+            "des_newsletter": "3",
             "alignment": "left",
             "button_lb": "Subscribe",
             "size": "m",
