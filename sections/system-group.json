@@ -198,6 +198,17 @@
           },
           "blocks": {}
         },
+        "spacer_TJcg8e": {
+          "type": "spacer",
+          "name": "t:blocks.spacer.name",
+          "settings": {
+            "direction": false,
+            "space_lg": 10,
+            "space_md": 10,
+            "space": 10
+          },
+          "blocks": {}
+        },
         "newsletter_BLaMim": {
           "type": "_newsletter",
           "name": "t:blocks.newsletter.name",
@@ -264,6 +275,7 @@
         "spacer_FG6BpY",
         "text_pJmW8j",
         "spacer_TVXNh7",
+        "spacer_TJcg8e",
         "newsletter_BLaMim",
         "spacer_LkqtrB",
         "text_V4b9mf"
