@@ -4,7 +4,7 @@
   {%- assign form_id = 'hdt-form-newsletter-' | append: block.id -%}
   <div class="hdt-newsletter-parent hdt-w-full hdt-inline-block">
     {%- form 'customer', class: 'hdt-pr hdt-newsletter__form', id: form_id, data-form-mail-agree: '' -%}
-      <input type="hidden" name="contact[tags]" value="newsletter-popoup">
+      <input type="hidden" name="contact[tags]" value="newsletter">
       <div class="hdt-newsletter__fields">
         <div class="hdt-newsletter__inner hdt-oh hdt-justify-center hdt-flex {% if block.settings.show_fullname %} hdt-flex-col gap-1 {% endif %} ">
           <!-- NEW FULL NAME FIELD -->
