@@ -1414,7 +1414,12 @@
               "settings": {
                 "collection": "{{ closest.collection }}",
                 "products_count": 4,
-                "product_list": [],
+                "product_list": [
+                  "birthday-celebrations-gift-box",
+                  "billson-s-weekender-alcohol-hamper",
+                  "pick-mix-12-little-boxes-of-joy",
+                  "birthday-celebrations-gift-jar"
+                ],
                 "pr_border": "none",
                 "product_des": "1",
                 "image_ratio": "square",
