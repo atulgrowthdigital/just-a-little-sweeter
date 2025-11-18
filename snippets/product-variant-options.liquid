@@ -150,7 +150,7 @@
     {%- elsif block.settings.picker_type == 'dropdown' -%}
       <button type="button" role="option" value="{{ value | escape }}" aria-selected="{% if selected_value == value and un_no_pick %}true{% else %}false{% endif %}"{% if option_soldout or option_unavailable %} class="{% if option_unavailable %}is-unavailable{% else %}is-disabled{% endif %}"{% endif %}>{{ value }}</button>
     {%- else -%}
-      <input autocomplete="off" is-value type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" name="{{ option.name | escape }}" value="{{ value | escape }}" form="{{ product_form_id }}"{% if selected_value == value and un_no_pick %} checked{% endif %} class="sr-only {% if option_unavailable %}is-unavailable{% elsif option_soldout %}is-disabled{% endif %}">
+      <input autocomplete="off" is-value type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" name="{{ option.name | escape }}" value="{{ value | escape }}" form="{{ product_form_id }}"{% if selected_value == value and un_no_pick %} checked{% endif %} class="sr-only testing {% if option_unavailable %}is-unavailable{% elsif option_soldout %}is-disabled{% endif %}">
       <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" class="hdt-product-form_value  is-type-block">
         {%- unless hide_sold_out %}<span class="sr-only">{{ 'products.product.variant_sold_out' | t }}</span>{% endunless -%}
         {{- value | escape -}}
