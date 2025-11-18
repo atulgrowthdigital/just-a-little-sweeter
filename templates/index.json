@@ -1494,7 +1494,7 @@
           "type": "_tab-collection",
           "settings": {
             "title": "KIDS/TEENS",
-            "collection": "for-kids-teens"
+            "collection": ""
           },
           "blocks": {
             "product_grid_J7yhbT": {
@@ -1502,7 +1502,12 @@
               "settings": {
                 "collection": "{{ closest.collection }}",
                 "products_count": 4,
-                "product_list": [],
+                "product_list": [
+                  "chupa-chups-galore-gift-box",
+                  "bubblegum-mania-gift-box",
+                  "sweet-treat-self-care-hamper",
+                  "mixed-snack-box-grande"
+                ],
                 "pr_border": "none",
                 "product_des": "1",
                 "image_ratio": "square",
