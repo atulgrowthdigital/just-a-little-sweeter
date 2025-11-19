@@ -843,13 +843,14 @@ select {
       --stretch-md-max: 30px;
     } */
 .hdt-container,
+.shopify-policy__container,
 .hdt-container-full {
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
   padding: 0;
 }
-
+.shopify-policy__container,
 .hdt-container {
   padding: 0 1.5rem;
 }
@@ -864,6 +865,7 @@ select {
       }
     } */
 @media (min-width: 768px) {
+  .shopify-policy__container,
   .hdt-container {
     max-width: var(--container-max-width-padding-md);
     padding: 0 3rem;
@@ -871,6 +873,7 @@ select {
 }
 
 @media (min-width: 1150px) {
+  .shopify-policy__container,
   .hdt-container {
     max-width: var(--container-max-width-padding-lg);
     padding: 0 5rem;
