@@ -1,8 +1,5 @@
 <section class="collection-product-table">
-  {% comment %}
-    If a collection is selected in settings, use it.
-    Otherwise, use the current collection page's collection.
-  {% endcomment %}
+  {% comment %} Select collection dynamically {% endcomment %}
   {% if section.settings.collection != blank %}
     {% assign selected_collection = collections[section.settings.collection] %}
   {% elsif collection %}
@@ -10,76 +7,108 @@
   {% endif %}
 
   {% if selected_collection %}
-    <h2>{{ selected_collection.title }}</h2>
+    <h2>
+      {{ selected_collection.title }}
+      <small>({{ selected_collection.products_count }} products)</small>
+    </h2>
 
     <div class="table-wrapper">
       <table>
         <thead>
           <tr>
-            <th>#</th>
-            <th>Product Title</th>
-            <th>Product URL</th>
-            <th>Product ID</th>
-            {% comment %} <th>Variant IDs</th> {% endcomment %}
-            <th>Tags</th>
-            <th>Collections</th>
-            <th>Image URL</th>
-            <th>Image Name</th>
-            <th>Image Format</th>
+            {% for block in section.blocks %}
+              <th>{{ block.settings.column_label }}</th>
+            {% endfor %}
           </tr>
         </thead>
-
-        <tbody>
-          {% for product in selected_collection.products %}
-            <tr>
-              <td>{{ forloop.index }}</td>
-              <td>{{ product.title }}</td>
-              <td>
+    <tbody>
+  {% assign counter = 0 %}
+  {%- paginate selected_collection.products by 1000 -%}
+    {% for product in selected_collection.products %}
+      
+      {% assign counter = counter | plus: 1 %}
+      <tr>
+        {% for block in section.blocks %}
+          <td>
+            {% case block.type %}
+              {% when 'index' %}
+                {{ counter }}
+              {% when 'title' %}
+                <a href="{{ product.url }}" target="_blank">{{ product.title }}</a>
+              {% when 'url' %}
                 <a href="{{ product.url }}" target="_blank">{{ product.url }}</a>
-              </td>
-              <td>
-                <a href="https://admin.shopify.com/store/qwt94e/products/{{ product.id }}" target="_blank">
+              {% when 'id' %}
+                <a
+                  href="https://admin.shopify.com/store/{{ shop.permanent_domain | remove: '.myshopify.com' }}/products/{{ product.id }}"
+                  target="_blank"
+                >
                   {{ product.id }}
                 </a>
-              </td>
-              {% comment %} <td>
-                {% for variant in product.variants %}
-                  {{ variant.id -}}
-                  {%- unless forloop.last %}, {% endunless %}
-                {% endfor %}
-              </td> {% endcomment %}
-
-              <!-- ✅ Product Tags -->
-              <td>
-                {% if product.tags.size > 0 %}
+              {% when 'handle' %}
+                {{ product.handle }}
+              {% when 'price' %}
+                {% if product.price %}
+                  {{ product.price | money }}
+                {% else %}
+                  No Price
+                {% endif %}
+              {% when 'options' %}
+                {% if product.variants.size > 0 %}
                   <ul>
-                    {% for tag in product.tags %}
+                    {% for variant in product.variants %}
                       <li>
-                        {{ tag }}
-                        {% unless forloop.last %}<br>{% endunless %}
+                        {% for option_name in product.options %}
+                          <strong>{{ option_name }}:</strong>
+                          {{ variant.options[forloop.index0] }}
+                          {% unless forloop.last %} / {% endunless %}
+                        {% endfor %}
+                        — {{ variant.price | money }}
                       </li>
                     {% endfor %}
                   </ul>
-                  {% comment %} {{ product.tags | join: ', ' }} {% endcomment %}
+                {% else %}
+                  No Options
+                {% endif %}
+              {% when 'variants' %}
+                {% if product.variants.size > 0 %}
+                  <ul>
+                    {% for variant in product.variants %}
+                      <li>{{ variant.title }}</li>
+                    {% endfor %}
+                  </ul>
+                {% else %}
+                  No Variants
+                {% endif %}
+              {% when 'variant_ids' %}
+                {% if product.variants.size > 0 %}
+                  {% for variant in product.variants %}
+                    <a
+                      href="https://admin.shopify.com/store/{{ shop.permanent_domain | remove: '.myshopify.com' }}/products/{{ product.id }}/variants/{{ variant.id }}"
+                      target="_blank"
+                    >
+                      {{ variant.id }}
+                    </a>
+                    {% unless forloop.last %}<br>{% endunless %}
+                  {% endfor %}
+                {% else %}
+                  No Variant IDs
+                {% endif %}
+              {% when 'tags' %}
+                {% if product.tags.size > 0 %}
+                  {{ product.tags | join: ', ' }}
                 {% else %}
                   No Tags
                 {% endif %}
-              </td>
-
-              <!-- ✅ Product belongs to these Collections -->
-              <td>
+              {% when 'collections' %}
                 {% if product.collections.size > 0 %}
                   {% for coll in product.collections %}
                     <a href="{{ coll.url }}" target="_blank">{{ coll.title }}</a>
-                    {% unless forloop.last %}<br>{% endunless %}
+                    {% unless forloop.last %}, {% endunless %}
                   {% endfor %}
                 {% else %}
                   No Collections
                 {% endif %}
-              </td>
-
-              <!-- Product Images -->
-              <td>
+              {% when 'image_url' %}
                 {% if product.images.size > 0 %}
                   {% for image in product.images %}
                     <a href="{{ image.src | img_url: 'master' }}" target="_blank">{{ image.src }}</a>
@@ -89,10 +118,7 @@
                 {% else %}
                   No Images
                 {% endif %}
-              </td>
-
-              <!-- Image Name -->
-              <td>
+              {% when 'image_name' %}
                 {% if product.images.size > 0 %}
                   {% for image in product.images %}
                     {% assign img_last = image.src | split: '/' | last %}
@@ -104,63 +130,61 @@
                       | replace: '.webp', ''
                       | replace: '.gif', ''
                     %}
-                    <a
-                      href="https://admin.shopify.com/store/qwt94e/content/files?query={{ name_without_ext }}"
-                      target="_blank"
-                    >
-                      {{ name_without_ext }}
-                      <img src="{{ image.src | img_url: 'master' }}" height="100px" width="100px">
-                    </a>
+                    {{ name_without_ext }}
                     {% unless forloop.last %}<br>{% endunless %}
                   {% endfor %}
+                {% else %}
+                  No Images
                 {% endif %}
-              </td>
-
-              <!-- Image Format -->
-              <td>
+              {% when 'image_format' %}
                 {% if product.images.size > 0 %}
                   {% for image in product.images %}
                     {{ image.src | split: '.' | last | split: '?' | first }}
+                    {% comment %} <img src="{{ image.src | img_url: 'master' }}" height="100px" width="100px"> {% endcomment %}
                     {% unless forloop.last %}<br>{% endunless %}
                   {% endfor %}
+                {% else %}
+                  No Images
                 {% endif %}
-              </td>
-            </tr>
-          {% endfor %}
-        </tbody>
+            {% endcase %}
+          </td>
+        {% endfor %}
+      </tr>
+      
+    {% endfor %}
+  {%- endpaginate -%}
+</tbody>
+
       </table>
     </div>
   {% else %}
-    <p>No collection selected and no default collection available.</p>
+    <p>No collection selected or found.</p>
   {% endif %}
 </section>
 
 <style>
   .collection-product-table h2 {
     margin-bottom: 15px;
+    font-size: 20px;
   }
-
   .table-wrapper {
     width: 100%;
     overflow-x: auto;
     border: 1px solid #ddd;
-    {% comment %} max-height: 1500px; {% endcomment %}
     overflow-y: auto;
   }
-
   .collection-product-table table {
     width: 100%;
     border-collapse: collapse;
   }
-
   .collection-product-table th,
   .collection-product-table td {
     border: 1px solid #ddd;
     padding: 8px;
     font-size: 14px;
+    vertical-align: top;
     word-break: break-all;
   }
-
   .collection-product-table thead th {
     position: sticky;
     top: 0;
@@ -178,6 +202,22 @@
       "id": "collection",
       "label": "Select Collection"
     }
+  ],
+  "blocks": [
+    { "type": "index", "name": "Row Number", "settings": [{ "type": "text", "id": "column_label", "label": "Column Label", "default": "#" }] },
+    { "type": "title", "name": "Product Title", "settings": [{ "type": "text", "id": "column_label", "label": "Column Label", "default": "Product Title" }] },
+    { "type": "url", "name": "Product URL", "settings": [{ "type": "text", "id": "column_label", "label": "Column Label", "default": "Product URL" }] },
+    { "type": "id", "name": "Product ID", "settings": [{ "type": "text", "id": "column_label", "label": "Column Label", "default": "Product ID" }] },
+    { "type": "handle", "name": "Product Handle", "settings": [{ "type": "text", "id": "column_label", "label": "Column Label", "default": "Product Handle" }] },
+    { "type": "price", "name": "Product Price", "settings": [{ "type": "text", "id": "column_label", "label": "Column Label", "default": "Product Price" }] },
+    { "type": "options", "name": "Options", "settings": [{ "type": "text", "id": "column_label", "label": "Column Label", "default": "Options" }] },
+    { "type": "variants", "name": "Variants", "settings": [{ "type": "text", "id": "column_label", "label": "Column Label", "default": "Variants" }] },
+    { "type": "variant_ids", "name": "Variant IDs", "settings": [{ "type": "text", "id": "column_label", "label": "Column Label", "default": "Variant IDs" }] },
+    { "type": "tags", "name": "Tags", "settings": [{ "type": "text", "id": "column_label", "label": "Column Label", "default": "Tags" }] },
+    { "type": "collections", "name": "Collections", "settings": [{ "type": "text", "id": "column_label", "label": "Column Label", "default": "Collections" }] },
+    { "type": "image_url", "name": "Image URL", "settings": [{ "type": "text", "id": "column_label", "label": "Column Label", "default": "Image URL" }] },
+    { "type": "image_name", "name": "Image Name", "settings": [{ "type": "text", "id": "column_label", "label": "Column Label", "default": "Image Name" }] },
+    { "type": "image_format", "name": "Image Format", "settings": [{ "type": "text", "id": "column_label", "label": "Column Label", "default": "Image Format" }] }
   ],
   "presets": [
     {
