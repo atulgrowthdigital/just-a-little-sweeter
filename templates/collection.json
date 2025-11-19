@@ -23,11 +23,18 @@
           "settings": {
             "column_label": "Product Title"
           }
+        },
+        "image_name_qzbwnD": {
+          "type": "image_name",
+          "settings": {
+            "column_label": "Image Name"
+          }
         }
       },
       "block_order": [
         "index_AnaQGU",
-        "title_MTXULy"
+        "title_MTXULy",
+        "image_name_qzbwnD"
       ],
       "name": "Collection Product Table",
       "settings": {
