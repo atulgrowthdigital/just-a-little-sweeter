@@ -5524,6 +5524,19 @@ input[type=radio]:checked+.hdt-product-form_value.is-type-color hdt-tooltip,
     margin-bottom: 30px;
   }
 }
+@media (min-width: 768px) {
+  .shopify-policy__container {
+    max-width: var(--container-max-width-padding-md) !important;
+    padding: 0 3rem !important; 
+  }
+}
+
+@media (min-width: 1150px) {
+  .shopify-policy__container {
+    max-width: var(--container-max-width-padding-lg) !important;
+    padding: 0 5rem !important;
+  }
+}
 
 /* 
    ==========================
