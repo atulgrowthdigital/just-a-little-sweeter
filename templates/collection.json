@@ -26,15 +26,30 @@
         },
         "image_name_qzbwnD": {
           "type": "image_name",
+          "disabled": true,
           "settings": {
             "column_label": "Image Name"
+          }
+        },
+        "variant_weight_9kPhRR": {
+          "type": "variant_weight",
+          "settings": {
+            "column_label": "Variant Weight"
+          }
+        },
+        "variant_box_size_dDdKfi": {
+          "type": "variant_box_size",
+          "settings": {
+            "column_label": "Variant Box Size"
           }
         }
       },
       "block_order": [
         "index_AnaQGU",
         "title_MTXULy",
-        "image_name_qzbwnD"
+        "image_name_qzbwnD",
+        "variant_weight_9kPhRR",
+        "variant_box_size_dDdKfi"
       ],
       "name": "Collection Product Table",
       "settings": {
