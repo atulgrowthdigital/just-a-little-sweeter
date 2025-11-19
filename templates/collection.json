@@ -11,6 +11,24 @@
   "sections": {
     "collection_product_table_qr7Mg7": {
       "type": "collection-product-table",
+      "blocks": {
+        "index_AnaQGU": {
+          "type": "index",
+          "settings": {
+            "column_label": "#"
+          }
+        },
+        "title_MTXULy": {
+          "type": "title",
+          "settings": {
+            "column_label": "Product Title"
+          }
+        }
+      },
+      "block_order": [
+        "index_AnaQGU",
+        "title_MTXULy"
+      ],
       "name": "Collection Product Table",
       "settings": {
         "collection": ""
