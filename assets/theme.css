@@ -5515,8 +5515,8 @@ input[type=radio]:checked+.hdt-product-form_value.is-type-color hdt-tooltip,
 }
 
 .shopify-policy__container {
-     width: 100%;
-    max-width: 100%;
+     width: 100% !important;
+    max-width: 100% !important;
     margin: 0 auto;
     padding: 0;
 
