@@ -146,6 +146,23 @@
                 {% else %}
                   No Images
                 {% endif %}
+                {% when 'variant_weight' %}
+                  {% if product.variants.size > 0 %}
+                    <ul>
+                      {% for variant in product.variants %}
+                        <li>
+                          {{ variant.title }} —
+                          {% if variant.weight %}
+                            {{ variant.weight }} {{ variant.weight_unit }}
+                          {% else %}
+                            No Weight
+                          {% endif %}
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  {% else %}
+                    No Variants
+                  {% endif %}
             {% endcase %}
           </td>
         {% endfor %}
