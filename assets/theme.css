@@ -5524,6 +5524,14 @@ input[type=radio]:checked+.hdt-product-form_value.is-type-color hdt-tooltip,
     margin-bottom: 30px;
   }
 }
+.shopify-policy__title h1 {
+      letter-spacing: var(--font-heading-spacing);
+    font: var(--font-heading-weight) var(--text-base) / var(--font-heading-line-height) var(--font-heading-family);
+    color: rgb(var(--color-foreground));
+    word-break: break-word;
+    text-transform: uppercase;
+        font-size: var(--h2-size-mb);
+}
 @media (min-width: 768px) {
   .shopify-policy__container {
     max-width: var(--container-max-width-padding-md) !important;
