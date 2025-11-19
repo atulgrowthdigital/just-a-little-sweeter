@@ -295,6 +295,8 @@
                 "color_scheme": "",
                 "des_newsletter": "3",
                 "alignment": "left",
+                "show_fullname": false,
+                "fullname_placeholder": "Full Name",
                 "button_lb": "Subscribe",
                 "size": "s",
                 "btn_fw": "semibold",
