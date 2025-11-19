@@ -5515,10 +5515,10 @@ input[type=radio]:checked+.hdt-product-form_value.is-type-color hdt-tooltip,
 }
 
 .shopify-policy__container {
-  /* max-width: unset !important; */
-  /* width: min(90rem, calc(100vw - 30px)); */
-  /* margin: 0 auto; */
-  /* padding: 50px 0; */
+     width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
 
   .shopify-policy__title {
     margin-bottom: 30px;
