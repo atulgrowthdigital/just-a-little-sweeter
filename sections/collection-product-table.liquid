@@ -163,6 +163,29 @@
                   {% else %}
                     No Variants
                   {% endif %}
+                  {% when 'variant_box_size' %}
+  {% if product.variants.size > 0 %}
+    <ul>
+      {% for variant in product.variants %}
+        {% assign length = variant.metafields.custom.length %}
+        {% assign width  = variant.metafields.custom.width %}
+        {% assign height = variant.metafields.custom.height %}
+
+        <li>
+          {{ variant.title }} —
+          {% if length or width or height %}
+            L: {{ length | default: 'N/A' }},
+            W: {{ width | default: 'N/A' }},
+            H: {{ height | default: 'N/A' }}
+          {% else %}
+            No Box Size Data
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    No Variants
+  {% endif %}
             {% endcase %}
           </td>
         {% endfor %}
