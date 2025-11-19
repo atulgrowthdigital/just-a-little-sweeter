@@ -9,53 +9,6 @@
  */
 {
   "sections": {
-    "collection_product_table_qr7Mg7": {
-      "type": "collection-product-table",
-      "blocks": {
-        "index_AnaQGU": {
-          "type": "index",
-          "settings": {
-            "column_label": "#"
-          }
-        },
-        "title_MTXULy": {
-          "type": "title",
-          "settings": {
-            "column_label": "Product Title"
-          }
-        },
-        "image_name_qzbwnD": {
-          "type": "image_name",
-          "disabled": true,
-          "settings": {
-            "column_label": "Image Name"
-          }
-        },
-        "variant_weight_9kPhRR": {
-          "type": "variant_weight",
-          "settings": {
-            "column_label": "Variant Weight"
-          }
-        },
-        "variant_box_size_dDdKfi": {
-          "type": "variant_box_size",
-          "settings": {
-            "column_label": "Variant Box Size"
-          }
-        }
-      },
-      "block_order": [
-        "index_AnaQGU",
-        "title_MTXULy",
-        "image_name_qzbwnD",
-        "variant_weight_9kPhRR",
-        "variant_box_size_dDdKfi"
-      ],
-      "name": "Collection Product Table",
-      "settings": {
-        "collection": ""
-      }
-    },
     "collections_list_simple_4yRUED": {
       "type": "top-list-collections",
       "settings": {
@@ -242,7 +195,6 @@
     }
   },
   "order": [
-    "collection_product_table_qr7Mg7",
     "collections_list_simple_4yRUED",
     "main_heading_PHNGje",
     "custom_section_hVBWG7",
