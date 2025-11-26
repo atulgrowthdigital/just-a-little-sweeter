@@ -2280,7 +2280,7 @@
               "settings": {
                 "heading": "",
                 "description": "",
-                "success_message": "Thank you for contacting us! We'll get back to you soon.",
+                "success_message": "Thank you for subscribing",
                 "first_name_label": "",
                 "first_name_placeholder": "First name",
                 "first_name_required": true,
