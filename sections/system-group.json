@@ -289,7 +289,7 @@
         "direction": "ver",
         "after": "scroll",
         "time_delay": 5,
-        "scroll_delay": 400,
+        "scroll_delay": 100,
         "day_next": 7
       }
     }
