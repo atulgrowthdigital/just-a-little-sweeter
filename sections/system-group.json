@@ -290,7 +290,7 @@
         "after": "scroll",
         "time_delay": 5,
         "scroll_delay": 100,
-        "day_next": 7
+        "day_next": 1
       }
     }
   },
