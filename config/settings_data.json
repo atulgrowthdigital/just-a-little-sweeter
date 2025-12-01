@@ -515,8 +515,8 @@
           "pr_text": "#222222",
           "price": "#000000",
           "sale_price": "#ec0101",
-          "input_primary": "#ffffff",
-          "input_secondary": "#686868"
+          "input_primary": "#222222",
+          "input_secondary": "#222222"
         }
       }
     }
