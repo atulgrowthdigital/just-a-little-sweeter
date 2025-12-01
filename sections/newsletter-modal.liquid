@@ -1,6 +1,11 @@
 <!-- sections/newsletter-modal.liquid -->
 {{ 'hdt-newsletter-popup.css' | asset_url | stylesheet_tag }}
 {% style %}
+
+#shopify-section-{{ section.id }} #modalNewsletter-{{ section.id }} {
+  background-image:url({{ section.settings.bg_image | img_url }});
+}
+
 {% endstyle %}
 <sys-newsletter configs='{ "id": "{{ section.id }}", "after": "{{ section.settings.after }}", "day_next": {{ section.settings.day_next }}, "time_delay": {{ section.settings.time_delay }},  "scroll_delay": {{ section.settings.scroll_delay }} }'>
   <hdt-modal class="hdt-modal hdt-modal-newsletter hdt-modal-{{ section.settings.direction }} hdt-contents" color-scheme="{% if section.settings.colors_by_section %}{{ section.settings.color_scheme }}{% else %}{{ settings.color_scheme_dialog }}{% endif %}">
