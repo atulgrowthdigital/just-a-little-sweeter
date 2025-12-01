@@ -286,6 +286,7 @@
       "settings": {
         "colors_by_section": true,
         "color_scheme": "scheme-6707cc8e-6558-49d9-8759-f7d934d9fe4f",
+        "bg_image": "shopify://shop_images/76.2_x_46.4mm_sticker_copy.jpg",
         "direction": "ver",
         "after": "scroll",
         "time_delay": 5,
