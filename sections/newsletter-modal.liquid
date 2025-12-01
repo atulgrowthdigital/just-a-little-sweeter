@@ -4,6 +4,8 @@
 
 #shopify-section-{{ section.id }} #modalNewsletter-{{ section.id }} {
   background-image:url({{ section.settings.bg_image | img_url }});
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 {% endstyle %}
