@@ -285,7 +285,7 @@
       "name": "t:sections.newsletter_popup.name",
       "settings": {
         "colors_by_section": true,
-        "color_scheme": "scheme-b3da0847-ab4a-4138-915d-0e88078b2fe0",
+        "color_scheme": "scheme-6707cc8e-6558-49d9-8759-f7d934d9fe4f",
         "direction": "ver",
         "after": "scroll",
         "time_delay": 5,
