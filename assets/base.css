@@ -1712,6 +1712,11 @@ hdt-need-checked-to-use [disabled] {
   --cols: 6;
 }
 
+@media (max-width:300px) {
+ .hdt-grid-cols-2 {
+  --cols: 1;
+} 
+}
 @media (min-width: 768px) {
 
   .md\:hdt-grid-cols-0,
