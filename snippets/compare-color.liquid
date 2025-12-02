@@ -126,7 +126,7 @@
             <div class="hdt-compare-color-item">
               {%- liquid
               if variant_first_image
-                echo variant_first_image | image_url: width: variant_first_image.width | image_tag: loading: 'lazy', sizes: '360px', widths: '165, 360, 533, 668, 720, 940'
+                echo variant_first_image | image_url: width: variant_first_image.width | image_tag: loading: 'lazy', sizes: '360px', widths: '360, 533, 668, 720, 940'
               endif -%}
               <wrapp-hdt-pr-frm class="hdt-contents">
                 {%- form 'product', product, id: product_form_id, class: 'hdt-product-form-compare-color' -%}
