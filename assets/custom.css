@@ -91,6 +91,9 @@
     }
 }
 
+.hdt-image-with_text .hdt-row-grid {
+    gap:0px;
+}
 .gap-0 {
     gap:0px;
 }
