@@ -233,7 +233,6 @@
         "spacer_LkqtrB": {
           "type": "spacer",
           "name": "t:blocks.spacer.name",
-          "disabled": true,
           "settings": {
             "direction": false,
             "space_lg": 10,
@@ -242,22 +241,38 @@
           },
           "blocks": {}
         },
-        "text_V4b9mf": {
-          "type": "text",
-          "disabled": true,
+        "heading_RNM8e7": {
+          "type": "heading",
+          "name": "t:blocks.heading.name",
           "settings": {
-            "text": "<p>Your Information will never be shared with any third party.</p>",
+            "heading": "<p>Holiday Closure Notice</p>",
+            "hidden_br_mobile": false,
+            "hidden_on_mobile": false,
+            "line_height": "",
+            "font_weight": "medium",
+            "heading_size": "h3",
+            "text_color": "hdt-s-text",
+            "font_size_heading_lg": 18,
+            "font_size_heading": 18,
+            "letter_spacing_heading": 0
+          },
+          "blocks": {}
+        },
+        "text_yjEGLA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We will be closed from 24 December 2025 to 11 January 2026.</p><p>Orders placed during this time will be shipped from 12 January 2026.</p>",
             "hidden_br_mobile": false,
             "hidden_on_mobile": false,
             "ffamily": "",
-            "text_size": "custom",
+            "text_size": "base",
             "line_height": "",
             "font_weight": "normal",
             "text_color": "hdt-text-secondary",
             "countdown": "2025-12-30 15:00:00",
             "txt_day": "days",
-            "font_size_text_lg": 12,
-            "font_size_text": 12,
+            "font_size_text_lg": 16,
+            "font_size_text": 14,
             "letter_spacing_text": 0
           },
           "blocks": {}
@@ -280,7 +295,8 @@
         "spacer_TJcg8e",
         "newsletter_BLaMim",
         "spacer_LkqtrB",
-        "text_V4b9mf"
+        "heading_RNM8e7",
+        "text_yjEGLA"
       ],
       "name": "t:sections.newsletter_popup.name",
       "settings": {
