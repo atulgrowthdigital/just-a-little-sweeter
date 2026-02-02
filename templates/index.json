@@ -402,12 +402,13 @@
                 "collection": "",
                 "products_count": 8,
                 "product_list": [
-                  "christmas-cheer-gift-box",
-                  "christmas-cheer-gift-jar",
-                  "christmas-gift-box",
-                  "christmas-gift-jars",
-                  "christmas-glow-gift-hamper",
-                  "christmas-self-care-hamper"
+                  "i-heart-you-gift-box",
+                  "pinkalicious-gift-box",
+                  "mini-moscato-rose-hampers",
+                  "i-heart-you-gift-jar",
+                  "pinkalicious-snack-box-classic",
+                  "i-heart-you-snack-box-classic",
+                  "the-mixed-minchinbury-alcohol-hamper"
                 ],
                 "pr_border": "none",
                 "product_des": "1",
@@ -470,7 +471,7 @@
             "heading_section_B9FFCP": {
               "type": "_heading_section",
               "settings": {
-                "heading": "Christmas Delights",
+                "heading": "VALENTINES DAY",
                 "line_height": "hdt-lh-1",
                 "heading_size": "h2",
                 "text_color": "hdt-s-text"
