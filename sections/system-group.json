@@ -244,6 +244,7 @@
         "heading_RNM8e7": {
           "type": "heading",
           "name": "t:blocks.heading.name",
+          "disabled": true,
           "settings": {
             "heading": "<p>Holiday Closure Notice</p>",
             "hidden_br_mobile": false,
@@ -260,6 +261,7 @@
         },
         "text_yjEGLA": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>We will be closed from 24 December 2025 to 11 January 2026.</p><p>Orders placed during this time will be shipped from 12 January 2026.</p>",
             "hidden_br_mobile": false,
