@@ -110,6 +110,7 @@
         "text_yBAEgJ",
         "socials_fdcYWR"
       ],
+      "disabled": true,
       "custom_css": [
         "strong {color: #ec0101; font-weight: 400;}"
       ],
