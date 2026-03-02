@@ -371,7 +371,7 @@
               "type": "_payment_icons",
               "name": "t:blocks.payment.name",
               "settings": {
-                "svg": "american_express,apple_pay,paypal,shopify_pay",
+                "svg": "american_express,apple_pay,paypal,shopify_pay,afterpay",
                 "height": 30
               },
               "blocks": {}
