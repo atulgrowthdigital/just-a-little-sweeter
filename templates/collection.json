@@ -90,7 +90,7 @@
             "content_position": "center",
             "content_position_mb": "center",
             "alignment": "center",
-            "alignment_mb": "center",
+            "alignment_mb": "left",
             "background_color": "rgba(0,0,0,0)",
             "rounded": "none"
           },
