@@ -144,7 +144,7 @@
           "type": "_image-text-col",
           "settings": {
             "alignment": "left",
-            "alignment_mb": "center",
+            "alignment_mb": "left",
             "colors_by_block": false,
             "color_scheme": "",
             "align_center": true,
