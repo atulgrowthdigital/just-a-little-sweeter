@@ -84,7 +84,7 @@
             "content_position": "center",
             "content_position_mb": "center",
             "alignment": "center",
-            "alignment_mb": "center",
+            "alignment_mb": "left",
             "background_color": "#ffffff",
             "rounded": "none"
           },
@@ -110,9 +110,9 @@
               "name": "t:blocks.spacer.name",
               "settings": {
                 "direction": false,
-                "space_lg": 50,
+                "space_lg": 40,
                 "space_md": 50,
-                "space": 50
+                "space": 20
               },
               "blocks": {}
             },
