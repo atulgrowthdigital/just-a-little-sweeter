@@ -1382,7 +1382,7 @@
       "name": "t:sections.marquee.name",
       "settings": {
         "space_item": 30,
-        "speed": 0.3,
+        "speed": 0.1,
         "direction": "rtl",
         "marquee_pause_when_hover": false,
         "text_fs": "base",
