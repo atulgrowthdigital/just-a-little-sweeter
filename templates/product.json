@@ -158,7 +158,7 @@
                 "source": "2",
                 "wimg": 240,
                 "svg": "american_express,apple_pay,diners_club,google_pay,maestro,master,paypal,shopify_pay,visa, afterpay",
-                "height": 31
+                "height": 30
               },
               "blocks": {}
             },
