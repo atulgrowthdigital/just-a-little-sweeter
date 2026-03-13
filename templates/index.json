@@ -402,13 +402,10 @@
                 "collection": "",
                 "products_count": 8,
                 "product_list": [
-                  "i-heart-you-gift-box",
-                  "pinkalicious-gift-box",
-                  "mini-moscato-rose-hampers",
-                  "i-heart-you-gift-jar",
-                  "pinkalicious-snack-box-classic",
-                  "i-heart-you-snack-box-classic",
-                  "the-mixed-minchinbury-alcohol-hamper"
+                  "easter-eggstravaganza",
+                  "easter-gift-box",
+                  "lindt-easter-hamper",
+                  "the-bunny-bliss-hamper"
                 ],
                 "pr_border": "none",
                 "product_des": "1",
@@ -471,7 +468,7 @@
             "heading_section_B9FFCP": {
               "type": "_heading_section",
               "settings": {
-                "heading": "VALENTINES DAY",
+                "heading": "HAPPY EASTER",
                 "line_height": "hdt-lh-1",
                 "heading_size": "h2",
                 "text_color": "hdt-s-text"
