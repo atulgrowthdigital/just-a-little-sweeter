@@ -245,7 +245,6 @@
         "heading_RNM8e7": {
           "type": "heading",
           "name": "t:blocks.heading.name",
-          "disabled": true,
           "settings": {
             "heading": "<p>Holiday Closure Notice</p>",
             "hidden_br_mobile": false,
