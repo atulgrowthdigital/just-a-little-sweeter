@@ -306,7 +306,7 @@
         "bg_image": "shopify://shop_images/Pop-Up.jpg",
         "direction": "ver",
         "after": "scroll",
-        "time_delay": 18,
+        "time_delay": 15,
         "scroll_delay": 100,
         "day_next": 1
       }
