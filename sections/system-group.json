@@ -246,7 +246,7 @@
           "type": "heading",
           "name": "t:blocks.heading.name",
           "settings": {
-            "heading": "<p>Holiday Closure Notice</p>",
+            "heading": "",
             "hidden_br_mobile": false,
             "hidden_on_mobile": false,
             "line_height": "",
