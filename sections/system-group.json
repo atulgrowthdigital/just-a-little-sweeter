@@ -262,7 +262,7 @@
         "text_yjEGLA": {
           "type": "text",
           "settings": {
-            "text": "<p>We will be closed from 3 April 2026 to 6 April 2026.</p><p>Orders placed during this time will be shipped from 7 April 2026.</p>",
+            "text": "",
             "hidden_br_mobile": false,
             "hidden_on_mobile": false,
             "ffamily": "",
