@@ -95,7 +95,7 @@
             "open": false,
             "icon": "none",
             "title": "How much does delivery cost?",
-            "content": "<p>At Just a Little Sweeter, we offer from $7.95 flat rate Australia shipping. Express Post is available from $12.95.</p><p>The total amount of delivery will be calculated at check out.</p><p>Orders over 6kg require a custom shipping quote. Please email us at shop@justalittlesweeter.com.au</p>"
+            "content": "<p>At Just a Little Sweeter, we offer from $7.95 flat rate Australia shipping. Express Post is available from $12.95.</p><p>The total amount of delivery will be calculated at check out.</p><p>Orders over 6kg require a custom shipping quote. Please email us at <a href=\"mailto:shop@justalittlesweeter.com.au\" title=\"mailto:shop@justalittlesweeter.com.au\">shop@justalittlesweeter.com.au</a></p>"
           },
           "blocks": {}
         },
