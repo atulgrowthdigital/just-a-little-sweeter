@@ -14,16 +14,6 @@
     "announcement_bar_QKnWCh": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_KXVpdR": {
-          "type": "announcement",
-          "settings": {
-            "link": "",
-            "text": "Afterpay Available-Pay in 4 interest free payments",
-            "adding_border": false,
-            "countdown": "2024-12-30 15:00:00",
-            "txt_day": "days"
-          }
-        },
         "announcement_fekMnb": {
           "type": "announcement",
           "settings": {
@@ -44,6 +34,16 @@
             "txt_day": "days"
           }
         },
+        "announcement_KXVpdR": {
+          "type": "announcement",
+          "settings": {
+            "link": "",
+            "text": "Afterpay Available-Pay in 4 interest free payments",
+            "adding_border": false,
+            "countdown": "2024-12-30 15:00:00",
+            "txt_day": "days"
+          }
+        },
         "announcement_4jegzW": {
           "type": "announcement",
           "settings": {
@@ -56,9 +56,9 @@
         }
       },
       "block_order": [
-        "announcement_KXVpdR",
         "announcement_fekMnb",
         "announcement_jHMy7q",
+        "announcement_KXVpdR",
         "announcement_4jegzW"
       ],
       "settings": {
