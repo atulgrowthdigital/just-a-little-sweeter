@@ -16,7 +16,7 @@
           "type": "button",
           "name": "t:blocks.button.name",
           "settings": {
-            "label": "SHOP NOW",
+            "label": "FIND THE PERFECT GIFT",
             "link": "shopify://collections",
             "open_in_new_tab": false,
             "full_width": false,
