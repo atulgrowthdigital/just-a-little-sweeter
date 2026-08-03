@@ -299,6 +299,7 @@
         "heading_RNM8e7",
         "text_yjEGLA"
       ],
+      "disabled": true,
       "name": "t:sections.newsletter_popup.name",
       "settings": {
         "colors_by_section": false,
