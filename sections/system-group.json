@@ -301,7 +301,7 @@
       ],
       "name": "t:sections.newsletter_popup.name",
       "settings": {
-        "colors_by_section": true,
+        "colors_by_section": false,
         "color_scheme": "scheme-6707cc8e-6558-49d9-8759-f7d934d9fe4f",
         "bg_image": "shopify://shop_images/Pop-Up.jpg",
         "direction": "ver",
